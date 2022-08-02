@@ -3,6 +3,7 @@
 -----------------------------------------------------------*/
 import logger from './helper/LogHelper.js';
 import {myip, urlFormat} from './helper/UtilHelper.js';
+import {mkdirs, initMulter, checkUploadError, createThumbnail, createThumbnailMultiple} from './helper/FileHelper.js';
 
 import url from 'url';
 import path from 'path';
@@ -12,6 +13,8 @@ import express from 'express';
 import useragent from 'express-useragent';
 import serveStatic from 'serve-static';
 import serveFavicon from 'serve-favicon';
+import bodyParser from 'body-parser';
+import methodOverride from 'method-override';
 
 
 
@@ -63,8 +66,21 @@ app.use((req, res, next) => {
 /*----------------------------------------------------------
 | 4) Express 객체의 추가 설정
 -----------------------------------------------------------*/
+app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.text());
+app.use(bodyParser.json());
+
+app.use(methodOverride('X-HTTP-Method'));
+app.use(methodOverride('X-HTTP-Method-Override'));
+app.use(methodOverride('X-Method-Override'));
+app.use(methodOverride('_method'));
+
 app.use('/', serveStatic(process.env.PUBLIC_PATH));
 app.use(serveFavicon(process.env.FAVICON_PATH));
+
+/** 파일 업로드 */
+app.use(process.env.UPLOAD_URL, serveStatic(process.env.UPLOAD_DIR));
+app.use(process.env.THUMB_URL, serveStatic(process.env.THUMB_DIR));
 
 /** 라우터(URL 분배기) 객체 설정 */
 const router = express.Router();
@@ -86,6 +102,35 @@ router.get('/page2', (req, res, next) => {
     res.redirect('https://www.naver.com');
 });
 
+
+router.route('/upload/single').post((req, res, next) => {
+    const upload = initMulter().single('mymenu');
+
+    upload(req, res, (err) => {
+        console.group('request');
+        console.debug(req.file);
+        console.groupEnd();
+
+        const {result_code, result_msg} = checkUploadError(err);
+
+        if (result_code == 200) {
+            try {
+                createThumbnail(req.file);
+            } catch (error) {
+                result_code = 500;
+                result_msg = '썸네일 이미지 생성에 실패했습니다.';
+            }
+        }
+
+        const result = {
+            rt: result_code,
+            rtmsg: result_msg,
+            item: req.file,
+        };
+
+        res.status(result_code).send(result);
+    });
+});
 
 
 /*----------------------------------------------------------
