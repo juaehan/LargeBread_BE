@@ -15,6 +15,7 @@ import serveStatic from 'serve-static';
 import serveFavicon from 'serve-favicon';
 import bodyParser from 'body-parser';
 import methodOverride from 'method-override';
+import expressSession from 'express-session';
 
 
 
@@ -78,6 +79,13 @@ app.use(methodOverride('_method'));
 app.use('/', serveStatic(process.env.PUBLIC_PATH));
 app.use(serveFavicon(process.env.FAVICON_PATH));
 
+/** 세션 */
+app.use(expressSession({
+    secret: process.env.SESSION_ENCRYPT_KEY,
+    resave: false,
+    saveUninitialized: false
+}));
+
 /** 파일 업로드 */
 app.use(process.env.UPLOAD_URL, serveStatic(process.env.UPLOAD_DIR));
 app.use(process.env.THUMB_URL, serveStatic(process.env.THUMB_DIR));
@@ -131,6 +139,38 @@ router.route('/upload/single').post((req, res, next) => {
         res.status(result_code).send(result);
     });
 });
+
+router
+    .post('/session/login', (req, res, next) => {
+        const id = req.body.userid;
+        const pw = req.body.userpw;
+
+        logger.debug('id = ' + id);
+        logger.debug('pw = ' + pw);
+
+        let login_ok = false;
+        if (id == 'node' && pw == '1234') {
+            logger.debug('로그인 성공');
+            login_ok = true;
+        }
+
+        let result_code = null;
+        let result_msg = null;
+
+        if (login_ok) {
+            req.session.userid = id;
+            req.session.userpw = pw;
+
+            result_code = 200;
+            result_msg = 'ok';
+        } else {
+            result_code = 403;
+            result_msg = 'fail';
+        }
+
+        const json = {rt: result_msg};
+        res.status(result_code).send(json);
+    })
 
 
 /*----------------------------------------------------------
