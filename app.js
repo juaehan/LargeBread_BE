@@ -79,12 +79,6 @@ app.use(methodOverride('_method'));
 app.use('/', serveStatic(process.env.PUBLIC_PATH));
 app.use(serveFavicon(process.env.FAVICON_PATH));
 
-/** 세션 */
-app.use(expressSession({
-    secret: process.env.SESSION_ENCRYPT_KEY,
-    resave: false,
-    saveUninitialized: false
-}));
 
 /** 파일 업로드 */
 app.use(process.env.UPLOAD_URL, serveStatic(process.env.UPLOAD_DIR));
@@ -99,17 +93,6 @@ app.use('/', router);
 /*----------------------------------------------------------
 | 5) 각 URL별 백엔드 기능 정의
 -----------------------------------------------------------*/
-router.get('/page1', (req, res, next) => {
-    let html = '<h1>page1 테스트 화면입니다.</h1>'
-    html += '<h2>Node.js 페이지</h2>'
-
-    res.status(200).send(html);
-});
-
-router.get('/page2', (req, res, next) => {
-    res.redirect('https://www.naver.com');
-});
-
 
 router.route('/upload/single').post((req, res, next) => {
     const upload = initMulter().single('mymenu');
