@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    
+<mapper namespace="ProductMapper">
+
+    <select id="selectList">
+        SELECT id, product_name, price, img_url, product_state, cost FROM product
+
+        <where>
+            <if test="category_id != null and category_id != ''">
+                category_id LIKE concat('%', #{category_id}, '%')
+            </if>
+        </where>
+    </select>
+
+    <select id="selectItem">
+        SELECT id, product_name, price, img_url, product_state, cost, category_id FROM product WHERE category_id=#{category_id}
+    </select>
+
+    <insert id="insertProduct">
+        INSERT INTO product (product_name, price, img_url, product_state, cost, category_id) VALUES ('test', 5000, #{img_url}, 'Y', 6000, 1);
+    </insert>
+
+    <!-- <update id="SQL문_식별값">
+    
+    </update>
+
+    <delete id="SQL문_식별값">
+    
+    </delete> -->
+</mapper>

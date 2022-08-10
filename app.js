@@ -3,7 +3,8 @@
 -----------------------------------------------------------*/
 import logger from './helper/LogHelper.js';
 import {myip, urlFormat} from './helper/UtilHelper.js';
-import {mkdirs, initMulter, checkUploadError, createThumbnail, createThumbnailMultiple} from './helper/FileHelper.js';
+import DBPool from './helper/DBPool.js';
+import WebHelper from './helper/WebHelper.js';
 
 import url from 'url';
 import path from 'path';
@@ -16,6 +17,11 @@ import serveFavicon from 'serve-favicon';
 import bodyParser from 'body-parser';
 import methodOverride from 'method-override';
 import expressSession from 'express-session';
+import cors from 'cors';
+import PageNotFoundException from './exceptions/PageNotFoundException.js';
+
+import FileUploadController from './controllers/FileUploadController.js';
+import ProductController from './controllers/ProductController.js'
 
 
 
@@ -62,11 +68,23 @@ app.use((req, res, next) => {
     next();
 });
 
+// Ctrl+C를 눌렀을때의 이벤트
+process.on('SIGINT', () => {
+    process.exit();
+});
+
+// 프로그램이 종료될 때의 이벤트
+process.on('exit', () => {
+    DBPool.close();
+    logger.info('-------- Server is close -------');
+});
 
 
 /*----------------------------------------------------------
 | 4) Express 객체의 추가 설정
 -----------------------------------------------------------*/
+app.use(cors());
+
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.text());
 app.use(bodyParser.json());
@@ -84,76 +102,18 @@ app.use(serveFavicon(process.env.FAVICON_PATH));
 app.use(process.env.UPLOAD_URL, serveStatic(process.env.UPLOAD_DIR));
 app.use(process.env.THUMB_URL, serveStatic(process.env.THUMB_DIR));
 
-/** 라우터(URL 분배기) 객체 설정 */
-const router = express.Router();
-app.use('/', router);
+app.use(WebHelper());
 
 
 
 /*----------------------------------------------------------
 | 5) 각 URL별 백엔드 기능 정의
 -----------------------------------------------------------*/
+app.use(FileUploadController());
+app.use(ProductController());
 
-router.route('/upload/single').post((req, res, next) => {
-    const upload = initMulter().single('mymenu');
-
-    upload(req, res, (err) => {
-        console.group('request');
-        console.debug(req.file);
-        console.groupEnd();
-
-        const {result_code, result_msg} = checkUploadError(err);
-
-        if (result_code == 200) {
-            try {
-                createThumbnail(req.file);
-            } catch (error) {
-                result_code = 500;
-                result_msg = '썸네일 이미지 생성에 실패했습니다.';
-            }
-        }
-
-        const result = {
-            rt: result_code,
-            rtmsg: result_msg,
-            item: req.file,
-        };
-
-        res.status(result_code).send(result);
-    });
-});
-
-router
-    .post('/session/login', (req, res, next) => {
-        const id = req.body.userid;
-        const pw = req.body.userpw;
-
-        logger.debug('id = ' + id);
-        logger.debug('pw = ' + pw);
-
-        let login_ok = false;
-        if (id == 'node' && pw == '1234') {
-            logger.debug('로그인 성공');
-            login_ok = true;
-        }
-
-        let result_code = null;
-        let result_msg = null;
-
-        if (login_ok) {
-            req.session.userid = id;
-            req.session.userpw = pw;
-
-            result_code = 200;
-            result_msg = 'ok';
-        } else {
-            result_code = 403;
-            result_msg = 'fail';
-        }
-
-        const json = {rt: result_msg};
-        res.status(result_code).send(json);
-    })
+app.use((err, req, res, next) => res.sendError(err));
+app.use("*", (req, res, next) => res.sendError(new PageNotFoundException()));
 
 
 /*----------------------------------------------------------

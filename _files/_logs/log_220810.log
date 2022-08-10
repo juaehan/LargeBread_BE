@@ -1,0 +1,2038 @@
+22/08/10 14:37:33 983 [debug]: ----------------------------------------------
+22/08/10 14:37:33 987 [debug]: |            Start Express Server            |
+22/08/10 14:37:33 988 [debug]: ----------------------------------------------
+22/08/10 14:37:33 989 [debug]: Server Address => http://192.168.199.1:3001
+22/08/10 14:37:33 990 [debug]: Server Address => http://192.168.233.1:3001
+22/08/10 14:37:33 992 [debug]: Server Address => http://192.168.0.19:3001
+22/08/10 14:37:33 993 [debug]: ----------------------------------------------
+22/08/10 14:38:21 416 [debug]: 클라이언트가 접속했습니다.
+22/08/10 14:38:21 418 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.4.2) / unknown
+22/08/10 14:38:21 420 [debug]: [POST] http://192.168.199.1:3001/product
+22/08/10 14:38:21 431 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 14ms
+22/08/10 14:38:21 432 [debug]: ----------------------------------------------
+22/08/10 14:47:20 161 [debug]: ----------------------------------------------
+22/08/10 14:47:20 165 [debug]: |            Start Express Server            |
+22/08/10 14:47:20 166 [debug]: ----------------------------------------------
+22/08/10 14:47:20 167 [debug]: Server Address => http://192.168.199.1:3001
+22/08/10 14:47:20 168 [debug]: Server Address => http://192.168.233.1:3001
+22/08/10 14:47:20 169 [debug]: Server Address => http://192.168.0.19:3001
+22/08/10 14:47:20 170 [debug]: ----------------------------------------------
+22/08/10 14:47:40 413 [debug]: 클라이언트가 접속했습니다.
+22/08/10 14:47:40 415 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.4.2) / unknown
+22/08/10 14:47:40 417 [debug]: [POST] http://192.168.199.1:3001/product
+22/08/10 14:47:40 424 [debug]: [HTTP %s Params] %s=%s
+22/08/10 14:47:40 582 [info]:  >> DATABASE 접속됨 [threaId=133]
+22/08/10 14:47:40 585 [info]:  >> Connection 임대됨 [threaId=133]
+22/08/10 14:47:40 589 [debug]: INSERT INTO product (product_name, price, img_url, product_state, cost, category_id) VALUES ('test', 5000, NULL, 'Y', 6000, 1);
+22/08/10 14:47:40 602 [info]:  >> Connection 반납됨 [threaId]=133
+22/08/10 14:47:40 610 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 195ms
+22/08/10 14:47:40 610 [debug]: ----------------------------------------------
+22/08/10 14:48:09 126 [debug]: 클라이언트가 접속했습니다.
+22/08/10 14:48:09 127 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.4.2) / unknown
+22/08/10 14:48:09 128 [debug]: [POST] http://192.168.199.1:3001/product
+22/08/10 14:48:09 130 [debug]: [HTTP %s Params] %s=%s
+22/08/10 14:48:09 131 [info]:  >> Connection 임대됨 [threaId=133]
+22/08/10 14:48:09 134 [debug]: INSERT INTO product (product_name, price, img_url, product_state, cost, category_id) VALUES ('test', 5000, NULL, 'Y', 6000, 1);
+22/08/10 14:48:09 135 [info]:  >> Connection 반납됨 [threaId]=133
+22/08/10 14:48:09 138 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/10 14:48:09 139 [debug]: ----------------------------------------------
+22/08/10 14:52:39 885 [debug]: ----------------------------------------------
+22/08/10 14:52:39 892 [debug]: |            Start Express Server            |
+22/08/10 14:52:39 893 [debug]: ----------------------------------------------
+22/08/10 14:52:39 896 [debug]: Server Address => http://192.168.199.1:3001
+22/08/10 14:52:39 897 [debug]: Server Address => http://192.168.233.1:3001
+22/08/10 14:52:39 900 [debug]: Server Address => http://192.168.0.19:3001
+22/08/10 14:52:39 901 [debug]: ----------------------------------------------
+22/08/10 14:52:42 860 [debug]: 클라이언트가 접속했습니다.
+22/08/10 14:52:42 862 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.4.2) / unknown
+22/08/10 14:52:42 865 [debug]: [POST] http://192.168.199.1:3001/product
+22/08/10 14:52:42 873 [debug]: [HTTP %s Params] %s=%s
+22/08/10 14:52:43 006 [info]:  >> DATABASE 접속됨 [threaId=134]
+22/08/10 14:52:43 007 [info]:  >> Connection 임대됨 [threaId=134]
+22/08/10 14:52:43 010 [debug]: INSERT INTO product (product_name, price, img_url, product_state, cost, category_id) VALUES ('test', 5000, NULL, 'Y', 6000, 1);
+22/08/10 14:52:43 014 [info]:  >> Connection 반납됨 [threaId]=134
+22/08/10 14:52:43 023 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 162ms
+22/08/10 14:52:43 024 [debug]: ----------------------------------------------
+22/08/10 14:53:56 546 [info]: -------- Server is close -------
+22/08/10 16:42:40 558 [debug]: ----------------------------------------------
+22/08/10 16:42:40 562 [debug]: |            Start Express Server            |
+22/08/10 16:42:40 562 [debug]: ----------------------------------------------
+22/08/10 16:42:40 564 [debug]: Server Address => http://192.168.199.1:3001
+22/08/10 16:42:40 564 [debug]: Server Address => http://192.168.233.1:3001
+22/08/10 16:42:40 565 [debug]: Server Address => http://192.168.0.19:3001
+22/08/10 16:42:40 565 [debug]: ----------------------------------------------
+22/08/10 16:42:54 658 [debug]: 클라이언트가 접속했습니다.
+22/08/10 16:47:20 746 [debug]: ----------------------------------------------
+22/08/10 16:47:20 749 [debug]: |            Start Express Server            |
+22/08/10 16:47:20 751 [debug]: ----------------------------------------------
+22/08/10 16:47:20 752 [debug]: Server Address => http://192.168.199.1:3001
+22/08/10 16:47:20 753 [debug]: Server Address => http://192.168.233.1:3001
+22/08/10 16:47:20 754 [debug]: Server Address => http://192.168.0.19:3001
+22/08/10 16:47:20 754 [debug]: ----------------------------------------------
+22/08/10 16:47:23 010 [debug]: 클라이언트가 접속했습니다.
+22/08/10 16:48:18 902 [debug]: ----------------------------------------------
+22/08/10 16:48:18 906 [debug]: |            Start Express Server            |
+22/08/10 16:48:18 907 [debug]: ----------------------------------------------
+22/08/10 16:48:18 910 [debug]: Server Address => http://192.168.199.1:3001
+22/08/10 16:48:18 911 [debug]: Server Address => http://192.168.233.1:3001
+22/08/10 16:48:18 912 [debug]: Server Address => http://192.168.0.19:3001
+22/08/10 16:48:18 913 [debug]: ----------------------------------------------
+22/08/10 16:48:21 348 [debug]: 클라이언트가 접속했습니다.
+22/08/10 16:50:20 869 [debug]: ----------------------------------------------
+22/08/10 16:50:20 874 [debug]: |            Start Express Server            |
+22/08/10 16:50:20 875 [debug]: ----------------------------------------------
+22/08/10 16:50:20 876 [debug]: Server Address => http://192.168.199.1:3001
+22/08/10 16:50:20 877 [debug]: Server Address => http://192.168.233.1:3001
+22/08/10 16:50:20 879 [debug]: Server Address => http://192.168.0.19:3001
+22/08/10 16:50:20 879 [debug]: ----------------------------------------------
+22/08/10 16:50:22 934 [debug]: 클라이언트가 접속했습니다.
+22/08/10 16:52:16 160 [debug]: ----------------------------------------------
+22/08/10 16:52:16 162 [debug]: |            Start Express Server            |
+22/08/10 16:52:16 163 [debug]: ----------------------------------------------
+22/08/10 16:52:16 164 [debug]: Server Address => http://192.168.199.1:3001
+22/08/10 16:52:16 165 [debug]: Server Address => http://192.168.233.1:3001
+22/08/10 16:52:16 165 [debug]: Server Address => http://192.168.0.19:3001
+22/08/10 16:52:16 166 [debug]: ----------------------------------------------
+22/08/10 16:52:18 978 [debug]: 클라이언트가 접속했습니다.
+22/08/10 16:52:18 979 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/08/10 16:52:18 981 [debug]: [POST] http://localhost:3001/upload/single
+22/08/10 16:52:19 150 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 171ms
+22/08/10 16:52:19 155 [debug]: ----------------------------------------------
+22/08/10 16:52:19 419 [info]:  >> DATABASE 접속됨 [threaId=135]
+22/08/10 16:52:19 420 [info]:  >> Connection 임대됨 [threaId=135]
+22/08/10 16:52:19 424 [debug]: INSERT INTO product (product_name, price, img_url, product_state, cost, category_id) VALUES ('test', 5000, './upload/1660117939003.jpg', 'Y', 6000, 1);
+22/08/10 16:52:19 510 [info]:  >> Connection 반납됨 [threaId]=135
+22/08/10 17:04:12 884 [info]: -------- Server is close -------
+22/08/10 17:04:23 713 [debug]: ----------------------------------------------
+22/08/10 17:04:23 716 [debug]: |            Start Express Server            |
+22/08/10 17:04:23 718 [debug]: ----------------------------------------------
+22/08/10 17:04:23 719 [debug]: Server Address => http://192.168.199.1:3001
+22/08/10 17:04:23 720 [debug]: Server Address => http://192.168.233.1:3001
+22/08/10 17:04:23 721 [debug]: Server Address => http://192.168.0.19:3001
+22/08/10 17:04:23 722 [debug]: ----------------------------------------------
+22/08/10 17:04:38 229 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:04:38 231 [debug]: [Client] ::ffff:192.168.199.1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:04:38 235 [debug]: [GET] http://192.168.199.1:3001/upload.html
+22/08/10 17:04:38 248 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 17ms
+22/08/10 17:04:38 250 [debug]: ----------------------------------------------
+22/08/10 17:04:49 736 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:04:49 738 [debug]: [Client] ::ffff:192.168.199.1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:04:49 739 [debug]: [POST] http://192.168.199.1:3001/upload/single
+22/08/10 17:04:49 835 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 98ms
+22/08/10 17:04:49 836 [debug]: ----------------------------------------------
+22/08/10 17:04:49 897 [info]:  >> DATABASE 접속됨 [threaId=136]
+22/08/10 17:04:49 898 [info]:  >> Connection 임대됨 [threaId=136]
+22/08/10 17:04:49 905 [debug]: INSERT INTO product (product_name, price, img_url, product_state, cost, category_id) VALUES ('test', 5000, './upload/1660118689771.jpg', 'Y', 6000, 1);
+22/08/10 17:04:49 920 [info]:  >> Connection 반납됨 [threaId]=136
+22/08/10 17:06:00 765 [info]: -------- Server is close -------
+22/08/10 17:06:35 846 [debug]: ----------------------------------------------
+22/08/10 17:06:35 849 [debug]: |            Start Express Server            |
+22/08/10 17:06:35 850 [debug]: ----------------------------------------------
+22/08/10 17:06:35 851 [debug]: Server Address => http://192.168.199.1:3001
+22/08/10 17:06:35 852 [debug]: Server Address => http://192.168.233.1:3001
+22/08/10 17:06:35 852 [debug]: Server Address => http://192.168.0.19:3001
+22/08/10 17:06:35 853 [debug]: ----------------------------------------------
+22/08/10 17:06:39 489 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:06:39 491 [debug]: [Client] ::ffff:192.168.199.1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:06:39 494 [debug]: [GET] http://192.168.199.1:3001/upload.html
+22/08/10 17:06:39 512 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 21ms
+22/08/10 17:06:39 516 [debug]: ----------------------------------------------
+22/08/10 17:06:41 181 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:06:41 184 [debug]: [Client] ::ffff:192.168.199.1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:06:41 188 [debug]: [GET] http://192.168.199.1:3001/upload.html
+22/08/10 17:06:41 194 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/08/10 17:06:41 196 [debug]: ----------------------------------------------
+22/08/10 17:06:46 070 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:06:46 072 [debug]: [Client] ::ffff:192.168.199.1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:06:46 074 [debug]: [POST] http://192.168.199.1:3001/upload/single
+22/08/10 17:06:46 178 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 106ms
+22/08/10 17:06:46 179 [debug]: ----------------------------------------------
+22/08/10 17:06:46 237 [info]:  >> DATABASE 접속됨 [threaId=137]
+22/08/10 17:06:46 238 [info]:  >> Connection 임대됨 [threaId=137]
+22/08/10 17:06:46 247 [debug]: INSERT INTO product (product_name, price, img_url, product_state, cost, category_id) VALUES ('test', 5000, './upload/1660118806119.jpg', 'Y', 6000, 1);
+22/08/10 17:06:46 262 [info]:  >> Connection 반납됨 [threaId]=137
+22/08/10 17:07:12 560 [info]: -------- Server is close -------
+22/08/10 17:07:15 350 [debug]: ----------------------------------------------
+22/08/10 17:07:15 353 [debug]: |            Start Express Server            |
+22/08/10 17:07:15 354 [debug]: ----------------------------------------------
+22/08/10 17:07:15 355 [debug]: Server Address => http://192.168.199.1:3001
+22/08/10 17:07:15 356 [debug]: Server Address => http://192.168.233.1:3001
+22/08/10 17:07:15 357 [debug]: Server Address => http://192.168.0.19:3001
+22/08/10 17:07:15 358 [debug]: ----------------------------------------------
+22/08/10 17:07:17 863 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:07:17 865 [debug]: [Client] ::ffff:192.168.199.1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:07:17 869 [debug]: [GET] http://192.168.199.1:3001/upload.html
+22/08/10 17:07:17 885 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 20ms
+22/08/10 17:07:17 887 [debug]: ----------------------------------------------
+22/08/10 17:07:18 292 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:07:18 294 [debug]: [Client] ::ffff:192.168.199.1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:07:18 296 [debug]: [GET] http://192.168.199.1:3001/upload.html
+22/08/10 17:07:18 301 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/08/10 17:07:18 302 [debug]: ----------------------------------------------
+22/08/10 17:07:18 932 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:07:18 934 [debug]: [Client] ::ffff:192.168.199.1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:07:18 935 [debug]: [POST] http://192.168.199.1:3001/upload/single
+22/08/10 17:07:18 955 [error]: [TypeError] Cannot read properties of undefined (reading 'filename')
+22/08/10 17:07:18 956 [error]: TypeError: Cannot read properties of undefined (reading 'filename')
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/FileUploadController.js:35:39
+    at done (C:\Users\juae\Desktop\LargeBread_BE\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\Users\juae\Desktop\LargeBread_BE\node_modules\multer\lib\make-middleware.js:49:68)
+    at Multipart.<anonymous> (C:\Users\juae\Desktop\LargeBread_BE\node_modules\multer\lib\make-middleware.js:166:7)
+    at Multipart.emit (node:events:390:28)
+    at emitCloseNT (node:internal/streams/destroy:138:10)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+22/08/10 17:07:18 966 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 32ms
+22/08/10 17:07:18 967 [debug]: ----------------------------------------------
+22/08/10 17:07:27 637 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:07:27 639 [debug]: [Client] ::ffff:192.168.199.1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:07:27 641 [debug]: [POST] http://192.168.199.1:3001/upload/single
+22/08/10 17:07:27 747 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 108ms
+22/08/10 17:07:27 749 [debug]: ----------------------------------------------
+22/08/10 17:07:27 811 [info]:  >> DATABASE 접속됨 [threaId=138]
+22/08/10 17:07:27 812 [info]:  >> Connection 임대됨 [threaId=138]
+22/08/10 17:07:27 818 [debug]: INSERT INTO product (product_name, price, img_url, product_state, cost, category_id) VALUES ('test', 5000, '1660118847682.jpg', 'Y', 6000, 1);
+22/08/10 17:07:27 833 [info]:  >> Connection 반납됨 [threaId]=138
+22/08/10 17:08:00 831 [info]: -------- Server is close -------
+22/08/10 17:27:41 786 [debug]: ----------------------------------------------
+22/08/10 17:27:41 789 [debug]: |            Start Express Server            |
+22/08/10 17:27:41 790 [debug]: ----------------------------------------------
+22/08/10 17:27:41 791 [debug]: Server Address => http://192.168.199.1:3001
+22/08/10 17:27:41 792 [debug]: Server Address => http://192.168.233.1:3001
+22/08/10 17:27:41 793 [debug]: Server Address => http://192.168.0.19:3001
+22/08/10 17:27:41 793 [debug]: ----------------------------------------------
+22/08/10 17:27:57 422 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:27:57 424 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/08/10 17:27:57 427 [debug]: [GET] http://localhost:3001/upload/single
+22/08/10 17:27:57 567 [info]:  >> DATABASE 접속됨 [threaId=139]
+22/08/10 17:27:57 568 [info]:  >> Connection 임대됨 [threaId=139]
+22/08/10 17:27:57 571 [info]:  >> Connection 반납됨 [threaId]=139
+22/08/10 17:27:57 573 [error]: [Error] Parameter #{category_id} is not converted.
+22/08/10 17:27:57 574 [error]: Error: Parameter #{category_id} is not converted.
+    at MybatisMapper.getStatement (C:\Users\juae\Desktop\LargeBread_BE\node_modules\mybatis-mapper\index.js:103:15)
+    at ProductService.getList (file:///C:/Users/juae/Desktop/LargeBread_BE/services/ProductService.js:19:37)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/FileUploadController.js:14:20
+22/08/10 17:27:57 584 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 160ms
+22/08/10 17:27:57 586 [debug]: ----------------------------------------------
+22/08/10 17:28:39 884 [info]: -------- Server is close -------
+22/08/10 17:28:43 687 [debug]: ----------------------------------------------
+22/08/10 17:28:43 691 [debug]: |            Start Express Server            |
+22/08/10 17:28:43 691 [debug]: ----------------------------------------------
+22/08/10 17:28:43 692 [debug]: Server Address => http://192.168.199.1:3001
+22/08/10 17:28:43 693 [debug]: Server Address => http://192.168.233.1:3001
+22/08/10 17:28:43 694 [debug]: Server Address => http://192.168.0.19:3001
+22/08/10 17:28:43 695 [debug]: ----------------------------------------------
+22/08/10 17:28:45 221 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:28:45 223 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/08/10 17:28:45 224 [debug]: [GET] http://localhost:3001/upload/single
+22/08/10 17:28:45 386 [info]:  >> DATABASE 접속됨 [threaId=140]
+22/08/10 17:28:45 388 [info]:  >> Connection 임대됨 [threaId=140]
+22/08/10 17:28:45 390 [info]:  >> Connection 반납됨 [threaId]=140
+22/08/10 17:28:45 391 [error]: [Error] Parameter #{category_id} is not converted.
+22/08/10 17:28:45 391 [error]: Error: Parameter #{category_id} is not converted.
+    at MybatisMapper.getStatement (C:\Users\juae\Desktop\LargeBread_BE\node_modules\mybatis-mapper\index.js:103:15)
+    at ProductService.getList (file:///C:/Users/juae/Desktop/LargeBread_BE/services/ProductService.js:19:37)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/FileUploadController.js:14:20
+22/08/10 17:28:45 397 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 174ms
+22/08/10 17:28:45 398 [debug]: ----------------------------------------------
+22/08/10 17:32:26 800 [info]: -------- Server is close -------
+22/08/10 17:32:30 718 [debug]: ----------------------------------------------
+22/08/10 17:32:30 724 [debug]: |            Start Express Server            |
+22/08/10 17:32:30 725 [debug]: ----------------------------------------------
+22/08/10 17:32:30 726 [debug]: Server Address => http://192.168.199.1:3001
+22/08/10 17:32:30 727 [debug]: Server Address => http://192.168.233.1:3001
+22/08/10 17:32:30 728 [debug]: Server Address => http://192.168.0.19:3001
+22/08/10 17:32:30 728 [debug]: ----------------------------------------------
+22/08/10 17:32:32 329 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:32:32 331 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/08/10 17:32:32 332 [debug]: [GET] http://localhost:3001/upload/single
+22/08/10 17:32:32 502 [info]:  >> DATABASE 접속됨 [threaId=141]
+22/08/10 17:32:32 505 [info]:  >> Connection 임대됨 [threaId=141]
+22/08/10 17:32:32 509 [info]:  >> Connection 반납됨 [threaId]=141
+22/08/10 17:32:32 512 [error]: [Error] Parameter #{category_id} is not converted.
+22/08/10 17:32:32 513 [error]: Error: Parameter #{category_id} is not converted.
+    at MybatisMapper.getStatement (C:\Users\juae\Desktop\LargeBread_BE\node_modules\mybatis-mapper\index.js:103:15)
+    at ProductService.getList (file:///C:/Users/juae/Desktop/LargeBread_BE/services/ProductService.js:19:37)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/FileUploadController.js:14:20
+22/08/10 17:32:32 521 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 190ms
+22/08/10 17:32:32 522 [debug]: ----------------------------------------------
+22/08/10 17:33:15 962 [info]: -------- Server is close -------
+22/08/10 17:33:18 889 [debug]: ----------------------------------------------
+22/08/10 17:33:18 893 [debug]: |            Start Express Server            |
+22/08/10 17:33:18 894 [debug]: ----------------------------------------------
+22/08/10 17:33:18 895 [debug]: Server Address => http://192.168.199.1:3001
+22/08/10 17:33:18 895 [debug]: Server Address => http://192.168.233.1:3001
+22/08/10 17:33:18 896 [debug]: Server Address => http://192.168.0.19:3001
+22/08/10 17:33:18 896 [debug]: ----------------------------------------------
+22/08/10 17:33:23 393 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:33:23 395 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/08/10 17:33:23 397 [debug]: [GET] http://localhost:3001/upload/single
+22/08/10 17:33:23 554 [info]:  >> DATABASE 접속됨 [threaId=142]
+22/08/10 17:33:23 556 [info]:  >> Connection 임대됨 [threaId=142]
+22/08/10 17:33:23 559 [info]:  >> Connection 반납됨 [threaId]=142
+22/08/10 17:33:23 563 [error]: [Error] Parameter #{category_id} is not converted.
+22/08/10 17:33:23 565 [error]: Error: Parameter #{category_id} is not converted.
+    at MybatisMapper.getStatement (C:\Users\juae\Desktop\LargeBread_BE\node_modules\mybatis-mapper\index.js:103:15)
+    at ProductService.getList (file:///C:/Users/juae/Desktop/LargeBread_BE/services/ProductService.js:19:37)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/FileUploadController.js:14:20
+22/08/10 17:33:23 575 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 180ms
+22/08/10 17:33:23 577 [debug]: ----------------------------------------------
+22/08/10 17:36:07 126 [info]: -------- Server is close -------
+22/08/10 17:36:10 714 [debug]: ----------------------------------------------
+22/08/10 17:36:10 720 [debug]: |            Start Express Server            |
+22/08/10 17:36:10 721 [debug]: ----------------------------------------------
+22/08/10 17:36:10 722 [debug]: Server Address => http://192.168.199.1:3001
+22/08/10 17:36:10 723 [debug]: Server Address => http://192.168.233.1:3001
+22/08/10 17:36:10 724 [debug]: Server Address => http://192.168.0.19:3001
+22/08/10 17:36:10 725 [debug]: ----------------------------------------------
+22/08/10 17:36:12 457 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:36:12 459 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/08/10 17:36:12 461 [debug]: [GET] http://localhost:3001/upload/single
+22/08/10 17:36:12 584 [info]:  >> DATABASE 접속됨 [threaId=143]
+22/08/10 17:36:12 585 [info]:  >> Connection 임대됨 [threaId=143]
+22/08/10 17:36:12 589 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 17:36:12 600 [info]:  >> Connection 반납됨 [threaId]=143
+22/08/10 17:36:12 605 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 147ms
+22/08/10 17:36:12 606 [debug]: ----------------------------------------------
+22/08/10 17:45:12 731 [info]: -------- Server is close -------
+22/08/10 17:45:19 908 [debug]: ----------------------------------------------
+22/08/10 17:45:19 913 [debug]: |            Start Express Server            |
+22/08/10 17:45:19 913 [debug]: ----------------------------------------------
+22/08/10 17:45:19 915 [debug]: Server Address => http://192.168.199.1:3001
+22/08/10 17:45:19 916 [debug]: Server Address => http://192.168.233.1:3001
+22/08/10 17:45:19 918 [debug]: Server Address => http://192.168.0.19:3001
+22/08/10 17:45:19 919 [debug]: ----------------------------------------------
+22/08/10 17:45:48 437 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:45:48 440 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:45:48 444 [debug]: [GET] http://localhost:3001/ca/
+22/08/10 17:45:48 456 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 17:45:48 458 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:114:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 17:45:48 473 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 34ms
+22/08/10 17:45:48 474 [debug]: ----------------------------------------------
+22/08/10 17:45:48 484 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:45:48 485 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:45:48 486 [debug]: [GET] http://localhost:3001/ca/
+22/08/10 17:45:48 489 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 17:45:48 490 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:114:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 17:45:48 495 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/08/10 17:45:48 497 [debug]: ----------------------------------------------
+22/08/10 17:48:03 828 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:48:03 829 [debug]: [Client] ::ffff:192.168.199.1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:48:03 831 [debug]: [GET] http://192.168.199.1:3001/
+22/08/10 17:48:03 834 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 17:48:03 835 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:114:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 17:48:03 839 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/08/10 17:48:03 840 [debug]: ----------------------------------------------
+22/08/10 17:48:12 160 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:48:12 161 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:48:12 162 [debug]: [GET] http://localhost:3001/ca/
+22/08/10 17:48:12 164 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 17:48:12 166 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:114:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 17:48:12 171 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/08/10 17:48:12 172 [debug]: ----------------------------------------------
+22/08/10 17:48:12 179 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:48:12 180 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:48:12 181 [debug]: [GET] http://localhost:3001/ca/
+22/08/10 17:48:12 183 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 17:48:12 185 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:114:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 17:48:12 194 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 14ms
+22/08/10 17:48:12 195 [debug]: ----------------------------------------------
+22/08/10 17:48:14 390 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:48:14 393 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:48:14 394 [debug]: [GET] http://localhost:3001/ca/
+22/08/10 17:48:14 396 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 17:48:14 397 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:114:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 17:48:14 403 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/08/10 17:48:14 405 [debug]: ----------------------------------------------
+22/08/10 17:48:14 411 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:48:14 412 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:48:14 413 [debug]: [GET] http://localhost:3001/ca/
+22/08/10 17:48:14 415 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 17:48:14 417 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:114:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 17:48:14 422 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/08/10 17:48:14 423 [debug]: ----------------------------------------------
+22/08/10 17:48:20 586 [info]: -------- Server is close -------
+22/08/10 17:48:40 283 [debug]: ----------------------------------------------
+22/08/10 17:48:40 287 [debug]: |            Start Express Server            |
+22/08/10 17:48:40 288 [debug]: ----------------------------------------------
+22/08/10 17:48:40 290 [debug]: Server Address => http://192.168.199.1:3001
+22/08/10 17:48:40 291 [debug]: Server Address => http://192.168.233.1:3001
+22/08/10 17:48:40 293 [debug]: Server Address => http://192.168.0.19:3001
+22/08/10 17:48:40 294 [debug]: ----------------------------------------------
+22/08/10 17:48:47 079 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:48:47 082 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:48:47 087 [debug]: [GET] http://localhost:3001/
+22/08/10 17:48:47 099 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 17:48:47 105 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:114:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 17:48:47 120 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 38ms
+22/08/10 17:48:47 131 [debug]: ----------------------------------------------
+22/08/10 17:48:47 171 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:48:47 173 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:48:47 174 [debug]: [GET] http://localhost:3001/
+22/08/10 17:48:47 179 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 17:48:47 182 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:114:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 17:48:47 190 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 17ms
+22/08/10 17:48:47 191 [debug]: ----------------------------------------------
+22/08/10 17:50:36 111 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:50:36 112 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:50:36 114 [debug]: [GET] http://localhost:3001/product/
+22/08/10 17:50:36 116 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 17:50:36 117 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:114:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 17:50:36 122 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/08/10 17:50:36 124 [debug]: ----------------------------------------------
+22/08/10 17:50:36 133 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:50:36 134 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:50:36 135 [debug]: [GET] http://localhost:3001/product/
+22/08/10 17:50:36 137 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 17:50:36 138 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:114:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 17:50:36 145 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/10 17:50:36 146 [debug]: ----------------------------------------------
+22/08/10 17:50:39 352 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:50:39 353 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:50:39 354 [debug]: [GET] http://localhost:3001/product/
+22/08/10 17:50:39 357 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 17:50:39 358 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:114:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 17:50:39 365 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/08/10 17:50:39 366 [debug]: ----------------------------------------------
+22/08/10 17:50:39 369 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:50:39 369 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:50:39 370 [debug]: [GET] http://localhost:3001/product/
+22/08/10 17:50:39 373 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 17:50:39 374 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:114:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 17:50:39 380 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/10 17:50:39 382 [debug]: ----------------------------------------------
+22/08/10 17:50:49 065 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:50:49 066 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:50:49 067 [debug]: [GET] http://localhost:3001/product/
+22/08/10 17:50:49 069 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 17:50:49 070 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:114:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 17:50:49 074 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/08/10 17:50:49 075 [debug]: ----------------------------------------------
+22/08/10 17:50:49 077 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:50:49 078 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:50:49 079 [debug]: [GET] http://localhost:3001/product/
+22/08/10 17:50:49 082 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 17:50:49 083 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:114:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 17:50:49 087 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/08/10 17:50:49 088 [debug]: ----------------------------------------------
+22/08/10 17:50:51 459 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:50:51 459 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:50:51 461 [debug]: [GET] http://localhost:3001/product/
+22/08/10 17:50:51 466 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 17:50:51 468 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:114:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 17:50:51 473 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 14ms
+22/08/10 17:50:51 474 [debug]: ----------------------------------------------
+22/08/10 17:50:51 477 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:50:51 478 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:50:51 479 [debug]: [GET] http://localhost:3001/product/
+22/08/10 17:50:51 483 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 17:50:51 485 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:114:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 17:50:51 490 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/08/10 17:50:51 491 [debug]: ----------------------------------------------
+22/08/10 17:51:50 164 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:51:50 165 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:51:50 166 [debug]: [GET] http://localhost:3001/
+22/08/10 17:51:50 168 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 17:51:50 169 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:114:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 17:51:50 174 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/08/10 17:51:50 175 [debug]: ----------------------------------------------
+22/08/10 17:51:50 181 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:51:50 182 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:51:50 183 [debug]: [GET] http://localhost:3001/
+22/08/10 17:51:50 185 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 17:51:50 186 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:114:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 17:51:50 191 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/08/10 17:51:50 192 [debug]: ----------------------------------------------
+22/08/10 17:51:56 847 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:51:56 848 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:51:56 849 [debug]: [GET] http://localhost:3001/
+22/08/10 17:51:56 851 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 17:51:56 852 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:114:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 17:51:56 858 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/10 17:51:56 860 [debug]: ----------------------------------------------
+22/08/10 17:51:56 862 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:51:56 863 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:51:56 864 [debug]: [GET] http://localhost:3001/
+22/08/10 17:51:56 867 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 17:51:56 868 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:114:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 17:51:56 872 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/08/10 17:51:56 875 [debug]: ----------------------------------------------
+22/08/10 17:51:58 558 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:51:58 559 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:51:58 561 [debug]: [GET] http://localhost:3001/
+22/08/10 17:51:58 563 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 17:51:58 565 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:114:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 17:51:58 570 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/10 17:51:58 572 [debug]: ----------------------------------------------
+22/08/10 17:51:58 574 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:51:58 575 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:51:58 577 [debug]: [GET] http://localhost:3001/
+22/08/10 17:51:58 579 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 17:51:58 580 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:114:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 17:51:58 585 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/08/10 17:51:58 586 [debug]: ----------------------------------------------
+22/08/10 17:56:30 228 [debug]: ----------------------------------------------
+22/08/10 17:56:30 233 [debug]: |            Start Express Server            |
+22/08/10 17:56:30 234 [debug]: ----------------------------------------------
+22/08/10 17:56:30 236 [debug]: Server Address => http://192.168.199.1:3001
+22/08/10 17:56:30 237 [debug]: Server Address => http://192.168.233.1:3001
+22/08/10 17:56:30 238 [debug]: Server Address => http://192.168.0.19:3001
+22/08/10 17:56:30 239 [debug]: ----------------------------------------------
+22/08/10 17:57:03 915 [debug]: ----------------------------------------------
+22/08/10 17:57:03 921 [debug]: |            Start Express Server            |
+22/08/10 17:57:03 922 [debug]: ----------------------------------------------
+22/08/10 17:57:03 923 [debug]: Server Address => http://192.168.199.1:3001
+22/08/10 17:57:03 925 [debug]: Server Address => http://192.168.233.1:3001
+22/08/10 17:57:03 926 [debug]: Server Address => http://192.168.0.19:3001
+22/08/10 17:57:03 927 [debug]: ----------------------------------------------
+22/08/10 17:57:53 436 [debug]: ----------------------------------------------
+22/08/10 17:57:53 441 [debug]: |            Start Express Server            |
+22/08/10 17:57:53 442 [debug]: ----------------------------------------------
+22/08/10 17:57:53 444 [debug]: Server Address => http://192.168.199.1:3001
+22/08/10 17:57:53 446 [debug]: Server Address => http://192.168.233.1:3001
+22/08/10 17:57:53 447 [debug]: Server Address => http://192.168.0.19:3001
+22/08/10 17:57:53 448 [debug]: ----------------------------------------------
+22/08/10 17:58:02 423 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:58:02 426 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:58:02 431 [debug]: [GET] http://localhost:3001/product/
+22/08/10 17:58:02 687 [info]:  >> DATABASE 접속됨 [threaId=144]
+22/08/10 17:58:02 691 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 17:58:02 709 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 17:58:02 739 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 17:58:02 780 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 355ms
+22/08/10 17:58:02 786 [debug]: ----------------------------------------------
+22/08/10 17:58:02 807 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:58:02 811 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:58:02 813 [debug]: [GET] http://localhost:3001/product/
+22/08/10 17:58:02 819 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 17:58:02 824 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 17:58:02 828 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 17:58:02 837 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 26ms
+22/08/10 17:58:02 838 [debug]: ----------------------------------------------
+22/08/10 17:58:18 070 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:58:18 072 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:58:18 076 [debug]: [GET] http://localhost:3001/product/
+22/08/10 17:58:18 079 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 17:58:18 081 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 17:58:18 084 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 17:58:18 087 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 16ms
+22/08/10 17:58:18 089 [debug]: ----------------------------------------------
+22/08/10 17:58:18 095 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:58:18 096 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:58:18 097 [debug]: [GET] http://localhost:3001/product/
+22/08/10 17:58:18 100 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 17:58:18 107 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 17:58:18 110 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 17:58:18 113 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 17ms
+22/08/10 17:58:18 114 [debug]: ----------------------------------------------
+22/08/10 17:58:24 451 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:58:24 451 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:58:24 452 [debug]: [GET] http://localhost:3001/product/
+22/08/10 17:58:24 455 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 17:58:24 458 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 17:58:24 460 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 17:58:24 462 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/10 17:58:24 463 [debug]: ----------------------------------------------
+22/08/10 17:58:24 466 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:58:24 467 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:58:24 467 [debug]: [GET] http://localhost:3001/product/
+22/08/10 17:58:24 470 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 17:58:24 474 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 17:58:24 479 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 17:58:24 482 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 16ms
+22/08/10 17:58:24 483 [debug]: ----------------------------------------------
+22/08/10 17:58:59 788 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:58:59 789 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:58:59 790 [debug]: [GET] http://localhost:3001/product/
+22/08/10 17:58:59 792 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 17:58:59 795 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 17:58:59 796 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 17:58:59 799 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/08/10 17:58:59 800 [debug]: ----------------------------------------------
+22/08/10 17:58:59 804 [debug]: 클라이언트가 접속했습니다.
+22/08/10 17:58:59 805 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 17:58:59 806 [debug]: [GET] http://localhost:3001/product/
+22/08/10 17:58:59 808 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 17:58:59 810 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 17:58:59 813 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 17:58:59 815 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/08/10 17:58:59 816 [debug]: ----------------------------------------------
+22/08/10 18:01:09 516 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:01:09 518 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:01:09 520 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:01:09 525 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:01:09 527 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:01:09 529 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:01:09 531 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 13ms
+22/08/10 18:01:09 531 [debug]: ----------------------------------------------
+22/08/10 18:01:09 535 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:01:09 536 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:01:09 538 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:01:09 542 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:01:09 545 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:01:09 547 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:01:09 550 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 14ms
+22/08/10 18:01:09 551 [debug]: ----------------------------------------------
+22/08/10 18:01:47 153 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:01:47 154 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/08/10 18:01:47 156 [debug]: [GET] http://localhost:3001/upload/single
+22/08/10 18:01:47 159 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 18:01:47 160 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:116:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 18:01:47 166 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/08/10 18:01:47 167 [debug]: ----------------------------------------------
+22/08/10 18:01:57 111 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:01:57 113 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/08/10 18:01:57 115 [debug]: [GET] http://localhost:3001/product
+22/08/10 18:01:57 117 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:01:57 119 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:01:57 123 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:01:57 126 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 13ms
+22/08/10 18:01:57 127 [debug]: ----------------------------------------------
+22/08/10 18:19:09 199 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:19:09 200 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:19:09 201 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:19:09 204 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:19:09 206 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:19:09 207 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:19:09 211 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/10 18:19:09 212 [debug]: ----------------------------------------------
+22/08/10 18:19:09 219 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:19:09 220 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:19:09 221 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:19:09 223 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:19:09 225 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:19:09 227 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:19:09 231 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/10 18:19:09 232 [debug]: ----------------------------------------------
+22/08/10 18:19:12 219 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:19:12 220 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:19:12 221 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:19:12 223 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:19:12 225 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:19:12 227 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:19:12 230 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/08/10 18:19:12 231 [debug]: ----------------------------------------------
+22/08/10 18:19:12 236 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:19:12 237 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:19:12 238 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:19:12 240 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:19:12 242 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:19:12 244 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:19:12 247 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/08/10 18:19:12 248 [debug]: ----------------------------------------------
+22/08/10 18:19:42 401 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:19:42 402 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:19:42 403 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:19:42 405 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:19:42 408 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:19:42 423 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:19:42 427 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 25ms
+22/08/10 18:19:42 428 [debug]: ----------------------------------------------
+22/08/10 18:19:42 432 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:19:42 432 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:19:42 433 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:19:42 435 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:19:42 436 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:19:42 438 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:19:42 442 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/08/10 18:19:42 442 [debug]: ----------------------------------------------
+22/08/10 18:21:50 810 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:21:50 811 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:21:50 812 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:21:50 816 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:21:50 818 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:21:50 820 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:21:50 822 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/10 18:21:50 823 [debug]: ----------------------------------------------
+22/08/10 18:21:50 837 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:21:50 838 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:21:50 840 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:21:50 843 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:21:50 846 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:21:50 848 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:21:50 851 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/08/10 18:21:50 852 [debug]: ----------------------------------------------
+22/08/10 18:24:35 197 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:24:35 198 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:24:35 199 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:24:35 201 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:24:35 202 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:24:35 204 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:24:35 206 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/08/10 18:24:35 208 [debug]: ----------------------------------------------
+22/08/10 18:24:35 210 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:24:35 211 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:24:35 212 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:24:35 214 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:24:35 216 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:24:35 218 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:24:35 219 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/08/10 18:24:35 220 [debug]: ----------------------------------------------
+22/08/10 18:24:55 258 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:24:55 259 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:24:55 259 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:24:55 263 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:24:55 265 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:24:55 266 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:24:55 268 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/08/10 18:24:55 269 [debug]: ----------------------------------------------
+22/08/10 18:24:55 290 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:24:55 291 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:24:55 292 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:24:55 294 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:24:55 295 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:24:55 299 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:24:55 301 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/08/10 18:24:55 302 [debug]: ----------------------------------------------
+22/08/10 18:24:57 749 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:24:57 750 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:24:57 751 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:24:57 753 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:24:57 754 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:24:57 759 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:24:57 761 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/10 18:24:57 762 [debug]: ----------------------------------------------
+22/08/10 18:24:57 765 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:24:57 767 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:24:57 768 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:24:57 770 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:24:57 771 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:24:57 772 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:24:57 774 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/08/10 18:24:57 775 [debug]: ----------------------------------------------
+22/08/10 18:27:23 694 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:27:23 695 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:27:23 696 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:27:23 698 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:27:23 699 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:27:23 700 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:27:23 703 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/08/10 18:27:23 704 [debug]: ----------------------------------------------
+22/08/10 18:27:23 707 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:27:23 707 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:27:23 708 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:27:23 710 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:27:23 712 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:27:23 714 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:27:23 717 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/08/10 18:27:23 718 [debug]: ----------------------------------------------
+22/08/10 18:27:25 977 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:27:25 978 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:27:25 979 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:27:25 981 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:27:25 983 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:27:25 989 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:27:25 990 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/08/10 18:27:25 991 [debug]: ----------------------------------------------
+22/08/10 18:27:26 013 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:27:26 014 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:27:26 015 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:27:26 017 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:27:26 019 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:27:26 022 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:27:26 024 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/08/10 18:27:26 024 [debug]: ----------------------------------------------
+22/08/10 18:28:53 192 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:28:53 193 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:28:53 194 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:28:53 196 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:28:53 197 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:28:53 198 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:28:53 200 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/08/10 18:28:53 201 [debug]: ----------------------------------------------
+22/08/10 18:28:53 206 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:28:53 207 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:28:53 207 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:28:53 210 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:28:53 211 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:28:53 214 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:28:53 215 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/08/10 18:28:53 216 [debug]: ----------------------------------------------
+22/08/10 18:28:57 335 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:28:57 336 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:28:57 340 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:28:57 343 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:28:57 345 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:28:57 346 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:28:57 348 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/08/10 18:28:57 349 [debug]: ----------------------------------------------
+22/08/10 18:28:57 351 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:28:57 351 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:28:57 352 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:28:57 354 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:28:57 357 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:28:57 359 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:28:57 361 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/08/10 18:28:57 362 [debug]: ----------------------------------------------
+22/08/10 18:29:15 400 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:29:15 401 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:29:15 402 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:29:15 405 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:29:15 406 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:29:15 408 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:29:15 410 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/08/10 18:29:15 411 [debug]: ----------------------------------------------
+22/08/10 18:29:15 430 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:29:15 430 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:29:15 431 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:29:15 433 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:29:15 434 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:29:15 436 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:29:15 437 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/08/10 18:29:15 438 [debug]: ----------------------------------------------
+22/08/10 18:29:51 901 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:29:51 902 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:29:51 903 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:29:51 912 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:29:51 915 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:29:51 917 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:29:51 919 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 17ms
+22/08/10 18:29:51 920 [debug]: ----------------------------------------------
+22/08/10 18:29:51 941 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:29:51 942 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:29:51 943 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:29:51 945 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:29:51 947 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:29:51 949 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:29:51 951 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/08/10 18:29:51 951 [debug]: ----------------------------------------------
+22/08/10 18:32:07 464 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:32:07 466 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:32:07 468 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:32:07 470 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:32:07 472 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:32:07 474 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:32:07 477 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/10 18:32:07 478 [debug]: ----------------------------------------------
+22/08/10 18:32:07 502 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:32:07 503 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:32:07 504 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:32:07 507 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:32:07 509 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:32:07 511 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:32:07 514 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/10 18:32:07 516 [debug]: ----------------------------------------------
+22/08/10 18:32:11 270 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:32:11 273 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:32:11 274 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:32:11 276 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:32:11 278 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:32:11 281 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:32:11 284 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/10 18:32:11 285 [debug]: ----------------------------------------------
+22/08/10 18:32:11 288 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:32:11 293 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:32:11 295 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:32:11 298 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:32:11 301 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:32:11 303 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:32:11 305 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/10 18:32:11 306 [debug]: ----------------------------------------------
+22/08/10 18:40:04 253 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:40:04 254 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:40:04 255 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:40:04 257 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:40:04 259 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:40:04 262 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:40:04 265 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/10 18:40:04 266 [debug]: ----------------------------------------------
+22/08/10 18:40:04 287 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:40:04 288 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:40:04 289 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:40:04 291 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:40:04 293 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:40:04 295 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:40:04 297 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/08/10 18:40:04 298 [debug]: ----------------------------------------------
+22/08/10 18:40:08 724 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:40:08 725 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:40:08 726 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:40:08 727 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:40:08 730 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:40:08 732 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:40:08 737 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/08/10 18:40:08 738 [debug]: ----------------------------------------------
+22/08/10 18:40:08 740 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:40:08 741 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:40:08 742 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:40:08 744 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:40:08 746 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:40:08 751 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:40:08 754 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 13ms
+22/08/10 18:40:08 755 [debug]: ----------------------------------------------
+22/08/10 18:42:11 127 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:42:11 128 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:42:11 129 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:42:11 132 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:42:11 137 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:42:11 139 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:42:11 141 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 13ms
+22/08/10 18:42:11 142 [debug]: ----------------------------------------------
+22/08/10 18:42:11 158 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:42:11 159 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:42:11 161 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:42:11 166 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:42:11 168 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:42:11 169 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:42:11 172 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 13ms
+22/08/10 18:42:11 173 [debug]: ----------------------------------------------
+22/08/10 18:42:13 458 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:42:13 460 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:42:13 462 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:42:13 465 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:42:13 467 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:42:13 483 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:42:13 485 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 25ms
+22/08/10 18:42:13 486 [debug]: ----------------------------------------------
+22/08/10 18:42:13 488 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:42:13 489 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:42:13 490 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:42:13 494 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:42:13 497 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:42:13 499 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:42:13 501 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/08/10 18:42:13 502 [debug]: ----------------------------------------------
+22/08/10 18:42:50 750 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:42:50 751 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:42:50 752 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:42:50 756 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:42:50 758 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:42:50 761 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:42:50 765 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 14ms
+22/08/10 18:42:50 765 [debug]: ----------------------------------------------
+22/08/10 18:43:37 188 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:43:37 189 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:43:37 190 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:43:37 193 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:43:37 195 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:43:37 198 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:43:37 200 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/10 18:43:37 201 [debug]: ----------------------------------------------
+22/08/10 18:44:03 790 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:44:03 792 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:44:03 796 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:44:03 804 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:44:03 809 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:44:03 811 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:44:03 815 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 23ms
+22/08/10 18:44:03 821 [debug]: ----------------------------------------------
+22/08/10 18:44:24 006 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:44:24 007 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:44:24 008 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:44:24 011 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:44:24 013 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:44:24 022 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:44:24 026 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 19ms
+22/08/10 18:44:24 028 [debug]: ----------------------------------------------
+22/08/10 18:44:35 549 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:44:35 550 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:44:35 552 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:44:35 555 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:44:35 557 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:44:35 561 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:44:35 564 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 14ms
+22/08/10 18:44:35 565 [debug]: ----------------------------------------------
+22/08/10 18:44:35 572 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:44:35 573 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:44:35 574 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:44:35 579 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:44:35 581 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:44:35 582 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:44:35 585 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/08/10 18:44:35 586 [debug]: ----------------------------------------------
+22/08/10 18:44:39 490 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:44:39 491 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:44:39 492 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:44:39 495 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:44:39 499 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:44:39 501 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:44:39 503 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/08/10 18:44:39 507 [debug]: ----------------------------------------------
+22/08/10 18:44:39 518 [debug]: 클라이언트가 접속했습니다.
+22/08/10 18:44:39 519 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 18:44:39 520 [debug]: [GET] http://localhost:3001/product/
+22/08/10 18:44:39 523 [info]:  >> Connection 임대됨 [threaId=144]
+22/08/10 18:44:39 524 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 18:44:39 526 [info]:  >> Connection 반납됨 [threaId]=144
+22/08/10 18:44:39 529 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/08/10 18:44:39 531 [debug]: ----------------------------------------------
+22/08/10 19:37:32 653 [debug]: 클라이언트가 접속했습니다.
+22/08/10 19:37:32 666 [debug]: [Client] ::ffff:192.168.199.1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 19:37:32 668 [debug]: [GET] http://192.168.199.1:3001/upload/1660118969618.jpg
+22/08/10 19:37:32 675 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 19:37:32 680 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:116:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 19:37:32 687 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 21ms
+22/08/10 19:37:32 687 [debug]: ----------------------------------------------
+22/08/10 20:04:24 577 [debug]: ----------------------------------------------
+22/08/10 20:04:24 582 [debug]: |            Start Express Server            |
+22/08/10 20:04:24 583 [debug]: ----------------------------------------------
+22/08/10 20:04:24 584 [debug]: Server Address => http://192.168.199.1:3001
+22/08/10 20:04:24 586 [debug]: Server Address => http://192.168.233.1:3001
+22/08/10 20:04:24 587 [debug]: Server Address => http://192.168.0.19:3001
+22/08/10 20:04:24 588 [debug]: ----------------------------------------------
+22/08/10 20:04:28 958 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:04:28 961 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:04:28 965 [debug]: [GET] http://localhost:3001/product/
+22/08/10 20:04:29 225 [info]:  >> DATABASE 접속됨 [threaId=145]
+22/08/10 20:04:29 227 [info]:  >> Connection 임대됨 [threaId=145]
+22/08/10 20:04:29 237 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:04:29 263 [info]:  >> Connection 반납됨 [threaId]=145
+22/08/10 20:04:29 281 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 321ms
+22/08/10 20:04:29 282 [debug]: ----------------------------------------------
+22/08/10 20:04:29 295 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:04:29 297 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:04:29 302 [debug]: [GET] http://localhost:3001/product/
+22/08/10 20:04:29 309 [info]:  >> Connection 임대됨 [threaId=145]
+22/08/10 20:04:29 315 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:04:29 324 [info]:  >> Connection 반납됨 [threaId]=145
+22/08/10 20:04:29 328 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 31ms
+22/08/10 20:04:29 329 [debug]: ----------------------------------------------
+22/08/10 20:06:21 545 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:06:21 549 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:06:21 551 [debug]: [GET] http://localhost:3001/product/
+22/08/10 20:06:21 554 [info]:  >> Connection 임대됨 [threaId=145]
+22/08/10 20:06:21 558 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:06:21 564 [info]:  >> Connection 반납됨 [threaId]=145
+22/08/10 20:06:21 567 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 19ms
+22/08/10 20:06:21 567 [debug]: ----------------------------------------------
+22/08/10 20:06:21 576 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:06:21 576 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:06:21 577 [debug]: [GET] http://localhost:3001/product/
+22/08/10 20:06:21 580 [info]:  >> Connection 임대됨 [threaId=145]
+22/08/10 20:06:21 583 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:06:21 585 [info]:  >> Connection 반납됨 [threaId]=145
+22/08/10 20:06:21 588 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/08/10 20:06:21 588 [debug]: ----------------------------------------------
+22/08/10 20:06:44 505 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:06:44 506 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:06:44 507 [debug]: [GET] http://localhost:3001/product/upload/1660117939003.jpg
+22/08/10 20:06:44 510 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 20:06:44 512 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:116:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 20:06:44 517 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/10 20:06:44 519 [debug]: ----------------------------------------------
+22/08/10 20:06:44 779 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:06:44 780 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:06:44 780 [debug]: [GET] http://localhost:3001/favicon.ico
+22/08/10 20:06:44 787 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/08/10 20:06:44 789 [debug]: ----------------------------------------------
+22/08/10 20:06:53 905 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:06:53 906 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:06:53 907 [debug]: [GET] http://localhost:3001/upload/1660117939003.jpg
+22/08/10 20:06:54 002 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 96ms
+22/08/10 20:06:54 005 [debug]: ----------------------------------------------
+22/08/10 20:07:23 191 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:07:23 192 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:07:23 194 [debug]: [GET] http://localhost:3001/
+22/08/10 20:07:23 199 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 20:07:23 201 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:116:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 20:07:23 208 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 16ms
+22/08/10 20:07:23 211 [debug]: ----------------------------------------------
+22/08/10 20:07:23 213 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:07:23 215 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:07:23 217 [debug]: [GET] http://localhost:3001/
+22/08/10 20:07:23 220 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 20:07:23 221 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:116:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 20:07:23 225 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/08/10 20:07:23 226 [debug]: ----------------------------------------------
+22/08/10 20:07:25 388 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:07:25 389 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:07:25 389 [debug]: [GET] http://localhost:3001/
+22/08/10 20:07:25 392 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 20:07:25 393 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:116:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 20:07:25 397 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/08/10 20:07:25 398 [debug]: ----------------------------------------------
+22/08/10 20:07:25 409 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:07:25 411 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:07:25 412 [debug]: [GET] http://localhost:3001/
+22/08/10 20:07:25 414 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 20:07:25 415 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:116:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 20:07:25 422 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/08/10 20:07:25 423 [debug]: ----------------------------------------------
+22/08/10 20:08:05 252 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:08:05 253 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:08:05 254 [debug]: [GET] http://localhost:3001/
+22/08/10 20:08:05 260 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 20:08:05 261 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:116:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 20:08:05 268 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 15ms
+22/08/10 20:08:05 269 [debug]: ----------------------------------------------
+22/08/10 20:08:08 866 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:08:08 867 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:08:08 869 [debug]: [GET] http://localhost:3001/
+22/08/10 20:08:08 874 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 20:08:08 874 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:116:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 20:08:08 879 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/08/10 20:08:08 880 [debug]: ----------------------------------------------
+22/08/10 20:08:08 922 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:08:08 923 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:08:08 924 [debug]: [GET] http://localhost:3001/
+22/08/10 20:08:08 926 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 20:08:08 927 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:116:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 20:08:08 932 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/08/10 20:08:08 933 [debug]: ----------------------------------------------
+22/08/10 20:09:18 201 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:09:18 202 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/08/10 20:09:18 203 [debug]: [GET] http://localhost:3001/
+22/08/10 20:09:18 205 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 20:09:18 206 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:116:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 20:09:18 211 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/08/10 20:09:18 211 [debug]: ----------------------------------------------
+22/08/10 20:09:26 537 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:09:26 538 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/08/10 20:09:26 539 [debug]: [GET] http://localhost:3001/product/
+22/08/10 20:09:26 541 [info]:  >> Connection 임대됨 [threaId=145]
+22/08/10 20:09:26 542 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:09:26 544 [info]:  >> Connection 반납됨 [threaId]=145
+22/08/10 20:09:26 547 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/08/10 20:09:26 548 [debug]: ----------------------------------------------
+22/08/10 20:10:04 170 [debug]: ----------------------------------------------
+22/08/10 20:10:04 184 [debug]: |            Start Express Server            |
+22/08/10 20:10:04 187 [debug]: ----------------------------------------------
+22/08/10 20:10:04 190 [debug]: Server Address => http://192.168.199.1:3001
+22/08/10 20:10:04 192 [debug]: Server Address => http://192.168.233.1:3001
+22/08/10 20:10:04 193 [debug]: Server Address => http://192.168.0.19:3001
+22/08/10 20:10:04 195 [debug]: ----------------------------------------------
+22/08/10 20:10:04 425 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:10:04 427 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:10:04 431 [debug]: [GET] http://localhost:3001/
+22/08/10 20:10:04 615 [info]:  >> DATABASE 접속됨 [threaId=146]
+22/08/10 20:10:04 617 [info]:  >> Connection 임대됨 [threaId=146]
+22/08/10 20:10:04 624 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:10:04 637 [info]:  >> Connection 반납됨 [threaId]=146
+22/08/10 20:10:04 647 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 219ms
+22/08/10 20:10:04 648 [debug]: ----------------------------------------------
+22/08/10 20:10:04 657 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:10:04 658 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:10:04 659 [debug]: [GET] http://localhost:3001/
+22/08/10 20:10:04 664 [info]:  >> Connection 임대됨 [threaId=146]
+22/08/10 20:10:04 668 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:10:04 672 [info]:  >> Connection 반납됨 [threaId]=146
+22/08/10 20:10:04 675 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 17ms
+22/08/10 20:10:04 676 [debug]: ----------------------------------------------
+22/08/10 20:10:15 243 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:10:15 244 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:10:15 245 [debug]: [GET] http://localhost:3001/
+22/08/10 20:10:15 248 [info]:  >> Connection 임대됨 [threaId=146]
+22/08/10 20:10:15 251 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:10:15 256 [info]:  >> Connection 반납됨 [threaId]=146
+22/08/10 20:10:15 258 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 14ms
+22/08/10 20:10:15 259 [debug]: ----------------------------------------------
+22/08/10 20:10:15 262 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:10:15 262 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:10:15 263 [debug]: [GET] http://localhost:3001/
+22/08/10 20:10:15 266 [info]:  >> Connection 임대됨 [threaId=146]
+22/08/10 20:10:15 270 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:10:15 272 [info]:  >> Connection 반납됨 [threaId]=146
+22/08/10 20:10:15 276 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 14ms
+22/08/10 20:10:15 277 [debug]: ----------------------------------------------
+22/08/10 20:10:25 187 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:10:25 189 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:10:25 191 [debug]: [GET] http://localhost:3001/
+22/08/10 20:10:25 195 [info]:  >> Connection 임대됨 [threaId=146]
+22/08/10 20:10:25 199 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:10:25 203 [info]:  >> Connection 반납됨 [threaId]=146
+22/08/10 20:10:25 212 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 23ms
+22/08/10 20:10:25 215 [debug]: ----------------------------------------------
+22/08/10 20:10:25 240 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:10:25 248 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:10:25 249 [debug]: [GET] http://localhost:3001/
+22/08/10 20:10:25 252 [info]:  >> Connection 임대됨 [threaId=146]
+22/08/10 20:10:25 261 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:10:25 278 [info]:  >> Connection 반납됨 [threaId]=146
+22/08/10 20:10:25 280 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 33ms
+22/08/10 20:10:25 282 [debug]: ----------------------------------------------
+22/08/10 20:10:27 107 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:10:27 108 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:10:27 109 [debug]: [GET] http://localhost:3001/
+22/08/10 20:10:27 111 [info]:  >> Connection 임대됨 [threaId=146]
+22/08/10 20:10:27 113 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:10:27 114 [info]:  >> Connection 반납됨 [threaId]=146
+22/08/10 20:10:27 117 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/08/10 20:10:27 118 [debug]: ----------------------------------------------
+22/08/10 20:10:27 127 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:10:27 128 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:10:27 129 [debug]: [GET] http://localhost:3001/
+22/08/10 20:10:27 132 [info]:  >> Connection 임대됨 [threaId=146]
+22/08/10 20:10:27 135 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:10:27 137 [info]:  >> Connection 반납됨 [threaId]=146
+22/08/10 20:10:27 141 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 13ms
+22/08/10 20:10:27 142 [debug]: ----------------------------------------------
+22/08/10 20:10:45 634 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:10:45 635 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:10:45 637 [debug]: [GET] http://localhost:3001/upload/1660117939003.jpg
+22/08/10 20:10:45 644 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/08/10 20:10:45 645 [debug]: ----------------------------------------------
+22/08/10 20:11:38 889 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:11:38 890 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:11:38 891 [debug]: [GET] http://localhost:3001/
+22/08/10 20:11:38 895 [info]:  >> Connection 임대됨 [threaId=146]
+22/08/10 20:11:38 898 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:11:38 903 [info]:  >> Connection 반납됨 [threaId]=146
+22/08/10 20:11:38 905 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 15ms
+22/08/10 20:11:38 905 [debug]: ----------------------------------------------
+22/08/10 20:11:38 907 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:11:38 908 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:11:38 910 [debug]: [GET] http://localhost:3001/
+22/08/10 20:11:38 912 [info]:  >> Connection 임대됨 [threaId=146]
+22/08/10 20:11:38 914 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:11:38 916 [info]:  >> Connection 반납됨 [threaId]=146
+22/08/10 20:11:38 919 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/10 20:11:38 919 [debug]: ----------------------------------------------
+22/08/10 20:15:05 939 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:15:05 940 [debug]: [Client] ::ffff:192.168.199.1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:15:05 944 [debug]: [GET] http://192.168.199.1:3001/upload/1660118969618.jpg
+22/08/10 20:15:05 948 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 20:15:05 949 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:116:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 20:15:05 954 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 14ms
+22/08/10 20:15:05 954 [debug]: ----------------------------------------------
+22/08/10 20:17:41 548 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:17:41 549 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/08/10 20:17:41 550 [debug]: [POST] http://localhost:3001/upload/single
+22/08/10 20:17:41 663 [info]:  >> Connection 임대됨 [threaId=146]
+22/08/10 20:17:41 666 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 117ms
+22/08/10 20:17:41 667 [debug]: ----------------------------------------------
+22/08/10 20:17:41 675 [debug]: INSERT INTO product (product_name, price, img_url, product_state, cost, category_id) VALUES ('test', 5000, '/upload/1660130261585.jpg', 'Y', 6000, 1);
+22/08/10 20:17:41 748 [info]:  >> Connection 반납됨 [threaId]=146
+22/08/10 20:21:38 703 [debug]: ----------------------------------------------
+22/08/10 20:21:38 715 [debug]: |            Start Express Server            |
+22/08/10 20:21:38 721 [debug]: ----------------------------------------------
+22/08/10 20:21:38 732 [debug]: Server Address => http://192.168.199.1:3001
+22/08/10 20:21:38 737 [debug]: Server Address => http://192.168.233.1:3001
+22/08/10 20:21:38 739 [debug]: Server Address => http://192.168.0.19:3001
+22/08/10 20:21:38 739 [debug]: ----------------------------------------------
+22/08/10 20:21:41 452 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:21:41 456 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:21:41 461 [debug]: [GET] http://localhost:3001/
+22/08/10 20:21:41 683 [info]:  >> DATABASE 접속됨 [threaId=147]
+22/08/10 20:21:41 685 [info]:  >> Connection 임대됨 [threaId=147]
+22/08/10 20:21:41 706 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:21:41 722 [info]:  >> Connection 반납됨 [threaId]=147
+22/08/10 20:21:41 738 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 283ms
+22/08/10 20:21:41 740 [debug]: ----------------------------------------------
+22/08/10 20:21:41 769 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:21:41 771 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:21:41 774 [debug]: [GET] http://localhost:3001/
+22/08/10 20:21:41 779 [info]:  >> Connection 임대됨 [threaId=147]
+22/08/10 20:21:41 784 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:21:41 787 [info]:  >> Connection 반납됨 [threaId]=147
+22/08/10 20:21:41 790 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 19ms
+22/08/10 20:21:41 791 [debug]: ----------------------------------------------
+22/08/10 20:21:54 639 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:21:54 641 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:21:54 643 [debug]: [GET] http://localhost:3001/
+22/08/10 20:21:54 647 [info]:  >> Connection 임대됨 [threaId=147]
+22/08/10 20:21:54 653 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:21:54 656 [info]:  >> Connection 반납됨 [threaId]=147
+22/08/10 20:21:54 659 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 18ms
+22/08/10 20:21:54 660 [debug]: ----------------------------------------------
+22/08/10 20:21:54 669 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:21:54 670 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:21:54 670 [debug]: [GET] http://localhost:3001/
+22/08/10 20:21:54 673 [info]:  >> Connection 임대됨 [threaId=147]
+22/08/10 20:21:54 675 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:21:54 679 [info]:  >> Connection 반납됨 [threaId]=147
+22/08/10 20:21:54 682 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 13ms
+22/08/10 20:21:54 683 [debug]: ----------------------------------------------
+22/08/10 20:22:29 311 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:22:29 312 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:22:29 313 [debug]: [GET] http://localhost:3001/upload/1660117939003.jpg
+22/08/10 20:22:29 319 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/08/10 20:22:29 320 [debug]: ----------------------------------------------
+22/08/10 20:22:51 604 [debug]: ----------------------------------------------
+22/08/10 20:22:51 612 [debug]: |            Start Express Server            |
+22/08/10 20:22:51 613 [debug]: ----------------------------------------------
+22/08/10 20:22:51 615 [debug]: Server Address => http://192.168.199.1:3001
+22/08/10 20:22:51 617 [debug]: Server Address => http://192.168.233.1:3001
+22/08/10 20:22:51 618 [debug]: Server Address => http://192.168.0.19:3001
+22/08/10 20:22:51 619 [debug]: ----------------------------------------------
+22/08/10 20:22:54 701 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:22:54 703 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:22:54 707 [debug]: [GET] http://localhost:3001/
+22/08/10 20:22:54 883 [info]:  >> DATABASE 접속됨 [threaId=148]
+22/08/10 20:22:54 888 [info]:  >> Connection 임대됨 [threaId=148]
+22/08/10 20:22:54 914 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:22:54 932 [info]:  >> Connection 반납됨 [threaId]=148
+22/08/10 20:22:54 946 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 243ms
+22/08/10 20:22:54 947 [debug]: ----------------------------------------------
+22/08/10 20:22:54 961 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:22:54 962 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:22:54 963 [debug]: [GET] http://localhost:3001/
+22/08/10 20:22:54 969 [info]:  >> Connection 임대됨 [threaId=148]
+22/08/10 20:22:54 977 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:22:54 980 [info]:  >> Connection 반납됨 [threaId]=148
+22/08/10 20:22:54 984 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 22ms
+22/08/10 20:22:54 986 [debug]: ----------------------------------------------
+22/08/10 20:23:39 174 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:23:39 178 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:23:39 180 [debug]: [GET] http://localhost:3001/
+22/08/10 20:23:39 182 [info]:  >> Connection 임대됨 [threaId=148]
+22/08/10 20:23:39 188 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:23:39 191 [info]:  >> Connection 반납됨 [threaId]=148
+22/08/10 20:23:39 193 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 16ms
+22/08/10 20:23:39 194 [debug]: ----------------------------------------------
+22/08/10 20:23:39 202 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:23:39 204 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:23:39 205 [debug]: [GET] http://localhost:3001/
+22/08/10 20:23:39 207 [info]:  >> Connection 임대됨 [threaId=148]
+22/08/10 20:23:39 210 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:23:39 214 [info]:  >> Connection 반납됨 [threaId]=148
+22/08/10 20:23:39 219 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 15ms
+22/08/10 20:23:39 220 [debug]: ----------------------------------------------
+22/08/10 20:23:58 984 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:23:58 985 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:23:58 987 [debug]: [GET] http://localhost:3001/
+22/08/10 20:23:58 989 [info]:  >> Connection 임대됨 [threaId=148]
+22/08/10 20:23:58 991 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:23:58 996 [info]:  >> Connection 반납됨 [threaId]=148
+22/08/10 20:23:58 999 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 14ms
+22/08/10 20:23:59 002 [debug]: ----------------------------------------------
+22/08/10 20:23:59 009 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:23:59 010 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:23:59 011 [debug]: [GET] http://localhost:3001/
+22/08/10 20:23:59 014 [info]:  >> Connection 임대됨 [threaId=148]
+22/08/10 20:23:59 016 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:23:59 032 [info]:  >> Connection 반납됨 [threaId]=148
+22/08/10 20:23:59 037 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 27ms
+22/08/10 20:23:59 039 [debug]: ----------------------------------------------
+22/08/10 20:24:16 516 [info]: -------- Server is close -------
+22/08/10 20:24:23 142 [debug]: ----------------------------------------------
+22/08/10 20:24:23 147 [debug]: |            Start Express Server            |
+22/08/10 20:24:23 147 [debug]: ----------------------------------------------
+22/08/10 20:24:23 148 [debug]: Server Address => http://192.168.199.1:3001
+22/08/10 20:24:23 149 [debug]: Server Address => http://192.168.233.1:3001
+22/08/10 20:24:23 150 [debug]: Server Address => http://192.168.0.19:3001
+22/08/10 20:24:23 150 [debug]: ----------------------------------------------
+22/08/10 20:24:26 412 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:24:26 415 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:24:26 419 [debug]: [GET] http://localhost:3001/
+22/08/10 20:24:26 630 [info]:  >> DATABASE 접속됨 [threaId=149]
+22/08/10 20:24:26 635 [info]:  >> Connection 임대됨 [threaId=149]
+22/08/10 20:24:26 667 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:24:26 683 [info]:  >> Connection 반납됨 [threaId]=149
+22/08/10 20:24:26 698 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 283ms
+22/08/10 20:24:26 701 [debug]: ----------------------------------------------
+22/08/10 20:24:26 715 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:24:26 717 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:24:26 719 [debug]: [GET] http://localhost:3001/
+22/08/10 20:24:26 729 [info]:  >> Connection 임대됨 [threaId=149]
+22/08/10 20:24:26 735 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:24:26 740 [info]:  >> Connection 반납됨 [threaId]=149
+22/08/10 20:24:26 747 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 31ms
+22/08/10 20:24:26 748 [debug]: ----------------------------------------------
+22/08/10 20:26:15 639 [info]: -------- Server is close -------
+22/08/10 20:32:38 192 [debug]: ----------------------------------------------
+22/08/10 20:32:38 195 [debug]: |            Start Express Server            |
+22/08/10 20:32:38 196 [debug]: ----------------------------------------------
+22/08/10 20:32:38 197 [debug]: Server Address => http://192.168.199.1:3001
+22/08/10 20:32:38 198 [debug]: Server Address => http://192.168.233.1:3001
+22/08/10 20:32:38 198 [debug]: Server Address => http://192.168.0.19:3001
+22/08/10 20:32:38 199 [debug]: ----------------------------------------------
+22/08/10 20:32:42 074 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:32:42 077 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:32:42 082 [debug]: [GET] http://localhost:3001/product/
+22/08/10 20:32:42 244 [info]:  >> DATABASE 접속됨 [threaId=150]
+22/08/10 20:32:42 246 [info]:  >> Connection 임대됨 [threaId=150]
+22/08/10 20:32:42 254 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:32:42 269 [info]:  >> Connection 반납됨 [threaId]=150
+22/08/10 20:32:42 285 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 209ms
+22/08/10 20:32:42 287 [debug]: ----------------------------------------------
+22/08/10 20:32:42 299 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:32:42 302 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:32:42 303 [debug]: [GET] http://localhost:3001/product/
+22/08/10 20:32:42 306 [info]:  >> Connection 임대됨 [threaId=150]
+22/08/10 20:32:42 311 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:32:42 316 [info]:  >> Connection 반납됨 [threaId]=150
+22/08/10 20:32:42 321 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 19ms
+22/08/10 20:32:42 322 [debug]: ----------------------------------------------
+22/08/10 20:32:53 243 [info]: -------- Server is close -------
+22/08/10 20:32:59 968 [debug]: ----------------------------------------------
+22/08/10 20:32:59 974 [debug]: |            Start Express Server            |
+22/08/10 20:32:59 975 [debug]: ----------------------------------------------
+22/08/10 20:32:59 977 [debug]: Server Address => http://192.168.199.1:3001
+22/08/10 20:32:59 978 [debug]: Server Address => http://192.168.233.1:3001
+22/08/10 20:32:59 979 [debug]: Server Address => http://192.168.0.19:3001
+22/08/10 20:32:59 980 [debug]: ----------------------------------------------
+22/08/10 20:33:06 704 [debug]: ----------------------------------------------
+22/08/10 20:33:06 707 [debug]: |            Start Express Server            |
+22/08/10 20:33:06 709 [debug]: ----------------------------------------------
+22/08/10 20:33:06 710 [debug]: Server Address => http://192.168.199.1:3001
+22/08/10 20:33:06 711 [debug]: Server Address => http://192.168.233.1:3001
+22/08/10 20:33:06 713 [debug]: Server Address => http://192.168.0.19:3001
+22/08/10 20:33:06 713 [debug]: ----------------------------------------------
+22/08/10 20:33:14 541 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:33:14 543 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:33:14 547 [debug]: [GET] http://localhost:3001/
+22/08/10 20:33:14 779 [info]:  >> DATABASE 접속됨 [threaId=151]
+22/08/10 20:33:14 782 [info]:  >> Connection 임대됨 [threaId=151]
+22/08/10 20:33:14 799 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:33:14 812 [info]:  >> Connection 반납됨 [threaId]=151
+22/08/10 20:33:14 830 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 287ms
+22/08/10 20:33:14 832 [debug]: ----------------------------------------------
+22/08/10 20:33:14 848 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:33:14 850 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:33:14 852 [debug]: [GET] http://localhost:3001/
+22/08/10 20:33:14 862 [info]:  >> Connection 임대됨 [threaId=151]
+22/08/10 20:33:14 866 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:33:14 883 [info]:  >> Connection 반납됨 [threaId]=151
+22/08/10 20:33:14 889 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 39ms
+22/08/10 20:33:14 893 [debug]: ----------------------------------------------
+22/08/10 20:33:19 432 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:33:19 434 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:33:19 437 [debug]: [GET] http://localhost:3001/
+22/08/10 20:33:19 443 [info]:  >> Connection 임대됨 [threaId=151]
+22/08/10 20:33:19 446 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:33:19 449 [info]:  >> Connection 반납됨 [threaId]=151
+22/08/10 20:33:19 453 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 19ms
+22/08/10 20:33:19 455 [debug]: ----------------------------------------------
+22/08/10 20:33:19 460 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:33:19 460 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:33:19 461 [debug]: [GET] http://localhost:3001/
+22/08/10 20:33:19 464 [info]:  >> Connection 임대됨 [threaId=151]
+22/08/10 20:33:19 466 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:33:19 469 [info]:  >> Connection 반납됨 [threaId]=151
+22/08/10 20:33:19 473 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 13ms
+22/08/10 20:33:19 476 [debug]: ----------------------------------------------
+22/08/10 20:35:14 255 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:35:14 259 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:35:14 260 [debug]: [GET] http://localhost:3001/product/
+22/08/10 20:35:14 265 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 20:35:14 269 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:116:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 20:35:14 276 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 18ms
+22/08/10 20:35:14 276 [debug]: ----------------------------------------------
+22/08/10 20:35:14 296 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:35:14 297 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:35:14 298 [debug]: [GET] http://localhost:3001/product/
+22/08/10 20:35:14 301 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 20:35:14 302 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:116:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 20:35:14 306 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/08/10 20:35:14 307 [debug]: ----------------------------------------------
+22/08/10 20:35:28 018 [debug]: ----------------------------------------------
+22/08/10 20:35:28 023 [debug]: |            Start Express Server            |
+22/08/10 20:35:28 024 [debug]: ----------------------------------------------
+22/08/10 20:35:28 025 [debug]: Server Address => http://192.168.199.1:3001
+22/08/10 20:35:28 027 [debug]: Server Address => http://192.168.233.1:3001
+22/08/10 20:35:28 028 [debug]: Server Address => http://192.168.0.19:3001
+22/08/10 20:35:28 029 [debug]: ----------------------------------------------
+22/08/10 20:35:33 291 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:35:33 293 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:35:33 297 [debug]: [GET] http://localhost:3001/product/
+22/08/10 20:35:33 492 [info]:  >> DATABASE 접속됨 [threaId=152]
+22/08/10 20:35:33 495 [info]:  >> Connection 임대됨 [threaId=152]
+22/08/10 20:35:33 505 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:35:33 519 [info]:  >> Connection 반납됨 [threaId]=152
+22/08/10 20:35:33 528 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 235ms
+22/08/10 20:35:33 531 [debug]: ----------------------------------------------
+22/08/10 20:35:33 541 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:35:33 542 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:35:33 543 [debug]: [GET] http://localhost:3001/product/
+22/08/10 20:35:33 547 [info]:  >> Connection 임대됨 [threaId=152]
+22/08/10 20:35:33 552 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:35:33 560 [info]:  >> Connection 반납됨 [threaId]=152
+22/08/10 20:35:33 568 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 26ms
+22/08/10 20:35:33 569 [debug]: ----------------------------------------------
+22/08/10 20:36:26 202 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:36:26 204 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:36:26 206 [debug]: [GET] http://localhost:3001/product/
+22/08/10 20:36:26 212 [info]:  >> Connection 임대됨 [threaId=152]
+22/08/10 20:36:26 218 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:36:26 227 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:36:26 228 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:36:26 229 [debug]: [GET] http://localhost:3001/upload/1660118689771.jpg
+22/08/10 20:36:26 232 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:36:26 233 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:36:26 234 [debug]: [GET] http://localhost:3001/upload/1660117939003.jpg
+22/08/10 20:36:26 236 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:36:26 237 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:36:26 238 [debug]: [GET] http://localhost:3001/upload/1660118806119.jpg
+22/08/10 20:36:26 241 [info]:  >> Connection 반납됨 [threaId]=152
+22/08/10 20:36:26 244 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 40ms
+22/08/10 20:36:26 244 [debug]: ----------------------------------------------
+22/08/10 20:36:26 252 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 19ms
+22/08/10 20:36:26 253 [debug]: ----------------------------------------------
+22/08/10 20:36:26 262 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 34ms
+22/08/10 20:36:26 263 [debug]: ----------------------------------------------
+22/08/10 20:36:26 270 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 32ms
+22/08/10 20:36:26 271 [debug]: ----------------------------------------------
+22/08/10 20:36:26 277 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:36:26 278 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:36:26 279 [debug]: [GET] http://localhost:3001/1660118847682.jpg
+22/08/10 20:36:26 283 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:36:26 284 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:36:26 285 [debug]: [GET] http://localhost:3001//upload/1660130261585.jpg
+22/08/10 20:36:26 289 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 20:36:26 290 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:116:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 20:36:26 295 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 17ms
+22/08/10 20:36:26 296 [debug]: ----------------------------------------------
+22/08/10 20:36:26 298 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 20:36:26 299 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:116:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 20:36:26 305 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 21ms
+22/08/10 20:36:26 306 [debug]: ----------------------------------------------
+22/08/10 20:36:26 865 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:36:26 867 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:36:26 870 [debug]: [GET] http://localhost:3001/upload/1660117939003.jpg
+22/08/10 20:36:26 923 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 56ms
+22/08/10 20:36:26 924 [debug]: ----------------------------------------------
+22/08/10 20:36:32 467 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:36:32 469 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:36:32 470 [debug]: [GET] http://localhost:3001/product/
+22/08/10 20:36:32 474 [info]:  >> Connection 임대됨 [threaId=152]
+22/08/10 20:36:32 477 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:36:32 480 [info]:  >> Connection 반납됨 [threaId]=152
+22/08/10 20:36:32 484 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 16ms
+22/08/10 20:36:32 485 [debug]: ----------------------------------------------
+22/08/10 20:36:32 495 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:36:32 496 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:36:32 498 [debug]: [GET] http://localhost:3001/product/
+22/08/10 20:36:32 502 [info]:  >> Connection 임대됨 [threaId=152]
+22/08/10 20:36:32 504 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:36:32 506 [info]:  >> Connection 반납됨 [threaId]=152
+22/08/10 20:36:32 509 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 13ms
+22/08/10 20:36:32 509 [debug]: ----------------------------------------------
+22/08/10 20:36:32 677 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:36:32 678 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:36:32 679 [debug]: [GET] http://localhost:3001/upload/1660117939003.jpg
+22/08/10 20:36:32 684 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:36:32 685 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:36:32 687 [debug]: [GET] http://localhost:3001/upload/1660118689771.jpg
+22/08/10 20:36:32 692 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:36:32 693 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:36:32 694 [debug]: [GET] http://localhost:3001/upload/1660118806119.jpg
+22/08/10 20:36:32 698 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 20ms
+22/08/10 20:36:32 699 [debug]: ----------------------------------------------
+22/08/10 20:36:32 703 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:36:32 704 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:36:32 706 [debug]: [GET] http://localhost:3001/1660118847682.jpg
+22/08/10 20:36:32 708 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:36:32 709 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:36:32 710 [debug]: [GET] http://localhost:3001//upload/1660130261585.jpg
+22/08/10 20:36:32 713 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 20ms
+22/08/10 20:36:32 714 [debug]: ----------------------------------------------
+22/08/10 20:36:32 716 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 31ms
+22/08/10 20:36:32 717 [debug]: ----------------------------------------------
+22/08/10 20:36:32 720 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 20:36:32 722 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:116:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 20:36:32 726 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 22ms
+22/08/10 20:36:32 727 [debug]: ----------------------------------------------
+22/08/10 20:36:32 729 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/10 20:36:32 730 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/app.js:116:48
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/10 20:36:32 735 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 26ms
+22/08/10 20:36:32 736 [debug]: ----------------------------------------------
+22/08/10 20:36:33 057 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:36:33 058 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:36:33 059 [debug]: [GET] http://localhost:3001/upload/1660117939003.jpg
+22/08/10 20:36:33 062 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 4ms
+22/08/10 20:36:33 063 [debug]: ----------------------------------------------
+22/08/10 20:38:14 356 [debug]: ----------------------------------------------
+22/08/10 20:38:14 361 [debug]: |            Start Express Server            |
+22/08/10 20:38:14 362 [debug]: ----------------------------------------------
+22/08/10 20:38:14 363 [debug]: Server Address => http://192.168.199.1:3001
+22/08/10 20:38:14 365 [debug]: Server Address => http://192.168.233.1:3001
+22/08/10 20:38:14 366 [debug]: Server Address => http://192.168.0.19:3001
+22/08/10 20:38:14 367 [debug]: ----------------------------------------------
+22/08/10 20:39:01 018 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:39:01 022 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:39:01 025 [debug]: [GET] http://localhost:3001/product/
+22/08/10 20:39:01 193 [info]:  >> DATABASE 접속됨 [threaId=153]
+22/08/10 20:39:01 197 [info]:  >> Connection 임대됨 [threaId=153]
+22/08/10 20:39:01 204 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:39:01 216 [info]:  >> Connection 반납됨 [threaId]=153
+22/08/10 20:39:01 228 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 207ms
+22/08/10 20:39:01 229 [debug]: ----------------------------------------------
+22/08/10 20:39:01 242 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:39:01 243 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:39:01 244 [debug]: [GET] http://localhost:3001/product/
+22/08/10 20:39:01 250 [info]:  >> Connection 임대됨 [threaId=153]
+22/08/10 20:39:01 256 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:39:01 265 [info]:  >> Connection 반납됨 [threaId]=153
+22/08/10 20:39:01 268 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 25ms
+22/08/10 20:39:01 269 [debug]: ----------------------------------------------
+22/08/10 20:39:01 275 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:39:01 276 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:39:01 278 [debug]: [GET] http://localhost:3001/upload/1660117939003.jpg
+22/08/10 20:39:01 282 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:39:01 283 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:39:01 284 [debug]: [GET] http://localhost:3001/upload/1660118689771.jpg
+22/08/10 20:39:01 287 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:39:01 288 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:39:01 289 [debug]: [GET] http://localhost:3001/upload/1660118806119.jpg
+22/08/10 20:39:01 296 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 20ms
+22/08/10 20:39:01 297 [debug]: ----------------------------------------------
+22/08/10 20:39:01 300 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 17ms
+22/08/10 20:39:01 303 [debug]: ----------------------------------------------
+22/08/10 20:39:01 305 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 17ms
+22/08/10 20:39:01 306 [debug]: ----------------------------------------------
+22/08/10 20:39:01 537 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:39:01 538 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:39:01 539 [debug]: [GET] http://localhost:3001/upload/1660117939003.jpg
+22/08/10 20:39:01 544 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 6ms
+22/08/10 20:39:01 545 [debug]: ----------------------------------------------
+22/08/10 20:39:44 940 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:39:44 941 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/08/10 20:39:44 942 [debug]: [POST] http://localhost:3001/upload/single
+22/08/10 20:39:44 985 [info]:  >> Connection 임대됨 [threaId=153]
+22/08/10 20:39:44 988 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 47ms
+22/08/10 20:39:44 991 [debug]: ----------------------------------------------
+22/08/10 20:39:44 996 [debug]: INSERT INTO product (product_name, price, img_url, product_state, cost, category_id) VALUES ('test', 5000, './upload/1660131584973.jpg', 'Y', 6000, 1);
+22/08/10 20:39:45 005 [info]:  >> Connection 반납됨 [threaId]=153
+22/08/10 20:39:50 840 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:39:50 842 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:39:50 843 [debug]: [GET] http://localhost:3001/product/
+22/08/10 20:39:50 846 [info]:  >> Connection 임대됨 [threaId=153]
+22/08/10 20:39:50 848 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:39:50 851 [info]:  >> Connection 반납됨 [threaId]=153
+22/08/10 20:39:50 853 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/10 20:39:50 853 [debug]: ----------------------------------------------
+22/08/10 20:39:50 858 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:39:50 859 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:39:50 861 [debug]: [GET] http://localhost:3001/product/
+22/08/10 20:39:50 865 [info]:  >> Connection 임대됨 [threaId=153]
+22/08/10 20:39:50 867 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:39:50 869 [info]:  >> Connection 반납됨 [threaId]=153
+22/08/10 20:39:50 872 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 13ms
+22/08/10 20:39:50 873 [debug]: ----------------------------------------------
+22/08/10 20:39:50 997 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:39:51 000 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:39:51 001 [debug]: [GET] http://localhost:3001/upload/1660117939003.jpg
+22/08/10 20:39:51 005 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:39:51 006 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:39:51 007 [debug]: [GET] http://localhost:3001/upload/1660118689771.jpg
+22/08/10 20:39:51 010 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:39:51 011 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:39:51 012 [debug]: [GET] http://localhost:3001/upload/1660118806119.jpg
+22/08/10 20:39:51 016 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 16ms
+22/08/10 20:39:51 017 [debug]: ----------------------------------------------
+22/08/10 20:39:51 021 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 15ms
+22/08/10 20:39:51 021 [debug]: ----------------------------------------------
+22/08/10 20:39:51 023 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/08/10 20:39:51 024 [debug]: ----------------------------------------------
+22/08/10 20:39:51 026 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:39:51 028 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:39:51 029 [debug]: [GET] http://localhost:3001/upload/1660131584973.jpg
+22/08/10 20:39:51 040 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/08/10 20:39:51 041 [debug]: ----------------------------------------------
+22/08/10 20:39:51 407 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:39:51 408 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/10 20:39:51 409 [debug]: [GET] http://localhost:3001/upload/1660117939003.jpg
+22/08/10 20:39:51 413 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 5ms
+22/08/10 20:39:51 415 [debug]: ----------------------------------------------
+22/08/10 20:41:31 987 [debug]: 클라이언트가 접속했습니다.
+22/08/10 20:41:31 988 [debug]: [Client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/08/10 20:41:31 989 [debug]: [GET] http://localhost:3001/product/
+22/08/10 20:41:31 991 [info]:  >> Connection 임대됨 [threaId=153]
+22/08/10 20:41:31 993 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product
+22/08/10 20:41:31 997 [info]:  >> Connection 반납됨 [threaId]=153
+22/08/10 20:41:32 000 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/08/10 20:41:32 001 [debug]: ----------------------------------------------
+22/08/10 20:42:41 425 [info]: -------- Server is close -------
