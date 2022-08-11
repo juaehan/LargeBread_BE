@@ -4,23 +4,20 @@
     
 <mapper namespace="ProductMapper">
 
-    <select id="selectList">
-        SELECT id, product_name, price, img_url, product_state, cost FROM product
-
-        <where>
-            <if test="category_id != null and category_id != ''">
-                category_id LIKE concat('%', #{category_id}, '%')
-            </if>
-        </where>
-    </select>
-
+    <!-- 메뉴 출력-->
     <select id="selectItem">
-        SELECT id, product_name, price, img_url, product_state, cost, category_id FROM product WHERE category_id=#{category_id}
+        SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id=#{category_id}
     </select>
 
+    <!-- 메뉴 추가-->
     <insert id="insertProduct">
-        INSERT INTO product (product_name, price, img_url, product_state, cost, category_id) VALUES ('test', 5000, #{img_url}, 'Y', 6000, 1);
+        INSERT INTO product (product_name, price, img_url, product_state, cost, category_id) VALUES (#{product_name}, #{price}, #{img_url}, #{product_state}, #{cost}, #{category_id});
     </insert>
+
+    <!-- 주문 추가-->
+    <!-- <insert id="insertOrder">
+        INSERT INTO 
+    </insert> -->
 
     <!-- <update id="SQL문_식별값">
     

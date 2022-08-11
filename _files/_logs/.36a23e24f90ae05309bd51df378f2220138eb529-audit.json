@@ -14,6 +14,11 @@
             "date": 1660109853717,
             "name": "_files\\_logs\\log_220810.log",
             "hash": "c810e9f4d8d4f941de5bc409deb9f3c152a02acb48b4f5b4f74bb5230b8dc63d"
+        },
+        {
+            "date": 1660190355987,
+            "name": "_files\\_logs\\log_220811.log",
+            "hash": "0d62838b708096b13e73bf362e0ac2883cb6b21656ba75701045e76df58c8c16"
         }
     ],
     "hashType": "sha256"

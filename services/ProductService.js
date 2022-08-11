@@ -8,15 +8,16 @@ class ProductService {
             './mappers/ProductMapper.xml'
         ]);
     }
-
-    async getList() {
+    
+    /** 메뉴 출력*/
+    async getItem(params) {
         let dbcon = null;
         let data = null;
 
         try{
             dbcon = await DBPool.getConnection();
 
-            let sql = mybatisMapper.getStatement('ProductMapper', 'selectList');
+            let sql = mybatisMapper.getStatement('ProductMapper', 'selectItem', params);
             let [result] = await dbcon.query(sql);
 
             if(result.length === 0){
@@ -32,29 +33,7 @@ class ProductService {
         return data;
     }
 
-    async getItem(params) {
-        let dbcon = null;
-        let data = null;
-
-        try{
-            dbcon = await DBPool.getConnection();
-
-            let sql = mybatisMapper.getStatement('ProductMapper', 'selectItem', params);
-            let [result] = await dbcon.query(sql);
-
-            if(result.length === 0){
-                throw new RuntimeException('조회된 데이터가 없습니다.');
-            }
-
-            data = result[0];
-        } catch (err) {
-            throw err;
-        } finally {
-            if (dbcon) {dbcon.release();}
-        }
-        return data;
-    }
-
+    /** 메뉴 추가 */
     async addItem(params) {
         let dbcon = null;
         let data = null;

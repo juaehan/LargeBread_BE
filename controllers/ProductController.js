@@ -5,18 +5,7 @@ const ProductController = () => {
     const url = "/product";
     const router = express.Router();
 
-    router.get(url, async (req, res, next) => {
-        let json = null;
-
-        try{
-            json = await productService.getList();
-        } catch (err) {
-            return next(err);
-        }
-        res.sendResult({item: json});
-    });
-
-    router.get(`${url}/:category`, async (req, res, next) => {
+    router.get(`${url}/:category_id`, async (req, res, next) => {
         const category_id = req.get('category_id');
 
         let json = null;

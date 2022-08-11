@@ -100,7 +100,6 @@ app.use(serveFavicon(process.env.FAVICON_PATH));
 
 /** 파일 업로드 */
 app.use(process.env.UPLOAD_URL, serveStatic(process.env.UPLOAD_DIR));
-app.use(process.env.THUMB_URL, serveStatic(process.env.THUMB_DIR));
 
 app.use(WebHelper());
 
