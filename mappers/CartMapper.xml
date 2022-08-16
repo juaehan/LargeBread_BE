@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    
+<mapper namespace="CartMapper">
+
+    <!-- 상품 담기-->
+    <insert id="insertCart">
+        INSERT INTO cart (amount, product_id)
+        VALUES (#{amount}, #{product_id});
+    </insert>
+</mapper>

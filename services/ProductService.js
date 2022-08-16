@@ -5,7 +5,8 @@ import RuntimeException from '../exceptions/RuntimeException.js';
 class ProductService {
     constructor() {
         mybatisMapper.createMapper([
-            './mappers/ProductMapper.xml'
+            './mappers/ProductMapper.xml',
+            './mappers/CartMapper.xml'
         ]);
     }
     
@@ -45,10 +46,35 @@ class ProductService {
             let [result] = await dbcon.query(sql);
 
             if(result.length === 0){
-                throw new RuntimeException('저장된 데이터를 조회할 수 없습니다.');
+                throw new RuntimeException('저장된 데이터가 없습니다.');
             }
 
             data = result[0];
+        } catch (err) {
+            throw err;
+        } finally {
+            if (dbcon) {dbcon.release();}
+        }
+        return data;
+    }
+
+
+    /* 상품 담기*/
+    async addCart(params) {
+        let dbcon = null;
+        let data = null;
+
+        try{
+            dbcon = await DBPool.getConnection();
+
+            let sql = mybatisMapper.getStatement('CartMapper', 'insertCart', params);
+            let [result] = await dbcon.query(sql);
+
+            if(result.length === 0){
+                throw new RuntimeException('저장된 데이터가 없습니다.');
+            }
+
+            data = result;
         } catch (err) {
             throw err;
         } finally {
