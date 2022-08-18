@@ -21,6 +21,7 @@
             "hash": "0d62838b708096b13e73bf362e0ac2883cb6b21656ba75701045e76df58c8c16"
         },
         {
+<<<<<<< Updated upstream
             "date": 1660277175409,
             "name": "_files\\_logs\\log_220812.log",
             "hash": "001f4c42c6964f56c60a8291991468e97144e65d86908dfd9d3a1cfee2572227"
@@ -34,6 +35,21 @@
             "date": 1660621047749,
             "name": "_files\\_logs\\log_220816.log",
             "hash": "0d59b80f4384a6816c96748224abd4a9232ac3132fca2ca7b0d8b68feddff747"
+=======
+            "date": 1660471448071,
+            "name": "_files\\_logs\\log_220814.log",
+            "hash": "e0ffdd6578207457acae4c1ee802a2a70a4c0b0f52fb8e5db97575ce65387f34"
+        },
+        {
+            "date": 1660489621838,
+            "name": "_files\\_logs\\log_220815.log",
+            "hash": "409d5b76ce19a89e841370aa50aaca5468605264622eb729f09409c8650afd1b"
+        },
+        {
+            "date": 1660575659495,
+            "name": "_files\\_logs\\log_220816.log",
+            "hash": "d11db6a15e081b6c552343437670cd4f950180b212f8e0103b8c1b26da67fd2a"
+>>>>>>> Stashed changes
         }
     ],
     "hashType": "sha256"

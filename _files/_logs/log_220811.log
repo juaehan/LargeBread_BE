@@ -2829,6 +2829,7 @@
 22/08/11 14:43:12 726 [debug]: Server Address => http://192.168.233.1:3001
 22/08/11 14:43:12 727 [debug]: Server Address => http://192.168.0.37:3001
 22/08/11 14:43:12 728 [debug]: ----------------------------------------------
+<<<<<<< Updated upstream
 22/08/11 15:03:28 800 [debug]: ----------------------------------------------
 22/08/11 15:03:28 804 [debug]: |            Start Express Server            |
 22/08/11 15:03:28 805 [debug]: ----------------------------------------------
@@ -2913,3 +2914,1398 @@
 22/08/11 15:25:19 678 [info]:  >> Connection 반납됨 [threaId]=25
 22/08/11 15:25:19 680 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
 22/08/11 15:25:19 681 [debug]: ----------------------------------------------
+=======
+22/08/11 17:03:13 206 [debug]: ----------------------------------------------
+22/08/11 17:03:13 208 [debug]: |            Start Express Server            |
+22/08/11 17:03:13 209 [debug]: ----------------------------------------------
+22/08/11 17:03:13 209 [debug]: Server Address => http://192.168.152.1:3001
+22/08/11 17:03:13 210 [debug]: Server Address => http://192.168.172.1:3001
+22/08/11 17:03:13 211 [debug]: Server Address => http://192.168.45.241:3001
+22/08/11 17:03:13 211 [debug]: ----------------------------------------------
+22/08/11 17:03:18 645 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:03:18 646 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:03:18 648 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:03:18 656 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:03:18 768 [error]: Access denied for user 'largebread'@'localhost' (using password: YES)
+22/08/11 17:03:18 770 [error]: [Error] Access denied for user 'largebread'@'localhost' (using password: YES)
+22/08/11 17:03:18 772 [error]: Error: Access denied for user 'largebread'@'localhost' (using password: YES)
+    at Packet.asError (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+22/08/11 17:03:18 782 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 136ms
+22/08/11 17:03:18 783 [debug]: ----------------------------------------------
+22/08/11 17:03:18 792 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:03:18 792 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:03:18 793 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:03:18 832 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:03:18 846 [error]: Access denied for user 'largebread'@'localhost' (using password: YES)
+22/08/11 17:03:18 847 [error]: [Error] Access denied for user 'largebread'@'localhost' (using password: YES)
+22/08/11 17:03:18 848 [error]: Error: Access denied for user 'largebread'@'localhost' (using password: YES)
+    at Packet.asError (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+22/08/11 17:03:18 851 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 59ms
+22/08/11 17:03:18 851 [debug]: ----------------------------------------------
+22/08/11 17:03:21 045 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:03:21 046 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:03:21 047 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:03:21 048 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:03:21 059 [error]: Access denied for user 'largebread'@'localhost' (using password: YES)
+22/08/11 17:03:21 060 [error]: [Error] Access denied for user 'largebread'@'localhost' (using password: YES)
+22/08/11 17:03:21 060 [error]: Error: Access denied for user 'largebread'@'localhost' (using password: YES)
+    at Packet.asError (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+22/08/11 17:03:21 065 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 19ms
+22/08/11 17:03:21 065 [debug]: ----------------------------------------------
+22/08/11 17:03:21 071 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:03:21 072 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:03:21 073 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:03:21 075 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:03:21 085 [error]: Access denied for user 'largebread'@'localhost' (using password: YES)
+22/08/11 17:03:21 086 [error]: [Error] Access denied for user 'largebread'@'localhost' (using password: YES)
+22/08/11 17:03:21 087 [error]: Error: Access denied for user 'largebread'@'localhost' (using password: YES)
+    at Packet.asError (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+22/08/11 17:03:21 092 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 20ms
+22/08/11 17:03:21 093 [debug]: ----------------------------------------------
+22/08/11 17:04:22 849 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:04:22 850 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:04:22 851 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:04:22 854 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:04:22 865 [error]: Access denied for user 'largebread'@'localhost' (using password: YES)
+22/08/11 17:04:22 866 [error]: [Error] Access denied for user 'largebread'@'localhost' (using password: YES)
+22/08/11 17:04:22 867 [error]: Error: Access denied for user 'largebread'@'localhost' (using password: YES)
+    at Packet.asError (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+22/08/11 17:04:22 872 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 22ms
+22/08/11 17:04:22 873 [debug]: ----------------------------------------------
+22/08/11 17:04:22 878 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:04:22 879 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:04:22 879 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:04:22 881 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:04:22 891 [error]: Access denied for user 'largebread'@'localhost' (using password: YES)
+22/08/11 17:04:22 891 [error]: [Error] Access denied for user 'largebread'@'localhost' (using password: YES)
+22/08/11 17:04:22 892 [error]: Error: Access denied for user 'largebread'@'localhost' (using password: YES)
+    at Packet.asError (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+22/08/11 17:04:22 895 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 16ms
+22/08/11 17:04:22 895 [debug]: ----------------------------------------------
+22/08/11 17:04:33 997 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:04:33 998 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:04:33 999 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:04:34 000 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:04:34 006 [error]: Access denied for user 'largebread'@'localhost' (using password: YES)
+22/08/11 17:04:34 007 [error]: [Error] Access denied for user 'largebread'@'localhost' (using password: YES)
+22/08/11 17:04:34 008 [error]: Error: Access denied for user 'largebread'@'localhost' (using password: YES)
+    at Packet.asError (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+22/08/11 17:04:34 011 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 13ms
+22/08/11 17:04:34 011 [debug]: ----------------------------------------------
+22/08/11 17:04:34 016 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:04:34 017 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:04:34 018 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:04:34 019 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:04:34 029 [error]: Access denied for user 'largebread'@'localhost' (using password: YES)
+22/08/11 17:04:34 030 [error]: [Error] Access denied for user 'largebread'@'localhost' (using password: YES)
+22/08/11 17:04:34 031 [error]: Error: Access denied for user 'largebread'@'localhost' (using password: YES)
+    at Packet.asError (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+22/08/11 17:04:34 034 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 17ms
+22/08/11 17:04:34 035 [debug]: ----------------------------------------------
+22/08/11 17:04:38 175 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:04:38 176 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:04:38 176 [debug]: [GET] http://localhost:3001/
+22/08/11 17:04:38 179 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/11 17:04:38 179 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/leeah/LargeBread_BE/app.js:115:48
+    at Layer.handle [as handle_request] (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/11 17:04:38 183 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/08/11 17:04:38 183 [debug]: ----------------------------------------------
+22/08/11 17:04:38 360 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:04:38 361 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:04:38 361 [debug]: [GET] http://localhost:3001/favicon.ico
+22/08/11 17:04:38 364 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 4ms
+22/08/11 17:04:38 365 [debug]: ----------------------------------------------
+22/08/11 17:04:51 142 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:04:51 142 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:04:51 143 [debug]: [GET] http://localhost:3001/1
+22/08/11 17:04:51 145 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/11 17:04:51 145 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/leeah/LargeBread_BE/app.js:115:48
+    at Layer.handle [as handle_request] (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/11 17:04:51 149 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/08/11 17:04:51 149 [debug]: ----------------------------------------------
+22/08/11 17:04:56 381 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:04:56 382 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:04:56 382 [debug]: [GET] http://localhost:3001/1
+22/08/11 17:04:56 383 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/11 17:04:56 384 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/leeah/LargeBread_BE/app.js:115:48
+    at Layer.handle [as handle_request] (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/11 17:04:56 386 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 5ms
+22/08/11 17:04:56 387 [debug]: ----------------------------------------------
+22/08/11 17:05:05 995 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:05:05 996 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:05:05 996 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:05:05 997 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:05:06 003 [error]: Access denied for user 'largebread'@'localhost' (using password: YES)
+22/08/11 17:05:06 004 [error]: [Error] Access denied for user 'largebread'@'localhost' (using password: YES)
+22/08/11 17:05:06 005 [error]: Error: Access denied for user 'largebread'@'localhost' (using password: YES)
+    at Packet.asError (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+22/08/11 17:05:06 007 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/11 17:05:06 008 [debug]: ----------------------------------------------
+22/08/11 17:06:39 096 [debug]: ----------------------------------------------
+22/08/11 17:06:39 099 [debug]: |            Start Express Server            |
+22/08/11 17:06:39 099 [debug]: ----------------------------------------------
+22/08/11 17:06:39 100 [debug]: Server Address => http://192.168.152.1:3001
+22/08/11 17:06:39 100 [debug]: Server Address => http://192.168.172.1:3001
+22/08/11 17:06:39 100 [debug]: Server Address => http://192.168.45.241:3001
+22/08/11 17:06:39 101 [debug]: ----------------------------------------------
+22/08/11 17:06:45 291 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:06:45 293 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:06:45 295 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:06:45 302 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:06:45 416 [error]: Access denied for user 'largebread'@'localhost' (using password: YES)
+22/08/11 17:06:45 426 [error]: [Error] Access denied for user 'largebread'@'localhost' (using password: YES)
+22/08/11 17:06:45 457 [error]: Error: Access denied for user 'largebread'@'localhost' (using password: YES)
+    at Packet.asError (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+22/08/11 17:06:45 473 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 180ms
+22/08/11 17:06:45 474 [debug]: ----------------------------------------------
+22/08/11 17:06:45 491 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:06:45 507 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:06:45 507 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:06:45 509 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:06:45 517 [error]: Access denied for user 'largebread'@'localhost' (using password: YES)
+22/08/11 17:06:45 517 [error]: [Error] Access denied for user 'largebread'@'localhost' (using password: YES)
+22/08/11 17:06:45 518 [error]: Error: Access denied for user 'largebread'@'localhost' (using password: YES)
+    at Packet.asError (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+22/08/11 17:06:45 520 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 14ms
+22/08/11 17:06:45 520 [debug]: ----------------------------------------------
+22/08/11 17:07:09 237 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:07:09 238 [debug]: [Client] ::ffff:192.168.152.1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:07:09 242 [debug]: [GET] http://192.168.152.1:3001/
+22/08/11 17:07:09 245 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/11 17:07:09 245 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/leeah/LargeBread_BE/app.js:115:48
+    at Layer.handle [as handle_request] (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/11 17:07:09 247 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/08/11 17:07:09 248 [debug]: ----------------------------------------------
+22/08/11 17:07:09 381 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:07:09 382 [debug]: [Client] ::ffff:192.168.152.1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:07:09 382 [debug]: [GET] http://192.168.152.1:3001/favicon.ico
+22/08/11 17:07:09 385 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 3ms
+22/08/11 17:07:09 386 [debug]: ----------------------------------------------
+22/08/11 17:07:16 362 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:07:16 363 [debug]: [Client] ::ffff:192.168.152.1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:07:16 363 [debug]: [GET] http://192.168.152.1:3001/product/1
+22/08/11 17:07:16 364 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:07:16 370 [error]: Access denied for user 'largebread'@'localhost' (using password: YES)
+22/08/11 17:07:16 370 [error]: [Error] Access denied for user 'largebread'@'localhost' (using password: YES)
+22/08/11 17:07:16 370 [error]: Error: Access denied for user 'largebread'@'localhost' (using password: YES)
+    at Packet.asError (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+22/08/11 17:07:16 371 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/08/11 17:07:16 371 [debug]: ----------------------------------------------
+22/08/11 17:07:26 107 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:07:26 107 [debug]: [Client] ::ffff:192.168.45.241 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:07:26 107 [debug]: [GET] http://192.168.45.241:3001/
+22/08/11 17:07:26 108 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/11 17:07:26 108 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/leeah/LargeBread_BE/app.js:115:48
+    at Layer.handle [as handle_request] (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/11 17:07:26 110 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 3ms
+22/08/11 17:07:26 110 [debug]: ----------------------------------------------
+22/08/11 17:07:26 239 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:07:26 239 [debug]: [Client] ::ffff:192.168.45.241 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:07:26 240 [debug]: [GET] http://192.168.45.241:3001/favicon.ico
+22/08/11 17:07:26 241 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 2ms
+22/08/11 17:07:26 241 [debug]: ----------------------------------------------
+22/08/11 17:07:27 664 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:07:27 665 [debug]: [Client] ::ffff:192.168.172.1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:07:27 665 [debug]: [GET] http://192.168.172.1:3001/
+22/08/11 17:07:27 666 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/11 17:07:27 666 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/leeah/LargeBread_BE/app.js:115:48
+    at Layer.handle [as handle_request] (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/11 17:07:27 668 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 3ms
+22/08/11 17:07:27 668 [debug]: ----------------------------------------------
+22/08/11 17:07:27 789 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:07:27 790 [debug]: [Client] ::ffff:192.168.172.1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:07:27 790 [debug]: [GET] http://192.168.172.1:3001/favicon.ico
+22/08/11 17:07:27 793 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 3ms
+22/08/11 17:07:27 794 [debug]: ----------------------------------------------
+22/08/11 17:08:39 507 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:08:39 507 [debug]: [Client] ::ffff:192.168.152.1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:08:39 508 [debug]: [GET] http://192.168.152.1:3001/product/1
+22/08/11 17:08:39 509 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:08:39 515 [error]: Access denied for user 'largebread'@'localhost' (using password: YES)
+22/08/11 17:08:39 515 [error]: [Error] Access denied for user 'largebread'@'localhost' (using password: YES)
+22/08/11 17:08:39 515 [error]: Error: Access denied for user 'largebread'@'localhost' (using password: YES)
+    at Packet.asError (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+22/08/11 17:08:39 516 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/08/11 17:08:39 516 [debug]: ----------------------------------------------
+22/08/11 17:08:45 426 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:08:45 427 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:08:45 427 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:08:45 429 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:08:45 438 [error]: Access denied for user 'largebread'@'localhost' (using password: YES)
+22/08/11 17:08:45 438 [error]: [Error] Access denied for user 'largebread'@'localhost' (using password: YES)
+22/08/11 17:08:45 439 [error]: Error: Access denied for user 'largebread'@'localhost' (using password: YES)
+    at Packet.asError (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+22/08/11 17:08:45 441 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 15ms
+22/08/11 17:08:45 441 [debug]: ----------------------------------------------
+22/08/11 17:19:20 866 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:19:20 867 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:19:20 867 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:19:20 868 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:19:20 883 [error]: Unknown database 'largebread'
+22/08/11 17:19:20 883 [error]: [Error] Unknown database 'largebread'
+22/08/11 17:19:20 884 [error]: Error: Unknown database 'largebread'
+    at Packet.asError (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+22/08/11 17:19:20 887 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 20ms
+22/08/11 17:19:20 888 [debug]: ----------------------------------------------
+22/08/11 17:19:20 889 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:19:20 890 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:19:20 890 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:19:20 893 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:19:20 897 [error]: Unknown database 'largebread'
+22/08/11 17:19:20 898 [error]: [Error] Unknown database 'largebread'
+22/08/11 17:19:20 899 [error]: Error: Unknown database 'largebread'
+    at Packet.asError (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+22/08/11 17:19:20 900 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/11 17:19:20 901 [debug]: ----------------------------------------------
+22/08/11 17:19:32 611 [debug]: ----------------------------------------------
+22/08/11 17:19:32 614 [debug]: |            Start Express Server            |
+22/08/11 17:19:32 615 [debug]: ----------------------------------------------
+22/08/11 17:19:32 615 [debug]: Server Address => http://192.168.152.1:3001
+22/08/11 17:19:32 615 [debug]: Server Address => http://192.168.172.1:3001
+22/08/11 17:19:32 616 [debug]: Server Address => http://192.168.45.241:3001
+22/08/11 17:19:32 616 [debug]: ----------------------------------------------
+22/08/11 17:19:52 504 [debug]: ----------------------------------------------
+22/08/11 17:19:52 506 [debug]: |            Start Express Server            |
+22/08/11 17:19:52 507 [debug]: ----------------------------------------------
+22/08/11 17:19:52 507 [debug]: Server Address => http://192.168.152.1:3001
+22/08/11 17:19:52 508 [debug]: Server Address => http://192.168.172.1:3001
+22/08/11 17:19:52 508 [debug]: Server Address => http://192.168.45.241:3001
+22/08/11 17:19:52 508 [debug]: ----------------------------------------------
+22/08/11 17:19:55 851 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:19:55 853 [debug]: [Client] ::ffff:192.168.152.1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:19:55 854 [debug]: [GET] http://192.168.152.1:3001/
+22/08/11 17:19:55 861 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/08/11 17:19:55 862 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///C:/Users/leeah/LargeBread_BE/app.js:115:48
+    at Layer.handle [as handle_request] (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:286:9
+    at param (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (C:\Users\leeah\LargeBread_BE\node_modules\express\lib\router\index.js:328:13)
+22/08/11 17:19:55 867 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 15ms
+22/08/11 17:19:55 868 [debug]: ----------------------------------------------
+22/08/11 17:20:03 247 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:20:03 248 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:20:03 249 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:20:03 252 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:20:03 351 [error]: Unknown database 'largebread'
+22/08/11 17:20:03 352 [error]: [Error] Unknown database 'largebread'
+22/08/11 17:20:03 353 [error]: Error: Unknown database 'largebread'
+    at Packet.asError (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+22/08/11 17:20:03 356 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 108ms
+22/08/11 17:20:03 358 [debug]: ----------------------------------------------
+22/08/11 17:20:03 365 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:20:03 365 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:20:03 365 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:20:03 367 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:20:03 371 [error]: Unknown database 'largebread'
+22/08/11 17:20:03 372 [error]: [Error] Unknown database 'largebread'
+22/08/11 17:20:03 372 [error]: Error: Unknown database 'largebread'
+    at Packet.asError (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+22/08/11 17:20:03 376 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/11 17:20:03 376 [debug]: ----------------------------------------------
+22/08/11 17:24:20 551 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:24:20 552 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:24:20 552 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:24:20 553 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:24:20 557 [error]: Unknown database 'largebread'
+22/08/11 17:24:20 558 [error]: [Error] Unknown database 'largebread'
+22/08/11 17:24:20 558 [error]: Error: Unknown database 'largebread'
+    at Packet.asError (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+22/08/11 17:24:20 560 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/08/11 17:24:20 560 [debug]: ----------------------------------------------
+22/08/11 17:24:20 562 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:24:20 563 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:24:20 563 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:24:20 564 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:24:20 570 [error]: Unknown database 'largebread'
+22/08/11 17:24:20 571 [error]: [Error] Unknown database 'largebread'
+22/08/11 17:24:20 572 [error]: Error: Unknown database 'largebread'
+    at Packet.asError (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+22/08/11 17:24:20 575 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/08/11 17:24:20 576 [debug]: ----------------------------------------------
+22/08/11 17:24:23 932 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:24:23 933 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:24:23 934 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:24:23 935 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:24:23 940 [error]: Unknown database 'largebread'
+22/08/11 17:24:23 941 [error]: [Error] Unknown database 'largebread'
+22/08/11 17:24:23 941 [error]: Error: Unknown database 'largebread'
+    at Packet.asError (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+22/08/11 17:24:23 942 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/08/11 17:24:23 943 [debug]: ----------------------------------------------
+22/08/11 17:24:23 945 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:24:23 945 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:24:23 946 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:24:23 947 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:24:23 952 [error]: Unknown database 'largebread'
+22/08/11 17:24:23 952 [error]: [Error] Unknown database 'largebread'
+22/08/11 17:24:23 953 [error]: Error: Unknown database 'largebread'
+    at Packet.asError (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+22/08/11 17:24:23 957 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/08/11 17:24:23 957 [debug]: ----------------------------------------------
+22/08/11 17:25:59 295 [debug]: ----------------------------------------------
+22/08/11 17:25:59 298 [debug]: |            Start Express Server            |
+22/08/11 17:25:59 298 [debug]: ----------------------------------------------
+22/08/11 17:25:59 299 [debug]: Server Address => http://192.168.152.1:3001
+22/08/11 17:25:59 299 [debug]: Server Address => http://192.168.172.1:3001
+22/08/11 17:25:59 300 [debug]: Server Address => http://192.168.45.241:3001
+22/08/11 17:25:59 300 [debug]: ----------------------------------------------
+22/08/11 17:26:02 559 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:26:02 560 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:26:02 561 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:26:02 569 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:26:02 671 [error]: Unknown database 'largebread'
+22/08/11 17:26:02 673 [error]: [Error] Unknown database 'largebread'
+22/08/11 17:26:02 674 [error]: Error: Unknown database 'largebread'
+    at Packet.asError (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+22/08/11 17:26:02 681 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 121ms
+22/08/11 17:26:02 682 [debug]: ----------------------------------------------
+22/08/11 17:26:02 690 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:26:02 690 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:26:02 691 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:26:02 692 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:26:02 697 [error]: Unknown database 'largebread'
+22/08/11 17:26:02 700 [error]: [Error] Unknown database 'largebread'
+22/08/11 17:26:02 700 [error]: Error: Unknown database 'largebread'
+    at Packet.asError (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packets\packet.js:728:17)
+    at ClientHandshake.execute (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\commands\command.js:29:26)
+    at PoolConnection.handlePacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:456:32)
+    at PacketParser.onPacket (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:85:12)
+    at PacketParser.executeStart (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\lib\connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+22/08/11 17:26:02 703 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 13ms
+22/08/11 17:26:02 704 [debug]: ----------------------------------------------
+22/08/11 17:46:29 796 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:46:29 797 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:46:29 798 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:46:29 799 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:46:29 803 [info]:  >> DATABASE 접속됨 [threaId=38]
+22/08/11 17:46:29 804 [info]:  >> Connection 임대됨 [threaId=38]
+22/08/11 17:46:29 808 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/11 17:46:29 812 [info]:  >> Connection 반납됨 [threaId]=38
+22/08/11 17:46:29 814 [error]: [Error] Table 'largebread.product' doesn't exist
+22/08/11 17:46:29 816 [error]: Error: Table 'largebread.product' doesn't exist
+    at PromisePoolConnection.query (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\promise.js:93:22)
+    at ProductService.getItem (file:///C:/Users/leeah/LargeBread_BE/services/ProductService.js:21:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///C:/Users/leeah/LargeBread_BE/controllers/ProductController.js:13:20
+22/08/11 17:46:29 818 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 21ms
+22/08/11 17:46:29 819 [debug]: ----------------------------------------------
+22/08/11 17:46:29 824 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:46:29 826 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:46:29 827 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:46:29 828 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:46:29 828 [info]:  >> Connection 임대됨 [threaId=38]
+22/08/11 17:46:29 830 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/11 17:46:29 831 [info]:  >> Connection 반납됨 [threaId]=38
+22/08/11 17:46:29 832 [error]: [Error] Table 'largebread.product' doesn't exist
+22/08/11 17:46:29 832 [error]: Error: Table 'largebread.product' doesn't exist
+    at PromisePoolConnection.query (C:\Users\leeah\LargeBread_BE\node_modules\mysql2\promise.js:93:22)
+    at ProductService.getItem (file:///C:/Users/leeah/LargeBread_BE/services/ProductService.js:21:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///C:/Users/leeah/LargeBread_BE/controllers/ProductController.js:13:20
+22/08/11 17:46:29 839 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/08/11 17:46:29 842 [debug]: ----------------------------------------------
+22/08/11 17:56:38 050 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:56:38 051 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:56:38 054 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:56:38 055 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:56:38 056 [info]:  >> Connection 임대됨 [threaId=38]
+22/08/11 17:56:38 057 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/11 17:56:38 069 [info]:  >> Connection 반납됨 [threaId]=38
+22/08/11 17:56:38 071 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 20ms
+22/08/11 17:56:38 072 [debug]: ----------------------------------------------
+22/08/11 17:56:38 074 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:56:38 075 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:56:38 076 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:56:38 078 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:56:38 079 [info]:  >> Connection 임대됨 [threaId=38]
+22/08/11 17:56:38 083 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/11 17:56:38 085 [info]:  >> Connection 반납됨 [threaId]=38
+22/08/11 17:56:38 086 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/11 17:56:38 087 [debug]: ----------------------------------------------
+22/08/11 17:56:38 223 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:56:38 226 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:56:38 227 [debug]: [GET] http://localhost:3001/upload/1660192969315.jpg
+22/08/11 17:56:38 229 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:56:38 230 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:56:38 230 [debug]: [GET] http://localhost:3001/upload/1660192975167.jpg
+22/08/11 17:56:38 239 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:56:38 241 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:56:38 242 [debug]: [GET] http://localhost:3001/upload/1660192982086.jpg
+22/08/11 17:56:38 245 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:56:38 245 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:56:38 246 [debug]: [GET] http://localhost:3001/upload/1660192987971.jpg
+22/08/11 17:56:38 250 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:56:38 250 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:56:38 251 [debug]: [GET] http://localhost:3001/upload/1660192992518.jpg
+22/08/11 17:56:38 252 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:56:38 252 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:56:38 253 [debug]: [GET] http://localhost:3001/upload/1660192998114.jpg
+22/08/11 17:56:38 273 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 23ms
+22/08/11 17:56:38 275 [debug]: ----------------------------------------------
+22/08/11 17:56:38 278 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 26ms
+22/08/11 17:56:38 284 [debug]: ----------------------------------------------
+22/08/11 17:56:38 291 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:56:38 292 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:56:38 295 [debug]: [GET] http://localhost:3001/upload/1660193003646.jpg
+22/08/11 17:56:38 298 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:56:38 298 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:56:38 299 [debug]: [GET] http://localhost:3001/upload/1660193008758.jpg
+22/08/11 17:56:38 300 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 55ms
+22/08/11 17:56:38 301 [debug]: ----------------------------------------------
+22/08/11 17:56:38 304 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 78ms
+22/08/11 17:56:38 306 [debug]: ----------------------------------------------
+22/08/11 17:56:38 307 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 77ms
+22/08/11 17:56:38 307 [debug]: ----------------------------------------------
+22/08/11 17:56:38 310 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 70ms
+22/08/11 17:56:38 311 [debug]: ----------------------------------------------
+22/08/11 17:56:38 317 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 25ms
+22/08/11 17:56:38 317 [debug]: ----------------------------------------------
+22/08/11 17:56:38 325 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 27ms
+22/08/11 17:56:38 325 [debug]: ----------------------------------------------
+22/08/11 17:56:48 936 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:56:48 937 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:56:48 937 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:56:48 938 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:56:48 938 [info]:  >> Connection 임대됨 [threaId=38]
+22/08/11 17:56:48 939 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/11 17:56:48 941 [info]:  >> Connection 반납됨 [threaId]=38
+22/08/11 17:56:48 943 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 6ms
+22/08/11 17:56:48 943 [debug]: ----------------------------------------------
+22/08/11 17:56:48 946 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:56:48 947 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:56:48 947 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:56:48 949 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:56:48 949 [info]:  >> Connection 임대됨 [threaId=38]
+22/08/11 17:56:48 950 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/11 17:56:48 951 [info]:  >> Connection 반납됨 [threaId]=38
+22/08/11 17:56:48 952 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 5ms
+22/08/11 17:56:48 953 [debug]: ----------------------------------------------
+22/08/11 17:56:49 133 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:56:49 134 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:56:49 135 [debug]: [GET] http://localhost:3001/upload/1660192969315.jpg
+22/08/11 17:56:49 139 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:56:49 140 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:56:49 142 [debug]: [GET] http://localhost:3001/upload/1660192975167.jpg
+22/08/11 17:56:49 147 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 13ms
+22/08/11 17:56:49 152 [debug]: ----------------------------------------------
+22/08/11 17:56:49 153 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:56:49 154 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:56:49 154 [debug]: [GET] http://localhost:3001/upload/1660192982086.jpg
+22/08/11 17:56:49 158 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 18ms
+22/08/11 17:56:49 158 [debug]: ----------------------------------------------
+22/08/11 17:56:49 163 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:56:49 167 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:56:49 213 [debug]: [GET] http://localhost:3001/upload/1660192987971.jpg
+22/08/11 17:56:49 216 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:56:49 217 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:56:49 222 [debug]: [GET] http://localhost:3001/upload/1660192992518.jpg
+22/08/11 17:56:49 228 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:56:49 230 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:56:49 232 [debug]: [GET] http://localhost:3001/upload/1660192998114.jpg
+22/08/11 17:56:49 235 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:56:49 236 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:56:49 236 [debug]: [GET] http://localhost:3001/upload/1660193003646.jpg
+22/08/11 17:56:49 239 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 84ms
+22/08/11 17:56:49 240 [debug]: ----------------------------------------------
+22/08/11 17:56:49 246 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:56:49 247 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:56:49 247 [debug]: [GET] http://localhost:3001/upload/1660193008758.jpg
+22/08/11 17:56:49 249 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 83ms
+22/08/11 17:56:49 250 [debug]: ----------------------------------------------
+22/08/11 17:56:49 252 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 35ms
+22/08/11 17:56:49 255 [debug]: ----------------------------------------------
+22/08/11 17:56:49 258 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 28ms
+22/08/11 17:56:49 260 [debug]: ----------------------------------------------
+22/08/11 17:56:49 264 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 28ms
+22/08/11 17:56:49 265 [debug]: ----------------------------------------------
+22/08/11 17:56:49 267 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 20ms
+22/08/11 17:56:49 267 [debug]: ----------------------------------------------
+22/08/11 17:56:56 827 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:56:56 829 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:56:56 830 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:56:56 833 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:56:56 834 [info]:  >> Connection 임대됨 [threaId=38]
+22/08/11 17:56:56 835 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/11 17:56:56 837 [info]:  >> Connection 반납됨 [threaId]=38
+22/08/11 17:56:56 840 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/11 17:56:56 841 [debug]: ----------------------------------------------
+22/08/11 17:56:56 842 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:56:56 843 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:56:56 844 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:56:56 845 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:56:56 845 [info]:  >> Connection 임대됨 [threaId=38]
+22/08/11 17:56:56 847 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/11 17:56:56 848 [info]:  >> Connection 반납됨 [threaId]=38
+22/08/11 17:56:56 851 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/08/11 17:56:56 852 [debug]: ----------------------------------------------
+22/08/11 17:56:56 927 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:56:56 928 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:56:56 929 [debug]: [GET] http://localhost:3001/upload/1660192969315.jpg
+22/08/11 17:56:56 933 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 5ms
+22/08/11 17:56:56 938 [debug]: ----------------------------------------------
+22/08/11 17:56:56 942 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:56:56 943 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:56:56 943 [debug]: [GET] http://localhost:3001/upload/1660192992518.jpg
+22/08/11 17:56:56 944 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:56:56 945 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:56:56 945 [debug]: [GET] http://localhost:3001/upload/1660192975167.jpg
+22/08/11 17:56:56 946 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:56:56 946 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:56:56 947 [debug]: [GET] http://localhost:3001/upload/1660192982086.jpg
+22/08/11 17:56:56 947 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:56:56 948 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:56:56 948 [debug]: [GET] http://localhost:3001/upload/1660192987971.jpg
+22/08/11 17:56:56 950 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:56:56 950 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:56:56 951 [debug]: [GET] http://localhost:3001/upload/1660192998114.jpg
+22/08/11 17:56:56 952 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:56:56 952 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:56:56 953 [debug]: [GET] http://localhost:3001/upload/1660193003646.jpg
+22/08/11 17:56:56 957 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 14ms
+22/08/11 17:56:56 958 [debug]: ----------------------------------------------
+22/08/11 17:56:56 960 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 15ms
+22/08/11 17:56:56 961 [debug]: ----------------------------------------------
+22/08/11 17:56:56 962 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 16ms
+22/08/11 17:56:56 963 [debug]: ----------------------------------------------
+22/08/11 17:56:56 964 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 16ms
+22/08/11 17:56:56 965 [debug]: ----------------------------------------------
+22/08/11 17:56:56 966 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 16ms
+22/08/11 17:56:56 966 [debug]: ----------------------------------------------
+22/08/11 17:56:56 967 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 15ms
+22/08/11 17:56:56 967 [debug]: ----------------------------------------------
+22/08/11 17:56:56 968 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:56:56 968 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:56:56 969 [debug]: [GET] http://localhost:3001/upload/1660193008758.jpg
+22/08/11 17:56:56 970 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 2ms
+22/08/11 17:56:56 971 [debug]: ----------------------------------------------
+22/08/11 17:57:01 379 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:57:01 379 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:57:01 381 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:57:01 386 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:57:01 389 [info]:  >> Connection 임대됨 [threaId=38]
+22/08/11 17:57:01 392 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/11 17:57:01 393 [info]:  >> Connection 반납됨 [threaId]=38
+22/08/11 17:57:01 394 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 15ms
+22/08/11 17:57:01 395 [debug]: ----------------------------------------------
+22/08/11 17:57:01 405 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:57:01 406 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:57:01 407 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:57:01 408 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:57:01 409 [info]:  >> Connection 임대됨 [threaId=38]
+22/08/11 17:57:01 411 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/11 17:57:01 414 [info]:  >> Connection 반납됨 [threaId]=38
+22/08/11 17:57:01 417 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/11 17:57:01 420 [debug]: ----------------------------------------------
+22/08/11 17:57:01 599 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:57:01 601 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:57:01 603 [debug]: [GET] http://localhost:3001/upload/1660192969315.jpg
+22/08/11 17:57:01 605 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:57:01 607 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:57:01 608 [debug]: [GET] http://localhost:3001/upload/1660192975167.jpg
+22/08/11 17:57:01 609 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:57:01 610 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:57:01 611 [debug]: [GET] http://localhost:3001/upload/1660192982086.jpg
+22/08/11 17:57:01 612 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:57:01 613 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:57:01 614 [debug]: [GET] http://localhost:3001/upload/1660192987971.jpg
+22/08/11 17:57:01 620 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:57:01 621 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:57:01 622 [debug]: [GET] http://localhost:3001/upload/1660192992518.jpg
+22/08/11 17:57:01 623 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:57:01 624 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:57:01 626 [debug]: [GET] http://localhost:3001/upload/1660192998114.jpg
+22/08/11 17:57:01 628 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 27ms
+22/08/11 17:57:01 629 [debug]: ----------------------------------------------
+22/08/11 17:57:01 635 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 28ms
+22/08/11 17:57:01 647 [debug]: ----------------------------------------------
+22/08/11 17:57:01 649 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 36ms
+22/08/11 17:57:01 649 [debug]: ----------------------------------------------
+22/08/11 17:57:01 659 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 49ms
+22/08/11 17:57:01 660 [debug]: ----------------------------------------------
+22/08/11 17:57:01 662 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 41ms
+22/08/11 17:57:01 666 [debug]: ----------------------------------------------
+22/08/11 17:57:01 670 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:57:01 670 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:57:01 671 [debug]: [GET] http://localhost:3001/upload/1660193008758.jpg
+22/08/11 17:57:01 674 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:57:01 675 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:57:01 676 [debug]: [GET] http://localhost:3001/upload/1660193003646.jpg
+22/08/11 17:57:01 677 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 53ms
+22/08/11 17:57:01 678 [debug]: ----------------------------------------------
+22/08/11 17:57:01 679 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/08/11 17:57:01 680 [debug]: ----------------------------------------------
+22/08/11 17:57:01 682 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/08/11 17:57:01 683 [debug]: ----------------------------------------------
+22/08/11 17:57:16 979 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:57:16 980 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:57:16 980 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:57:16 981 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:57:16 982 [info]:  >> Connection 임대됨 [threaId=38]
+22/08/11 17:57:16 983 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/11 17:57:16 984 [info]:  >> Connection 반납됨 [threaId]=38
+22/08/11 17:57:16 986 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 5ms
+22/08/11 17:57:16 986 [debug]: ----------------------------------------------
+22/08/11 17:57:16 989 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:57:16 989 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:57:16 990 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:57:16 991 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:57:16 992 [info]:  >> Connection 임대됨 [threaId=38]
+22/08/11 17:57:16 995 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/11 17:57:16 996 [info]:  >> Connection 반납됨 [threaId]=38
+22/08/11 17:57:17 000 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/11 17:57:17 001 [debug]: ----------------------------------------------
+22/08/11 17:57:17 183 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:57:17 184 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:57:17 184 [debug]: [GET] http://localhost:3001/upload/1660192969315.jpg
+22/08/11 17:57:17 188 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:57:17 188 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:57:17 189 [debug]: [GET] http://localhost:3001/upload/1660192975167.jpg
+22/08/11 17:57:17 190 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:57:17 191 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:57:17 193 [debug]: [GET] http://localhost:3001/upload/1660192982086.jpg
+22/08/11 17:57:17 196 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/08/11 17:57:17 197 [debug]: ----------------------------------------------
+22/08/11 17:57:17 199 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/11 17:57:17 200 [debug]: ----------------------------------------------
+22/08/11 17:57:17 201 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/08/11 17:57:17 201 [debug]: ----------------------------------------------
+22/08/11 17:57:17 203 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:57:17 203 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:57:17 204 [debug]: [GET] http://localhost:3001/upload/1660192998114.jpg
+22/08/11 17:57:17 208 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:57:17 208 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:57:17 209 [debug]: [GET] http://localhost:3001/upload/1660192987971.jpg
+22/08/11 17:57:17 211 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:57:17 212 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:57:17 213 [debug]: [GET] http://localhost:3001/upload/1660192992518.jpg
+22/08/11 17:57:17 217 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:57:17 219 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:57:17 220 [debug]: [GET] http://localhost:3001/upload/1660193008758.jpg
+22/08/11 17:57:17 225 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:57:17 226 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:57:17 226 [debug]: [GET] http://localhost:3001/upload/1660193003646.jpg
+22/08/11 17:57:17 227 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 24ms
+22/08/11 17:57:17 228 [debug]: ----------------------------------------------
+22/08/11 17:57:17 229 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 21ms
+22/08/11 17:57:17 229 [debug]: ----------------------------------------------
+22/08/11 17:57:17 232 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 20ms
+22/08/11 17:57:17 236 [debug]: ----------------------------------------------
+22/08/11 17:57:17 238 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 19ms
+22/08/11 17:57:17 239 [debug]: ----------------------------------------------
+22/08/11 17:57:17 241 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 15ms
+22/08/11 17:57:17 242 [debug]: ----------------------------------------------
+22/08/11 17:57:22 838 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:57:22 838 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:57:22 839 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:57:22 841 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:57:22 841 [info]:  >> Connection 임대됨 [threaId=38]
+22/08/11 17:57:22 843 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/11 17:57:22 844 [info]:  >> Connection 반납됨 [threaId]=38
+22/08/11 17:57:22 845 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/08/11 17:57:22 845 [debug]: ----------------------------------------------
+22/08/11 17:57:22 846 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:57:22 847 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:57:22 847 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:57:22 848 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:57:22 848 [info]:  >> Connection 임대됨 [threaId=38]
+22/08/11 17:57:22 849 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/11 17:57:22 850 [info]:  >> Connection 반납됨 [threaId]=38
+22/08/11 17:57:22 853 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/08/11 17:57:22 854 [debug]: ----------------------------------------------
+22/08/11 17:57:23 020 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:57:23 023 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:57:23 023 [debug]: [GET] http://localhost:3001/upload/1660192969315.jpg
+22/08/11 17:57:23 025 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:57:23 027 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:57:23 027 [debug]: [GET] http://localhost:3001/upload/1660192975167.jpg
+22/08/11 17:57:23 028 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:57:23 029 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:57:23 030 [debug]: [GET] http://localhost:3001/upload/1660192982086.jpg
+22/08/11 17:57:23 032 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/08/11 17:57:23 033 [debug]: ----------------------------------------------
+22/08/11 17:57:23 035 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/08/11 17:57:23 035 [debug]: ----------------------------------------------
+22/08/11 17:57:23 036 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/08/11 17:57:23 036 [debug]: ----------------------------------------------
+22/08/11 17:57:23 038 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:57:23 039 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:57:23 039 [debug]: [GET] http://localhost:3001/upload/1660192987971.jpg
+22/08/11 17:57:23 042 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:57:23 043 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:57:23 044 [debug]: [GET] http://localhost:3001/upload/1660192992518.jpg
+22/08/11 17:57:23 046 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:57:23 046 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:57:23 046 [debug]: [GET] http://localhost:3001/upload/1660192998114.jpg
+22/08/11 17:57:23 048 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:57:23 048 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:57:23 048 [debug]: [GET] http://localhost:3001/upload/1660193003646.jpg
+22/08/11 17:57:23 050 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:57:23 051 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:57:23 052 [debug]: [GET] http://localhost:3001/upload/1660193008758.jpg
+22/08/11 17:57:23 055 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 16ms
+22/08/11 17:57:23 056 [debug]: ----------------------------------------------
+22/08/11 17:57:23 057 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 14ms
+22/08/11 17:57:23 078 [debug]: ----------------------------------------------
+22/08/11 17:57:23 079 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 33ms
+22/08/11 17:57:23 081 [debug]: ----------------------------------------------
+22/08/11 17:57:23 083 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 35ms
+22/08/11 17:57:23 083 [debug]: ----------------------------------------------
+22/08/11 17:57:23 084 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 33ms
+22/08/11 17:57:23 085 [debug]: ----------------------------------------------
+22/08/11 17:58:26 975 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:58:26 975 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:58:26 975 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:58:26 977 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:58:26 977 [info]:  >> Connection 임대됨 [threaId=38]
+22/08/11 17:58:26 979 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/11 17:58:26 980 [info]:  >> Connection 반납됨 [threaId]=38
+22/08/11 17:58:26 981 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 6ms
+22/08/11 17:58:26 982 [debug]: ----------------------------------------------
+22/08/11 17:58:26 986 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:58:26 987 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:58:26 987 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:58:26 989 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:58:26 990 [info]:  >> Connection 임대됨 [threaId=38]
+22/08/11 17:58:26 991 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/11 17:58:26 992 [info]:  >> Connection 반납됨 [threaId]=38
+22/08/11 17:58:26 993 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 6ms
+22/08/11 17:58:26 993 [debug]: ----------------------------------------------
+22/08/11 17:58:27 142 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:58:27 146 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:58:27 147 [debug]: [GET] http://localhost:3001/upload/1660192969315.jpg
+22/08/11 17:58:27 152 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:58:27 152 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:58:27 153 [debug]: [GET] http://localhost:3001/upload/1660192982086.jpg
+22/08/11 17:58:27 157 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:58:27 160 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:58:27 162 [debug]: [GET] http://localhost:3001/upload/1660192975167.jpg
+22/08/11 17:58:27 164 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:58:27 166 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:58:27 167 [debug]: [GET] http://localhost:3001/upload/1660192987971.jpg
+22/08/11 17:58:27 170 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 24ms
+22/08/11 17:58:27 171 [debug]: ----------------------------------------------
+22/08/11 17:58:27 173 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:58:27 174 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:58:27 174 [debug]: [GET] http://localhost:3001/upload/1660192992518.jpg
+22/08/11 17:58:27 176 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 24ms
+22/08/11 17:58:27 178 [debug]: ----------------------------------------------
+22/08/11 17:58:27 179 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 19ms
+22/08/11 17:58:27 180 [debug]: ----------------------------------------------
+22/08/11 17:58:27 181 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 15ms
+22/08/11 17:58:27 181 [debug]: ----------------------------------------------
+22/08/11 17:58:27 182 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:58:27 182 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:58:27 183 [debug]: [GET] http://localhost:3001/upload/1660193003646.jpg
+22/08/11 17:58:27 184 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:58:27 184 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:58:27 185 [debug]: [GET] http://localhost:3001/upload/1660192998114.jpg
+22/08/11 17:58:27 186 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/08/11 17:58:27 186 [debug]: ----------------------------------------------
+22/08/11 17:58:27 187 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:58:27 187 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:58:27 188 [debug]: [GET] http://localhost:3001/upload/1660193008758.jpg
+22/08/11 17:58:27 190 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/08/11 17:58:27 192 [debug]: ----------------------------------------------
+22/08/11 17:58:27 194 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/08/11 17:58:27 194 [debug]: ----------------------------------------------
+22/08/11 17:58:27 197 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/08/11 17:58:27 197 [debug]: ----------------------------------------------
+22/08/11 17:58:33 627 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:58:33 627 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:58:33 627 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:58:33 628 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:58:33 629 [info]:  >> Connection 임대됨 [threaId=38]
+22/08/11 17:58:33 629 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/11 17:58:33 631 [info]:  >> Connection 반납됨 [threaId]=38
+22/08/11 17:58:33 633 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 6ms
+22/08/11 17:58:33 634 [debug]: ----------------------------------------------
+22/08/11 17:58:33 637 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:58:33 638 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:58:33 639 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 17:58:33 641 [debug]: [HTTP %s Params] %s=%s
+22/08/11 17:58:33 643 [info]:  >> Connection 임대됨 [threaId=38]
+22/08/11 17:58:33 645 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/11 17:58:33 646 [info]:  >> Connection 반납됨 [threaId]=38
+22/08/11 17:58:33 648 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/08/11 17:58:33 651 [debug]: ----------------------------------------------
+22/08/11 17:58:33 759 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:58:33 787 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:58:33 788 [debug]: [GET] http://localhost:3001/upload/1660192969315.jpg
+22/08/11 17:58:33 792 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:58:33 795 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:58:33 796 [debug]: [GET] http://localhost:3001/upload/1660192975167.jpg
+22/08/11 17:58:33 797 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:58:33 797 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:58:33 798 [debug]: [GET] http://localhost:3001/upload/1660192982086.jpg
+22/08/11 17:58:33 799 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:58:33 799 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:58:33 800 [debug]: [GET] http://localhost:3001/upload/1660192987971.jpg
+22/08/11 17:58:33 801 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:58:33 801 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:58:33 802 [debug]: [GET] http://localhost:3001/upload/1660192992518.jpg
+22/08/11 17:58:33 804 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:58:33 804 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:58:33 805 [debug]: [GET] http://localhost:3001/upload/1660192998114.jpg
+22/08/11 17:58:33 815 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 28ms
+22/08/11 17:58:33 816 [debug]: ----------------------------------------------
+22/08/11 17:58:33 817 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 22ms
+22/08/11 17:58:33 818 [debug]: ----------------------------------------------
+22/08/11 17:58:33 820 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 23ms
+22/08/11 17:58:33 822 [debug]: ----------------------------------------------
+22/08/11 17:58:33 826 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 27ms
+22/08/11 17:58:33 832 [debug]: ----------------------------------------------
+22/08/11 17:58:33 837 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:58:33 838 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:58:33 838 [debug]: [GET] http://localhost:3001/upload/1660193003646.jpg
+22/08/11 17:58:33 840 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 39ms
+22/08/11 17:58:33 841 [debug]: ----------------------------------------------
+22/08/11 17:58:33 842 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 38ms
+22/08/11 17:58:33 842 [debug]: ----------------------------------------------
+22/08/11 17:58:33 844 [debug]: 클라이언트가 접속했습니다.
+22/08/11 17:58:33 845 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 17:58:33 846 [debug]: [GET] http://localhost:3001/upload/1660193008758.jpg
+22/08/11 17:58:33 847 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/08/11 17:58:33 848 [debug]: ----------------------------------------------
+22/08/11 17:58:33 850 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 5ms
+22/08/11 17:58:33 854 [debug]: ----------------------------------------------
+22/08/11 20:59:01 038 [debug]: 클라이언트가 접속했습니다.
+22/08/11 20:59:01 039 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 20:59:01 040 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 20:59:01 041 [debug]: [HTTP %s Params] %s=%s
+22/08/11 20:59:01 041 [info]:  >> Connection 임대됨 [threaId=38]
+22/08/11 20:59:01 042 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/11 20:59:01 043 [info]:  >> Connection 반납됨 [threaId]=38
+22/08/11 20:59:01 044 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 5ms
+22/08/11 20:59:01 045 [debug]: ----------------------------------------------
+22/08/11 20:59:01 050 [debug]: 클라이언트가 접속했습니다.
+22/08/11 20:59:01 051 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 20:59:01 051 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 20:59:01 052 [debug]: [HTTP %s Params] %s=%s
+22/08/11 20:59:01 053 [info]:  >> Connection 임대됨 [threaId=38]
+22/08/11 20:59:01 053 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/11 20:59:01 054 [info]:  >> Connection 반납됨 [threaId]=38
+22/08/11 20:59:01 055 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 4ms
+22/08/11 20:59:01 057 [debug]: ----------------------------------------------
+22/08/11 20:59:01 191 [debug]: 클라이언트가 접속했습니다.
+22/08/11 20:59:01 191 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 20:59:01 192 [debug]: [GET] http://localhost:3001/upload/1660192969315.jpg
+22/08/11 20:59:01 197 [debug]: 클라이언트가 접속했습니다.
+22/08/11 20:59:01 197 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 20:59:01 198 [debug]: [GET] http://localhost:3001/upload/1660192975167.jpg
+22/08/11 20:59:01 200 [debug]: 클라이언트가 접속했습니다.
+22/08/11 20:59:01 201 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 20:59:01 202 [debug]: [GET] http://localhost:3001/upload/1660192982086.jpg
+22/08/11 20:59:01 203 [debug]: 클라이언트가 접속했습니다.
+22/08/11 20:59:01 204 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 20:59:01 204 [debug]: [GET] http://localhost:3001/upload/1660192987971.jpg
+22/08/11 20:59:01 205 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 14ms
+22/08/11 20:59:01 205 [debug]: ----------------------------------------------
+22/08/11 20:59:01 207 [debug]: 클라이언트가 접속했습니다.
+22/08/11 20:59:01 208 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 20:59:01 209 [debug]: [GET] http://localhost:3001/upload/1660192992518.jpg
+22/08/11 20:59:01 210 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 13ms
+22/08/11 20:59:01 211 [debug]: ----------------------------------------------
+22/08/11 20:59:01 212 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/11 20:59:01 213 [debug]: ----------------------------------------------
+22/08/11 20:59:01 214 [debug]: 클라이언트가 접속했습니다.
+22/08/11 20:59:01 216 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 20:59:01 217 [debug]: [GET] http://localhost:3001/upload/1660192998114.jpg
+22/08/11 20:59:01 219 [debug]: 클라이언트가 접속했습니다.
+22/08/11 20:59:01 220 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 20:59:01 220 [debug]: [GET] http://localhost:3001/upload/1660193003646.jpg
+22/08/11 20:59:01 222 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 18ms
+22/08/11 20:59:01 223 [debug]: ----------------------------------------------
+22/08/11 20:59:01 227 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 19ms
+22/08/11 20:59:01 228 [debug]: ----------------------------------------------
+22/08/11 20:59:01 229 [debug]: 클라이언트가 접속했습니다.
+22/08/11 20:59:01 229 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 20:59:01 230 [debug]: [GET] http://localhost:3001/upload/1660193008758.jpg
+22/08/11 20:59:01 262 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 46ms
+22/08/11 20:59:01 263 [debug]: ----------------------------------------------
+22/08/11 20:59:01 268 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 48ms
+22/08/11 20:59:01 268 [debug]: ----------------------------------------------
+22/08/11 20:59:01 270 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 41ms
+22/08/11 20:59:01 270 [debug]: ----------------------------------------------
+22/08/11 21:07:39 246 [debug]: 클라이언트가 접속했습니다.
+22/08/11 21:07:39 247 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 21:07:39 247 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 21:07:39 248 [debug]: [HTTP %s Params] %s=%s
+22/08/11 21:07:39 248 [info]:  >> Connection 임대됨 [threaId=38]
+22/08/11 21:07:39 249 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/11 21:07:39 250 [info]:  >> Connection 반납됨 [threaId]=38
+22/08/11 21:07:39 251 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 4ms
+22/08/11 21:07:39 252 [debug]: ----------------------------------------------
+22/08/11 21:07:39 255 [debug]: 클라이언트가 접속했습니다.
+22/08/11 21:07:39 255 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 21:07:39 256 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 21:07:39 257 [debug]: [HTTP %s Params] %s=%s
+22/08/11 21:07:39 257 [info]:  >> Connection 임대됨 [threaId=38]
+22/08/11 21:07:39 258 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/11 21:07:39 259 [info]:  >> Connection 반납됨 [threaId]=38
+22/08/11 21:07:39 260 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 5ms
+22/08/11 21:07:39 260 [debug]: ----------------------------------------------
+22/08/11 21:07:39 398 [debug]: 클라이언트가 접속했습니다.
+22/08/11 21:07:39 398 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 21:07:39 398 [debug]: [GET] http://localhost:3001/upload/1660192969315.jpg
+22/08/11 21:07:39 400 [debug]: 클라이언트가 접속했습니다.
+22/08/11 21:07:39 400 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 21:07:39 401 [debug]: [GET] http://localhost:3001/upload/1660192975167.jpg
+22/08/11 21:07:39 402 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 4ms
+22/08/11 21:07:39 403 [debug]: ----------------------------------------------
+22/08/11 21:07:39 405 [debug]: 클라이언트가 접속했습니다.
+22/08/11 21:07:39 405 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 21:07:39 405 [debug]: [GET] http://localhost:3001/upload/1660192982086.jpg
+22/08/11 21:07:39 407 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/08/11 21:07:39 407 [debug]: ----------------------------------------------
+22/08/11 21:07:39 409 [debug]: 클라이언트가 접속했습니다.
+22/08/11 21:07:39 410 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 21:07:39 410 [debug]: [GET] http://localhost:3001/upload/1660192987971.jpg
+22/08/11 21:07:39 411 [debug]: 클라이언트가 접속했습니다.
+22/08/11 21:07:39 412 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 21:07:39 412 [debug]: [GET] http://localhost:3001/upload/1660192992518.jpg
+22/08/11 21:07:39 413 [debug]: 클라이언트가 접속했습니다.
+22/08/11 21:07:39 413 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 21:07:39 414 [debug]: [GET] http://localhost:3001/upload/1660193003646.jpg
+22/08/11 21:07:39 415 [debug]: 클라이언트가 접속했습니다.
+22/08/11 21:07:39 415 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 21:07:39 415 [debug]: [GET] http://localhost:3001/upload/1660192998114.jpg
+22/08/11 21:07:39 416 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/11 21:07:39 416 [debug]: ----------------------------------------------
+22/08/11 21:07:39 418 [debug]: 클라이언트가 접속했습니다.
+22/08/11 21:07:39 418 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 21:07:39 418 [debug]: [GET] http://localhost:3001/upload/1660193008758.jpg
+22/08/11 21:07:39 419 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/08/11 21:07:39 420 [debug]: ----------------------------------------------
+22/08/11 21:07:39 421 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/08/11 21:07:39 423 [debug]: ----------------------------------------------
+22/08/11 21:07:39 424 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/11 21:07:39 425 [debug]: ----------------------------------------------
+22/08/11 21:07:39 426 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/11 21:07:39 427 [debug]: ----------------------------------------------
+22/08/11 21:07:39 428 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/08/11 21:07:39 449 [debug]: ----------------------------------------------
+22/08/11 21:08:55 860 [debug]: 클라이언트가 접속했습니다.
+22/08/11 21:08:55 861 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 21:08:55 861 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 21:08:55 862 [debug]: [HTTP %s Params] %s=%s
+22/08/11 21:08:55 863 [info]:  >> Connection 임대됨 [threaId=38]
+22/08/11 21:08:55 863 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/11 21:08:55 864 [info]:  >> Connection 반납됨 [threaId]=38
+22/08/11 21:08:55 865 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 4ms
+22/08/11 21:08:55 866 [debug]: ----------------------------------------------
+22/08/11 21:08:55 872 [debug]: 클라이언트가 접속했습니다.
+22/08/11 21:08:55 873 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 21:08:55 873 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 21:08:55 874 [debug]: [HTTP %s Params] %s=%s
+22/08/11 21:08:55 874 [info]:  >> Connection 임대됨 [threaId=38]
+22/08/11 21:08:55 876 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/11 21:08:55 877 [info]:  >> Connection 반납됨 [threaId]=38
+22/08/11 21:08:55 878 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 5ms
+22/08/11 21:08:55 879 [debug]: ----------------------------------------------
+22/08/11 21:08:55 992 [debug]: 클라이언트가 접속했습니다.
+22/08/11 21:08:55 993 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 21:08:55 993 [debug]: [GET] http://localhost:3001/upload/1660192969315.jpg
+22/08/11 21:08:55 995 [debug]: 클라이언트가 접속했습니다.
+22/08/11 21:08:56 008 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 21:08:56 009 [debug]: [GET] http://localhost:3001/upload/1660192975167.jpg
+22/08/11 21:08:56 014 [debug]: 클라이언트가 접속했습니다.
+22/08/11 21:08:56 014 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 21:08:56 015 [debug]: [GET] http://localhost:3001/upload/1660192982086.jpg
+22/08/11 21:08:56 016 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 23ms
+22/08/11 21:08:56 019 [debug]: ----------------------------------------------
+22/08/11 21:08:56 022 [debug]: 클라이언트가 접속했습니다.
+22/08/11 21:08:56 022 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 21:08:56 023 [debug]: [GET] http://localhost:3001/upload/1660192987971.jpg
+22/08/11 21:08:56 025 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 17ms
+22/08/11 21:08:56 025 [debug]: ----------------------------------------------
+22/08/11 21:08:56 026 [debug]: 클라이언트가 접속했습니다.
+22/08/11 21:08:56 027 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 21:08:56 027 [debug]: [GET] http://localhost:3001/upload/1660192992518.jpg
+22/08/11 21:08:56 028 [debug]: 클라이언트가 접속했습니다.
+22/08/11 21:08:56 028 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 21:08:56 028 [debug]: [GET] http://localhost:3001/upload/1660192998114.jpg
+22/08/11 21:08:56 029 [debug]: 클라이언트가 접속했습니다.
+22/08/11 21:08:56 029 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 21:08:56 030 [debug]: [GET] http://localhost:3001/upload/1660193008758.jpg
+22/08/11 21:08:56 031 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 17ms
+22/08/11 21:08:56 031 [debug]: ----------------------------------------------
+22/08/11 21:08:56 032 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/08/11 21:08:56 032 [debug]: ----------------------------------------------
+22/08/11 21:08:56 033 [debug]: 클라이언트가 접속했습니다.
+22/08/11 21:08:56 033 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 21:08:56 034 [debug]: [GET] http://localhost:3001/upload/1660193003646.jpg
+22/08/11 21:08:56 035 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/08/11 21:08:56 036 [debug]: ----------------------------------------------
+22/08/11 21:08:56 037 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/08/11 21:08:56 037 [debug]: ----------------------------------------------
+22/08/11 21:08:56 038 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/08/11 21:08:56 038 [debug]: ----------------------------------------------
+22/08/11 21:08:56 040 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 6ms
+22/08/11 21:08:56 040 [debug]: ----------------------------------------------
+22/08/11 21:14:49 192 [debug]: 클라이언트가 접속했습니다.
+22/08/11 21:14:49 193 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 21:14:49 193 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 21:14:49 196 [debug]: [HTTP %s Params] %s=%s
+22/08/11 21:14:49 196 [info]:  >> Connection 임대됨 [threaId=38]
+22/08/11 21:14:49 197 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/11 21:14:49 198 [info]:  >> Connection 반납됨 [threaId]=38
+22/08/11 21:14:49 199 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 6ms
+22/08/11 21:14:49 200 [debug]: ----------------------------------------------
+22/08/11 21:17:02 849 [debug]: 클라이언트가 접속했습니다.
+22/08/11 21:17:02 849 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 21:17:02 850 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 21:17:02 851 [debug]: [HTTP %s Params] %s=%s
+22/08/11 21:17:02 851 [info]:  >> Connection 임대됨 [threaId=38]
+22/08/11 21:17:02 852 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/11 21:17:02 853 [info]:  >> Connection 반납됨 [threaId]=38
+22/08/11 21:17:02 854 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 5ms
+22/08/11 21:17:02 854 [debug]: ----------------------------------------------
+22/08/11 21:17:08 806 [debug]: 클라이언트가 접속했습니다.
+22/08/11 21:17:08 808 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 21:17:08 809 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 21:17:08 812 [debug]: [HTTP %s Params] %s=%s
+22/08/11 21:17:08 812 [info]:  >> Connection 임대됨 [threaId=38]
+22/08/11 21:17:08 813 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/11 21:17:08 814 [info]:  >> Connection 반납됨 [threaId]=38
+22/08/11 21:17:08 815 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/08/11 21:17:08 815 [debug]: ----------------------------------------------
+22/08/11 22:18:38 528 [debug]: 클라이언트가 접속했습니다.
+22/08/11 22:18:38 528 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 22:18:38 528 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 22:18:38 529 [debug]: [HTTP %s Params] %s=%s
+22/08/11 22:18:38 530 [info]:  >> Connection 임대됨 [threaId=38]
+22/08/11 22:18:38 530 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/11 22:18:38 531 [info]:  >> Connection 반납됨 [threaId]=38
+22/08/11 22:18:38 532 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 4ms
+22/08/11 22:18:38 532 [debug]: ----------------------------------------------
+22/08/11 22:20:26 049 [debug]: 클라이언트가 접속했습니다.
+22/08/11 22:20:26 050 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 22:20:26 050 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 22:20:26 051 [debug]: [HTTP %s Params] %s=%s
+22/08/11 22:20:26 052 [info]:  >> Connection 임대됨 [threaId=38]
+22/08/11 22:20:26 053 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/11 22:20:26 054 [info]:  >> Connection 반납됨 [threaId]=38
+22/08/11 22:20:26 056 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 6ms
+22/08/11 22:20:26 056 [debug]: ----------------------------------------------
+22/08/11 22:20:26 059 [debug]: 클라이언트가 접속했습니다.
+22/08/11 22:20:26 059 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 22:20:26 059 [debug]: [GET] http://localhost:3001/product/1/
+22/08/11 22:20:26 061 [debug]: [HTTP %s Params] %s=%s
+22/08/11 22:20:26 061 [info]:  >> Connection 임대됨 [threaId=38]
+22/08/11 22:20:26 062 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/11 22:20:26 063 [info]:  >> Connection 반납됨 [threaId]=38
+22/08/11 22:20:26 064 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 5ms
+22/08/11 22:20:26 064 [debug]: ----------------------------------------------
+22/08/11 22:20:26 194 [debug]: 클라이언트가 접속했습니다.
+22/08/11 22:20:26 195 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 22:20:26 195 [debug]: [GET] http://localhost:3001/upload/1660192969315.jpg
+22/08/11 22:20:26 196 [debug]: 클라이언트가 접속했습니다.
+22/08/11 22:20:26 197 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 22:20:26 197 [debug]: [GET] http://localhost:3001/upload/1660192975167.jpg
+22/08/11 22:20:26 198 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 4ms
+22/08/11 22:20:26 198 [debug]: ----------------------------------------------
+22/08/11 22:20:26 199 [debug]: 클라이언트가 접속했습니다.
+22/08/11 22:20:26 200 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 22:20:26 200 [debug]: [GET] http://localhost:3001/upload/1660192982086.jpg
+22/08/11 22:20:26 203 [debug]: 클라이언트가 접속했습니다.
+22/08/11 22:20:26 204 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 22:20:26 204 [debug]: [GET] http://localhost:3001/upload/1660192987971.jpg
+22/08/11 22:20:26 206 [debug]: 클라이언트가 접속했습니다.
+22/08/11 22:20:26 206 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 22:20:26 206 [debug]: [GET] http://localhost:3001/upload/1660192992518.jpg
+22/08/11 22:20:26 208 [debug]: 클라이언트가 접속했습니다.
+22/08/11 22:20:26 208 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 22:20:26 209 [debug]: [GET] http://localhost:3001/upload/1660192998114.jpg
+22/08/11 22:20:26 210 [debug]: 클라이언트가 접속했습니다.
+22/08/11 22:20:26 210 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 22:20:26 211 [debug]: [GET] http://localhost:3001/upload/1660193003646.jpg
+22/08/11 22:20:26 212 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 15ms
+22/08/11 22:20:26 212 [debug]: ----------------------------------------------
+22/08/11 22:20:26 213 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 13ms
+22/08/11 22:20:26 213 [debug]: ----------------------------------------------
+22/08/11 22:20:26 215 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/11 22:20:26 215 [debug]: ----------------------------------------------
+22/08/11 22:20:26 216 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/08/11 22:20:26 217 [debug]: ----------------------------------------------
+22/08/11 22:20:26 217 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/08/11 22:20:26 218 [debug]: ----------------------------------------------
+22/08/11 22:20:26 219 [debug]: 클라이언트가 접속했습니다.
+22/08/11 22:20:26 219 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/11 22:20:26 220 [debug]: [GET] http://localhost:3001/upload/1660193008758.jpg
+22/08/11 22:20:26 221 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/11 22:20:26 238 [debug]: ----------------------------------------------
+22/08/11 22:20:26 258 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 39ms
+22/08/11 22:20:26 260 [debug]: ----------------------------------------------
+>>>>>>> Stashed changes
