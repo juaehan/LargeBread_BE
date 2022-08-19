@@ -27,7 +27,7 @@ const ProductController = () => {
     });
 
 
-    router.post(`${url}/:category_id`, async (req, res, next) => {
+    router.post(`${url}`, async (req, res, next) => {
         const amount = req.post('amount');
         const product_id = req.post('product_id');
 
@@ -39,7 +39,7 @@ const ProductController = () => {
             });
         } catch (err) {
             return next(err);
-        }
+        }``
         
         res.sendResult({item: json});
     });
