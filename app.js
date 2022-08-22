@@ -22,6 +22,7 @@ import PageNotFoundException from './exceptions/PageNotFoundException.js';
 
 import FileUploadController from './controllers/FileUploadController.js';
 import ProductController from './controllers/ProductController.js'
+import AdminController from './controllers/AdminController.js';
 
 
 
@@ -110,6 +111,7 @@ app.use(WebHelper());
 -----------------------------------------------------------*/
 app.use(FileUploadController());
 app.use(ProductController());
+app.use(AdminController());
 
 app.use((err, req, res, next) => res.sendError(err));
 app.use("*", (req, res, next) => res.sendError(new PageNotFoundException()));

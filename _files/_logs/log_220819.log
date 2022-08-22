@@ -1,0 +1,155 @@
+22/08/19 14:52:34 248 [debug]: ----------------------------------------------
+22/08/19 14:52:34 251 [debug]: |            Start Express Server            |
+22/08/19 14:52:34 253 [debug]: ----------------------------------------------
+22/08/19 14:52:34 254 [debug]: Server Address => http://192.168.199.1:3001
+22/08/19 14:52:34 254 [debug]: Server Address => http://192.168.233.1:3001
+22/08/19 14:52:34 255 [debug]: Server Address => http://192.168.0.17:3001
+22/08/19 14:52:34 255 [debug]: ----------------------------------------------
+22/08/19 14:53:01 414 [debug]: 클라이언트가 접속했습니다.
+22/08/19 14:53:01 421 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/19 14:53:01 428 [debug]: [GET] http://localhost:3001/product/1
+22/08/19 14:53:01 444 [debug]: [HTTP %s Params] %s=%s
+22/08/19 14:53:01 624 [info]:  >> DATABASE 접속됨 [threaId=124]
+22/08/19 14:53:01 625 [info]:  >> Connection 임대됨 [threaId=124]
+22/08/19 14:53:01 630 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/19 14:53:01 648 [info]:  >> Connection 반납됨 [threaId]=124
+22/08/19 14:53:01 657 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 236ms
+22/08/19 14:53:01 659 [debug]: ----------------------------------------------
+22/08/19 14:53:01 668 [debug]: 클라이언트가 접속했습니다.
+22/08/19 14:53:01 669 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/19 14:53:01 670 [debug]: [GET] http://localhost:3001/product/1
+22/08/19 14:53:01 674 [debug]: [HTTP %s Params] %s=%s
+22/08/19 14:53:01 676 [info]:  >> Connection 임대됨 [threaId=124]
+22/08/19 14:53:01 679 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/19 14:53:01 683 [info]:  >> Connection 반납됨 [threaId]=124
+22/08/19 14:53:01 687 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 18ms
+22/08/19 14:53:01 689 [debug]: ----------------------------------------------
+22/08/19 14:53:01 694 [debug]: 클라이언트가 접속했습니다.
+22/08/19 14:53:01 695 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/19 14:53:01 696 [debug]: [GET] http://localhost:3001/upload/1660192969315.jpg
+22/08/19 14:53:01 700 [debug]: 클라이언트가 접속했습니다.
+22/08/19 14:53:01 701 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/19 14:53:01 704 [debug]: [GET] http://localhost:3001/upload/1660192975167.jpg
+22/08/19 14:53:01 713 [debug]: 클라이언트가 접속했습니다.
+22/08/19 14:53:01 714 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/19 14:53:01 715 [debug]: [GET] http://localhost:3001/upload/1660192982086.jpg
+22/08/19 14:53:01 724 [debug]: 클라이언트가 접속했습니다.
+22/08/19 14:53:01 730 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/19 14:53:01 733 [debug]: [GET] http://localhost:3001/upload/1660192987971.jpg
+22/08/19 14:53:01 737 [debug]: 클라이언트가 접속했습니다.
+22/08/19 14:53:01 739 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/19 14:53:01 742 [debug]: [GET] http://localhost:3001/upload/1660192992518.jpg
+22/08/19 14:53:01 751 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 57ms
+22/08/19 14:53:01 752 [debug]: ----------------------------------------------
+22/08/19 14:53:01 755 [debug]: 클라이언트가 접속했습니다.
+22/08/19 14:53:01 756 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/19 14:53:01 757 [debug]: [GET] http://localhost:3001/upload/1660192998114.jpg
+22/08/19 14:53:01 760 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 59ms
+22/08/19 14:53:01 762 [debug]: ----------------------------------------------
+22/08/19 14:53:01 765 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 51ms
+22/08/19 14:53:01 767 [debug]: ----------------------------------------------
+22/08/19 14:53:01 769 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 39ms
+22/08/19 14:53:01 771 [debug]: ----------------------------------------------
+22/08/19 14:53:01 773 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 35ms
+22/08/19 14:53:01 776 [debug]: ----------------------------------------------
+22/08/19 14:53:01 788 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 32ms
+22/08/19 14:53:01 792 [debug]: ----------------------------------------------
+22/08/19 14:53:01 799 [debug]: 클라이언트가 접속했습니다.
+22/08/19 14:53:01 808 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/19 14:53:01 816 [debug]: [GET] http://localhost:3001/upload/1660193003646.jpg
+22/08/19 14:53:01 847 [debug]: 클라이언트가 접속했습니다.
+22/08/19 14:53:01 859 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/19 14:53:01 863 [debug]: [GET] http://localhost:3001/upload/1660193008758.jpg
+22/08/19 14:53:01 867 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 59ms
+22/08/19 14:53:01 869 [debug]: ----------------------------------------------
+22/08/19 14:53:01 876 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 17ms
+22/08/19 14:53:01 879 [debug]: ----------------------------------------------
+22/08/19 14:53:19 435 [debug]: 클라이언트가 접속했습니다.
+22/08/19 14:53:19 436 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/19 14:53:19 437 [debug]: [OPTIONS] http://localhost:3001/product
+22/08/19 14:53:19 440 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 4ms
+22/08/19 14:53:19 441 [debug]: ----------------------------------------------
+22/08/19 14:53:19 442 [debug]: 클라이언트가 접속했습니다.
+22/08/19 14:53:19 443 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/19 14:53:19 444 [debug]: [POST] http://localhost:3001/product
+22/08/19 14:53:19 493 [debug]: [HTTP %s Params] %s=%s
+22/08/19 14:53:19 494 [debug]: [HTTP %s Params] %s=%s
+22/08/19 14:53:19 498 [info]:  >> Connection 임대됨 [threaId=124]
+22/08/19 14:53:19 503 [debug]: INSERT INTO cart (amount, product_id)  VALUES ('3', '7');
+22/08/19 14:53:19 530 [info]:  >> Connection 반납됨 [threaId]=124
+22/08/19 14:53:19 534 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 91ms
+22/08/19 14:53:19 536 [debug]: ----------------------------------------------
+22/08/19 14:57:00 913 [debug]: 클라이언트가 접속했습니다.
+22/08/19 14:57:00 914 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/19 14:57:00 917 [debug]: [GET] http://localhost:3001/product/1
+22/08/19 14:57:00 921 [debug]: [HTTP %s Params] %s=%s
+22/08/19 14:57:00 923 [info]:  >> Connection 임대됨 [threaId=124]
+22/08/19 14:57:00 925 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/19 14:57:00 928 [info]:  >> Connection 반납됨 [threaId]=124
+22/08/19 14:57:00 931 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 17ms
+22/08/19 14:57:00 934 [debug]: ----------------------------------------------
+22/08/19 14:57:00 938 [debug]: 클라이언트가 접속했습니다.
+22/08/19 14:57:00 939 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/19 14:57:00 940 [debug]: [GET] http://localhost:3001/product/1
+22/08/19 14:57:00 944 [debug]: [HTTP %s Params] %s=%s
+22/08/19 14:57:00 946 [info]:  >> Connection 임대됨 [threaId=124]
+22/08/19 14:57:00 948 [debug]: SELECT id, product_name, price, img_url, product_state, cost FROM product WHERE category_id='1'
+22/08/19 14:57:00 954 [info]:  >> Connection 반납됨 [threaId]=124
+22/08/19 14:57:00 960 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 21ms
+22/08/19 14:57:00 963 [debug]: ----------------------------------------------
+22/08/19 14:57:01 000 [debug]: 클라이언트가 접속했습니다.
+22/08/19 14:57:01 003 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/19 14:57:01 005 [debug]: [GET] http://localhost:3001/upload/1660192969315.jpg
+22/08/19 14:57:01 009 [debug]: 클라이언트가 접속했습니다.
+22/08/19 14:57:01 010 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/19 14:57:01 011 [debug]: [GET] http://localhost:3001/upload/1660192975167.jpg
+22/08/19 14:57:01 019 [debug]: 클라이언트가 접속했습니다.
+22/08/19 14:57:01 022 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/19 14:57:01 022 [debug]: [GET] http://localhost:3001/upload/1660192982086.jpg
+22/08/19 14:57:01 024 [debug]: 클라이언트가 접속했습니다.
+22/08/19 14:57:01 025 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/19 14:57:01 025 [debug]: [GET] http://localhost:3001/upload/1660192987971.jpg
+22/08/19 14:57:01 027 [debug]: 클라이언트가 접속했습니다.
+22/08/19 14:57:01 028 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/19 14:57:01 029 [debug]: [GET] http://localhost:3001/upload/1660192992518.jpg
+22/08/19 14:57:01 030 [debug]: 클라이언트가 접속했습니다.
+22/08/19 14:57:01 031 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/19 14:57:01 032 [debug]: [GET] http://localhost:3001/upload/1660192998114.jpg
+22/08/19 14:57:01 034 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 31ms
+22/08/19 14:57:01 035 [debug]: ----------------------------------------------
+22/08/19 14:57:01 039 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 29ms
+22/08/19 14:57:01 040 [debug]: ----------------------------------------------
+22/08/19 14:57:01 043 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 22ms
+22/08/19 14:57:01 045 [debug]: ----------------------------------------------
+22/08/19 14:57:01 049 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 24ms
+22/08/19 14:57:01 053 [debug]: ----------------------------------------------
+22/08/19 14:57:01 055 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 27ms
+22/08/19 14:57:01 056 [debug]: ----------------------------------------------
+22/08/19 14:57:01 058 [debug]: 클라이언트가 접속했습니다.
+22/08/19 14:57:01 060 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/19 14:57:01 061 [debug]: [GET] http://localhost:3001/upload/1660193003646.jpg
+22/08/19 14:57:01 066 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 35ms
+22/08/19 14:57:01 070 [debug]: ----------------------------------------------
+22/08/19 14:57:01 072 [debug]: 클라이언트가 접속했습니다.
+22/08/19 14:57:01 073 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/19 14:57:01 074 [debug]: [GET] http://localhost:3001/upload/1660193008758.jpg
+22/08/19 14:57:01 077 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 18ms
+22/08/19 14:57:01 078 [debug]: ----------------------------------------------
+22/08/19 14:57:01 082 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/08/19 14:57:01 085 [debug]: ----------------------------------------------
+22/08/19 14:57:12 101 [debug]: 클라이언트가 접속했습니다.
+22/08/19 14:57:12 102 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/19 14:57:12 104 [debug]: [OPTIONS] http://localhost:3001/product
+22/08/19 14:57:12 106 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 4ms
+22/08/19 14:57:12 107 [debug]: ----------------------------------------------
+22/08/19 14:57:12 109 [debug]: 클라이언트가 접속했습니다.
+22/08/19 14:57:12 110 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/19 14:57:12 112 [debug]: [POST] http://localhost:3001/product
+22/08/19 14:57:12 114 [debug]: [HTTP %s Params] %s=%s
+22/08/19 14:57:12 114 [debug]: [HTTP %s Params] %s=%s
+22/08/19 14:57:12 115 [info]:  >> Connection 임대됨 [threaId=124]
+22/08/19 14:57:12 117 [debug]: INSERT INTO cart (amount, product_id)  VALUES ('2', '8');
+22/08/19 14:57:12 142 [info]:  >> Connection 반납됨 [threaId]=124
+22/08/19 14:57:12 144 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 34ms
+22/08/19 14:57:12 145 [debug]: ----------------------------------------------
+22/08/19 15:01:45 600 [info]: -------- Server is close -------

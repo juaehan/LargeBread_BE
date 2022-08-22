@@ -6,7 +6,8 @@ class ProductService {
     constructor() {
         mybatisMapper.createMapper([
             './mappers/ProductMapper.xml',
-            './mappers/CartMapper.xml'
+            './mappers/CartMapper.xml',
+            './mappers/JoinMapper.xml'
         ]);
     }
     
@@ -59,7 +60,7 @@ class ProductService {
     }
 
 
-    /* 상품 담기*/
+    /** 상품 담기*/
     async addCart(params) {
         let dbcon = null;
         let data = null;
@@ -82,6 +83,7 @@ class ProductService {
         }
         return data;
     }
+
 }
 
 export default new ProductService();

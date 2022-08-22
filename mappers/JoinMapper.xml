@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    
+<mapper namespace="JoinMapper">
+
+    <!-- 회원가입 -->
+    <insert id="insertAdmin">
+        INSERT INTO admin (user_id, user_pwd, user_email, is_out)
+        VALUES (#{user_id}, #{user_pwd}, #{user_email}, 'Y');
+    </insert>
+
+    <!-- 중복아이디 찾기 -->
+    <select id="selectID">
+        SELECT user_id FROM admin WHERE user_id = #{user_id};
+    </select>
+</mapper>
