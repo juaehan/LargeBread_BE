@@ -22,39 +22,28 @@ const AdminController = () => {
 
 
     router.post("/join", async (req, res, next) => {
-        const user_id = req.post('user_id');
+        const name = req.post('name');
         const user_pwd = req.post('user_pwd');
         const user_email = req.post('user_email');
+        const password2 = req.body;
 
         let json = null;
+
         try{
+            
             json = await AdminService.addJoin({
-                user_id: user_id,
+                name: name,
                 user_pwd: user_pwd,
                 user_email: user_email
             });
         } catch (err) {
             return next(err);
         }
-        
         res.sendResult({item: json});
     });
 
 
-    router.get("/join/:user_id", async (req, res, next) => {
-        const user_id = req.get('user_id');
-
-        let json = null;
-        try{
-            json = await AdminService.findID({
-                user_id: user_id,
-            });
-        } catch (err) {
-            return next(err);
-        }
-        
-        res.sendResult({item: json});
-    });
+    
 
     return router;
 };

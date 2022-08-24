@@ -98,6 +98,12 @@ app.use(methodOverride('_method'));
 app.use('/', serveStatic(process.env.PUBLIC_PATH));
 app.use(serveFavicon(process.env.FAVICON_PATH));
 
+/** 세션 설정 */
+app.use(expressSession({
+    secret: process.env.SESSION_ENCRYPT_KEY,
+    resave: false,
+    saveUninitialized: false
+}));
 
 /** 파일 업로드 */
 app.use(process.env.UPLOAD_URL, serveStatic(process.env.UPLOAD_DIR));
