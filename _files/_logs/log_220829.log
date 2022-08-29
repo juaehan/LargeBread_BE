@@ -762,3 +762,11 @@
 22/08/29 23:25:16 141 [info]:  >> Connection 임대됨 [threaId=159]
 22/08/29 23:25:16 152 [debug]: INSERT INTO admin (name, user_pwd, user_email, is_out)  VALUES ('홍길동', '$2b$08$ehyjblmidIMwrlHRdP9gZuRL/E1mcvFypWF02N1S84B/j9kfcK5Ai', 'hong1@asd.com', 'Y');
 22/08/29 23:25:16 180 [info]:  >> Connection 반납됨 [threaId]=159
+22/08/29 23:25:47 434 [debug]: ----------------------------------------------
+22/08/29 23:25:47 451 [debug]: |            Start Express Server            |
+22/08/29 23:25:47 455 [debug]: ----------------------------------------------
+22/08/29 23:25:47 463 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 23:25:47 465 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 23:25:47 468 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 23:25:47 469 [debug]: ----------------------------------------------
+22/08/29 23:26:36 107 [info]: -------- Server is close -------
