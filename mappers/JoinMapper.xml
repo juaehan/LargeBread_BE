@@ -7,11 +7,12 @@
     <!-- 회원가입 -->
     <insert id="insertAdmin">
         INSERT INTO admin (name, user_pwd, user_email, is_out)
-        VALUES (#{name}, #{user_pwd}, #{user_email}, 'Y');
+        VALUES (#{name}, #{user_pw}, #{user_email}, 'Y');
     </insert>
 
-    <select id="selectEmail">
-        SELECT user_email FROM admin WHERE user_email = #{user_email};
+    <!-- 로그인 -->
+    <select id="login">
+        SELECT user_pwd, user_email FROM admin WHERE user_email=#{user_email};
     </select>
 
 </mapper>
