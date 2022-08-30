@@ -3,6 +3,7 @@ import AdminService from "../services/AdminService.js";
 import bcrypt from 'bcrypt';
 import regexHelper from "../helper/RegexHelper.js";
 import logger from "../helper/LogHelper.js";
+import BadRequestException from "../exceptions/BadRequestException.js";
 
 
 const AdminController = () => {
@@ -39,12 +40,9 @@ const AdminController = () => {
                     user_email: user_email
                 });
             }
-            console.log('결과: ' + AdminController.register);
-            console.log('결과: ' + json.result);
         } catch (err) {
             return next(err);
         }
-        console.log('json: '+json.name);
         res.sendResult({item: json});
         
     });
@@ -52,8 +50,30 @@ const AdminController = () => {
 
     /** 로그인 */
     router
-        .post("/", (req, res, next) => {
-            
+        .post("/", async (req, res, next) => {
+            const id = req.post('user_email');
+            const pw = req.post('user_pw');
+
+            logger.debug('id= '+ id);
+            logger.debug('pw= '+ pw);
+
+            let json = null;
+
+            try{
+                json = await AdminService.login({
+                    user_pw: pw, 
+                    user_email: id
+                })
+                if(id != user_email || pw != user_pw){
+                    const error = new BadRequestException('아이디나 비밀번호를 확인하세요.');
+                    return next(error);
+                }
+            }catch (err) {
+                return next(err);
+            }
+            req.session.user_email = id;
+            req.session.user_pw = pw;
+            res.sendResult();
         })
 
     return router;

@@ -24,7 +24,6 @@ class AdminService {
             if(result.length === 0) {
                 throw new RuntimeException('저장된 데이터가 없습니다.');
             }
-            console.log('result: '+JSON.stringify(result));
             data = result[0];
         } catch (err) {
             throw err;
@@ -42,23 +41,15 @@ class AdminService {
 
         try {
             dbcon = await DBPool.getConnection();
-            let sql = mybatisMapper.getStatement('JoinMapper', 'login', params);
-            let [result] = await dbcon.query(sql, params[0], (err, row) => {
-                if(err) console.log(err);
-                if(row.length > 0){
-                    bcrypt.compare(param[1], row[0].params.pw, (error, result) => {
-                        if(result){
-                            req.session.id = params.id
-                        }else{
-                            //실패
-                        }
-                    })
-                }else{
-                    console.log('ID가 존재하지 않아');
-                }
-            });
 
-            data = result;
+            let sql = mybatisMapper.getStatement('JoinMapper', 'login', params);
+            let [result] = await dbcon.query(sql);
+
+            if(result.length === 0){
+                throw new RuntimeException('조회된 데이터가 없습니다.');
+            }
+
+            data = result[0];
         }catch (err) {
             throw err;
         }finally {

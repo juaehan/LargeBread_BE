@@ -1976,3 +1976,500 @@
 22/08/30 16:37:20 804 [debug]: INSERT INTO admin (name, user_pwd, user_email, is_out)  VALUES ('한주애', '$2b$08$kAy0dQBdZopgi18o3qWate3DniR.MhLciFiDz7Bq9xYwkbILQ.YXm', 'ed@naver.com', 'Y');
 22/08/30 16:37:20 814 [info]:  >> Connection 반납됨 [threaId]=221
 22/08/30 17:01:44 843 [info]: -------- Server is close -------
+22/08/30 21:26:04 294 [debug]: ----------------------------------------------
+22/08/30 21:26:04 369 [debug]: |            Start Express Server            |
+22/08/30 21:26:04 380 [debug]: ----------------------------------------------
+22/08/30 21:26:04 400 [debug]: Server Address => http://192.168.199.1:3001
+22/08/30 21:26:04 429 [debug]: Server Address => http://192.168.233.1:3001
+22/08/30 21:26:04 480 [debug]: Server Address => http://192.168.0.196:3001
+22/08/30 21:26:04 521 [debug]: ----------------------------------------------
+22/08/30 21:27:35 614 [debug]: ----------------------------------------------
+22/08/30 21:27:35 619 [debug]: |            Start Express Server            |
+22/08/30 21:27:35 620 [debug]: ----------------------------------------------
+22/08/30 21:27:35 622 [debug]: Server Address => http://192.168.199.1:3001
+22/08/30 21:27:35 623 [debug]: Server Address => http://192.168.233.1:3001
+22/08/30 21:27:35 625 [debug]: Server Address => http://192.168.0.196:3001
+22/08/30 21:27:35 625 [debug]: ----------------------------------------------
+22/08/30 21:28:41 396 [debug]: 클라이언트가 접속했습니다.
+22/08/30 21:28:41 398 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 21:28:41 401 [debug]: [OPTIONS] http://localhost:3001/signup
+22/08/30 21:28:41 414 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 16ms
+22/08/30 21:28:41 415 [debug]: ----------------------------------------------
+22/08/30 21:28:41 427 [debug]: 클라이언트가 접속했습니다.
+22/08/30 21:28:41 428 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 21:28:41 430 [debug]: [POST] http://localhost:3001/signup
+22/08/30 21:28:41 503 [debug]: [HTTP %s Params] %s=%s
+22/08/30 21:28:41 507 [debug]: [HTTP %s Params] %s=%s
+22/08/30 21:28:41 509 [debug]: [HTTP %s Params] %s=%s
+22/08/30 21:28:41 510 [debug]: [HTTP %s Params] %s=%s
+22/08/30 21:28:41 653 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 225ms
+22/08/30 21:28:41 654 [debug]: ----------------------------------------------
+22/08/30 21:28:41 734 [info]:  >> DATABASE 접속됨 [threaId=223]
+22/08/30 21:28:41 735 [info]:  >> Connection 임대됨 [threaId=223]
+22/08/30 21:28:41 739 [debug]: INSERT INTO admin (name, user_pwd, user_email, is_out)  VALUES ('한주애', '$2b$08$tcoNNtTYeON3HWlbMLZzAOvuiXMQsIXCPNfgy.YXaM7JGj7HgGA2a', 'ed@naver.com', 'Y');
+22/08/30 21:28:41 753 [info]:  >> Connection 반납됨 [threaId]=223
+22/08/30 21:29:56 806 [debug]: ----------------------------------------------
+22/08/30 21:29:56 812 [debug]: |            Start Express Server            |
+22/08/30 21:29:56 813 [debug]: ----------------------------------------------
+22/08/30 21:29:56 815 [debug]: Server Address => http://192.168.199.1:3001
+22/08/30 21:29:56 816 [debug]: Server Address => http://192.168.233.1:3001
+22/08/30 21:29:56 817 [debug]: Server Address => http://192.168.0.196:3001
+22/08/30 21:29:56 818 [debug]: ----------------------------------------------
+22/08/30 21:30:59 584 [debug]: ----------------------------------------------
+22/08/30 21:30:59 589 [debug]: |            Start Express Server            |
+22/08/30 21:30:59 591 [debug]: ----------------------------------------------
+22/08/30 21:30:59 592 [debug]: Server Address => http://192.168.199.1:3001
+22/08/30 21:30:59 593 [debug]: Server Address => http://192.168.233.1:3001
+22/08/30 21:30:59 594 [debug]: Server Address => http://192.168.0.196:3001
+22/08/30 21:30:59 595 [debug]: ----------------------------------------------
+22/08/30 21:31:46 414 [debug]: ----------------------------------------------
+22/08/30 21:31:46 418 [debug]: |            Start Express Server            |
+22/08/30 21:31:46 420 [debug]: ----------------------------------------------
+22/08/30 21:31:46 422 [debug]: Server Address => http://192.168.199.1:3001
+22/08/30 21:31:46 423 [debug]: Server Address => http://192.168.233.1:3001
+22/08/30 21:31:46 425 [debug]: Server Address => http://192.168.0.196:3001
+22/08/30 21:31:46 426 [debug]: ----------------------------------------------
+22/08/30 21:34:05 374 [debug]: ----------------------------------------------
+22/08/30 21:34:05 379 [debug]: |            Start Express Server            |
+22/08/30 21:34:05 380 [debug]: ----------------------------------------------
+22/08/30 21:34:05 382 [debug]: Server Address => http://192.168.199.1:3001
+22/08/30 21:34:05 383 [debug]: Server Address => http://192.168.233.1:3001
+22/08/30 21:34:05 385 [debug]: Server Address => http://192.168.0.196:3001
+22/08/30 21:34:05 386 [debug]: ----------------------------------------------
+22/08/30 21:43:06 790 [debug]: ----------------------------------------------
+22/08/30 21:43:06 796 [debug]: |            Start Express Server            |
+22/08/30 21:43:06 797 [debug]: ----------------------------------------------
+22/08/30 21:43:06 798 [debug]: Server Address => http://192.168.199.1:3001
+22/08/30 21:43:06 799 [debug]: Server Address => http://192.168.233.1:3001
+22/08/30 21:43:06 801 [debug]: Server Address => http://192.168.0.196:3001
+22/08/30 21:43:06 802 [debug]: ----------------------------------------------
+22/08/30 21:51:07 128 [debug]: ----------------------------------------------
+22/08/30 21:51:07 134 [debug]: |            Start Express Server            |
+22/08/30 21:51:07 135 [debug]: ----------------------------------------------
+22/08/30 21:51:07 137 [debug]: Server Address => http://192.168.199.1:3001
+22/08/30 21:51:07 139 [debug]: Server Address => http://192.168.233.1:3001
+22/08/30 21:51:07 141 [debug]: Server Address => http://192.168.0.196:3001
+22/08/30 21:51:07 142 [debug]: ----------------------------------------------
+22/08/30 21:52:50 355 [debug]: ----------------------------------------------
+22/08/30 21:52:50 360 [debug]: |            Start Express Server            |
+22/08/30 21:52:50 361 [debug]: ----------------------------------------------
+22/08/30 21:52:50 362 [debug]: Server Address => http://192.168.199.1:3001
+22/08/30 21:52:50 363 [debug]: Server Address => http://192.168.233.1:3001
+22/08/30 21:52:50 365 [debug]: Server Address => http://192.168.0.196:3001
+22/08/30 21:52:50 366 [debug]: ----------------------------------------------
+22/08/30 21:53:02 765 [debug]: 클라이언트가 접속했습니다.
+22/08/30 21:53:02 766 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 21:53:02 770 [debug]: [OPTIONS] http://localhost:3001/
+22/08/30 21:53:02 779 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 13ms
+22/08/30 21:53:02 780 [debug]: ----------------------------------------------
+22/08/30 21:53:02 791 [debug]: 클라이언트가 접속했습니다.
+22/08/30 21:53:02 792 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 21:53:02 793 [debug]: [POST] http://localhost:3001/
+22/08/30 21:53:02 842 [debug]: [HTTP %s Params] %s=%s
+22/08/30 21:53:02 845 [debug]: [HTTP %s Params] %s=%s
+22/08/30 21:53:02 846 [debug]: id= null
+22/08/30 21:53:02 848 [debug]: pw= dfs
+22/08/30 21:53:02 973 [info]:  >> DATABASE 접속됨 [threaId=224]
+22/08/30 21:53:02 975 [info]:  >> Connection 임대됨 [threaId=224]
+22/08/30 21:53:02 979 [debug]: SELECT user_pwd, user_email FROM admin WHERE user_email=NULL;
+22/08/30 21:53:02 987 [info]:  >> Connection 반납됨 [threaId]=224
+22/08/30 21:53:02 988 [error]: [Error] 조회된 데이터가 없습니다.
+22/08/30 21:53:02 989 [error]: Error: 조회된 데이터가 없습니다.
+    at AdminService.login (file:///C:/Users/juae/Desktop/LargeBread_BE/services/AdminService.js:49:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/AdminController.js:63:24
+22/08/30 21:53:02 994 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 202ms
+22/08/30 21:53:02 995 [debug]: ----------------------------------------------
+22/08/30 21:54:32 794 [debug]: ----------------------------------------------
+22/08/30 21:54:32 803 [debug]: |            Start Express Server            |
+22/08/30 21:54:32 804 [debug]: ----------------------------------------------
+22/08/30 21:54:32 805 [debug]: Server Address => http://192.168.199.1:3001
+22/08/30 21:54:32 807 [debug]: Server Address => http://192.168.233.1:3001
+22/08/30 21:54:32 809 [debug]: Server Address => http://192.168.0.196:3001
+22/08/30 21:54:32 810 [debug]: ----------------------------------------------
+22/08/30 21:54:33 762 [debug]: 클라이언트가 접속했습니다.
+22/08/30 21:54:33 764 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 21:54:33 767 [debug]: [OPTIONS] http://localhost:3001/
+22/08/30 21:54:33 779 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 15ms
+22/08/30 21:54:33 780 [debug]: ----------------------------------------------
+22/08/30 21:54:33 792 [debug]: 클라이언트가 접속했습니다.
+22/08/30 21:54:33 793 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 21:54:33 796 [debug]: [POST] http://localhost:3001/
+22/08/30 21:54:33 862 [debug]: [HTTP %s Params] %s=%s
+22/08/30 21:54:33 866 [debug]: [HTTP %s Params] %s=%s
+22/08/30 21:54:33 867 [debug]: id= null
+22/08/30 21:54:33 870 [debug]: pw= dfs
+22/08/30 21:54:34 017 [info]:  >> DATABASE 접속됨 [threaId=225]
+22/08/30 21:54:34 019 [info]:  >> Connection 임대됨 [threaId=225]
+22/08/30 21:54:34 023 [debug]: SELECT user_pwd, user_email FROM admin WHERE user_email=NULL;
+22/08/30 21:54:34 030 [info]:  >> Connection 반납됨 [threaId]=225
+22/08/30 21:54:34 031 [error]: [Error] 조회된 데이터가 없습니다.
+22/08/30 21:54:34 032 [error]: Error: 조회된 데이터가 없습니다.
+    at AdminService.login (file:///C:/Users/juae/Desktop/LargeBread_BE/services/AdminService.js:49:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/AdminController.js:63:24
+22/08/30 21:54:34 044 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 251ms
+22/08/30 21:54:34 045 [debug]: ----------------------------------------------
+22/08/30 21:56:40 015 [debug]: ----------------------------------------------
+22/08/30 21:56:40 020 [debug]: |            Start Express Server            |
+22/08/30 21:56:40 021 [debug]: ----------------------------------------------
+22/08/30 21:56:40 022 [debug]: Server Address => http://192.168.199.1:3001
+22/08/30 21:56:40 023 [debug]: Server Address => http://192.168.233.1:3001
+22/08/30 21:56:40 024 [debug]: Server Address => http://192.168.0.196:3001
+22/08/30 21:56:40 025 [debug]: ----------------------------------------------
+22/08/30 21:56:46 854 [debug]: 클라이언트가 접속했습니다.
+22/08/30 21:56:46 856 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 21:56:46 859 [debug]: [OPTIONS] http://localhost:3001/
+22/08/30 21:56:46 866 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/08/30 21:56:46 867 [debug]: ----------------------------------------------
+22/08/30 21:56:46 874 [debug]: 클라이언트가 접속했습니다.
+22/08/30 21:56:46 875 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 21:56:46 876 [debug]: [POST] http://localhost:3001/
+22/08/30 21:56:46 914 [debug]: [HTTP %s Params] %s=%s
+22/08/30 21:56:46 916 [debug]: [HTTP %s Params] %s=%s
+22/08/30 21:56:46 917 [debug]: id= null
+22/08/30 21:56:46 918 [debug]: pw= dfs
+22/08/30 21:56:47 045 [info]:  >> DATABASE 접속됨 [threaId=226]
+22/08/30 21:56:47 046 [info]:  >> Connection 임대됨 [threaId=226]
+22/08/30 21:56:47 051 [debug]: SELECT user_pwd, user_email FROM admin WHERE user_email=NULL;
+22/08/30 21:56:47 057 [info]:  >> Connection 반납됨 [threaId]=226
+22/08/30 21:56:47 058 [error]: [Error] 조회된 데이터가 없습니다.
+22/08/30 21:56:47 059 [error]: Error: 조회된 데이터가 없습니다.
+    at AdminService.login (file:///C:/Users/juae/Desktop/LargeBread_BE/services/AdminService.js:49:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/AdminController.js:63:24
+22/08/30 21:56:47 069 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 194ms
+22/08/30 21:56:47 070 [debug]: ----------------------------------------------
+22/08/30 21:59:22 197 [debug]: ----------------------------------------------
+22/08/30 21:59:22 201 [debug]: |            Start Express Server            |
+22/08/30 21:59:22 203 [debug]: ----------------------------------------------
+22/08/30 21:59:22 204 [debug]: Server Address => http://192.168.199.1:3001
+22/08/30 21:59:22 205 [debug]: Server Address => http://192.168.233.1:3001
+22/08/30 21:59:22 207 [debug]: Server Address => http://192.168.0.196:3001
+22/08/30 21:59:22 208 [debug]: ----------------------------------------------
+22/08/30 21:59:35 068 [debug]: ----------------------------------------------
+22/08/30 21:59:35 073 [debug]: |            Start Express Server            |
+22/08/30 21:59:35 075 [debug]: ----------------------------------------------
+22/08/30 21:59:35 077 [debug]: Server Address => http://192.168.199.1:3001
+22/08/30 21:59:35 078 [debug]: Server Address => http://192.168.233.1:3001
+22/08/30 21:59:35 079 [debug]: Server Address => http://192.168.0.196:3001
+22/08/30 21:59:35 080 [debug]: ----------------------------------------------
+22/08/30 21:59:36 283 [debug]: 클라이언트가 접속했습니다.
+22/08/30 21:59:56 609 [debug]: ----------------------------------------------
+22/08/30 21:59:56 614 [debug]: |            Start Express Server            |
+22/08/30 21:59:56 616 [debug]: ----------------------------------------------
+22/08/30 21:59:56 618 [debug]: Server Address => http://192.168.199.1:3001
+22/08/30 21:59:56 620 [debug]: Server Address => http://192.168.233.1:3001
+22/08/30 21:59:56 622 [debug]: Server Address => http://192.168.0.196:3001
+22/08/30 21:59:56 622 [debug]: ----------------------------------------------
+22/08/30 21:59:57 436 [debug]: 클라이언트가 접속했습니다.
+22/08/30 21:59:57 438 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 21:59:57 441 [debug]: [OPTIONS] http://localhost:3001/
+22/08/30 21:59:57 453 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 15ms
+22/08/30 21:59:57 454 [debug]: ----------------------------------------------
+22/08/30 21:59:57 462 [debug]: 클라이언트가 접속했습니다.
+22/08/30 21:59:57 463 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 21:59:57 465 [debug]: [POST] http://localhost:3001/
+22/08/30 21:59:57 509 [debug]: [HTTP %s Params] %s=%s
+22/08/30 21:59:57 511 [debug]: [HTTP %s Params] %s=%s
+22/08/30 21:59:57 511 [debug]: id= null
+22/08/30 21:59:57 512 [debug]: pw= dfs
+22/08/30 21:59:57 640 [info]:  >> DATABASE 접속됨 [threaId=227]
+22/08/30 21:59:57 644 [info]:  >> Connection 임대됨 [threaId=227]
+22/08/30 21:59:57 648 [debug]: SELECT user_pwd, user_email FROM admin WHERE user_email=NULL;
+22/08/30 21:59:57 654 [info]:  >> Connection 반납됨 [threaId]=227
+22/08/30 21:59:57 656 [error]: [Error] 조회된 데이터가 없습니다.
+22/08/30 21:59:57 656 [error]: Error: 조회된 데이터가 없습니다.
+    at AdminService.login (file:///C:/Users/juae/Desktop/LargeBread_BE/services/AdminService.js:49:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/AdminController.js:63:24
+22/08/30 21:59:57 666 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 203ms
+22/08/30 21:59:57 667 [debug]: ----------------------------------------------
+22/08/30 22:01:51 376 [debug]: 클라이언트가 접속했습니다.
+22/08/30 22:01:51 377 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 22:01:51 379 [debug]: [OPTIONS] http://localhost:3001/
+22/08/30 22:01:51 381 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 4ms
+22/08/30 22:01:51 382 [debug]: ----------------------------------------------
+22/08/30 22:01:51 390 [debug]: 클라이언트가 접속했습니다.
+22/08/30 22:01:51 391 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 22:01:51 392 [debug]: [POST] http://localhost:3001/
+22/08/30 22:01:51 397 [debug]: [HTTP %s Params] %s=%s
+22/08/30 22:01:51 398 [debug]: [HTTP %s Params] %s=%s
+22/08/30 22:01:51 399 [debug]: id= ed@naver.com
+22/08/30 22:01:51 401 [debug]: pw= adsf
+22/08/30 22:01:51 402 [info]:  >> Connection 임대됨 [threaId=227]
+22/08/30 22:01:51 406 [debug]: SELECT user_pwd, user_email FROM admin WHERE user_email='ed@naver.com';
+22/08/30 22:02:08 299 [debug]: ----------------------------------------------
+22/08/30 22:02:08 305 [debug]: |            Start Express Server            |
+22/08/30 22:02:08 307 [debug]: ----------------------------------------------
+22/08/30 22:02:08 309 [debug]: Server Address => http://192.168.199.1:3001
+22/08/30 22:02:08 310 [debug]: Server Address => http://192.168.233.1:3001
+22/08/30 22:02:08 312 [debug]: Server Address => http://192.168.0.196:3001
+22/08/30 22:02:08 312 [debug]: ----------------------------------------------
+22/08/30 22:02:10 568 [debug]: 클라이언트가 접속했습니다.
+22/08/30 22:02:10 571 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 22:02:10 574 [debug]: [OPTIONS] http://localhost:3001/
+22/08/30 22:02:10 585 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 15ms
+22/08/30 22:02:10 587 [debug]: ----------------------------------------------
+22/08/30 22:02:10 598 [debug]: 클라이언트가 접속했습니다.
+22/08/30 22:02:10 599 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 22:02:10 600 [debug]: [POST] http://localhost:3001/
+22/08/30 22:02:10 653 [debug]: [HTTP %s Params] %s=%s
+22/08/30 22:02:10 656 [debug]: [HTTP %s Params] %s=%s
+22/08/30 22:02:10 657 [debug]: id= ed@naver.com
+22/08/30 22:02:10 658 [debug]: pw= adsf
+22/08/30 22:02:10 784 [info]:  >> DATABASE 접속됨 [threaId=228]
+22/08/30 22:02:10 785 [info]:  >> Connection 임대됨 [threaId=228]
+22/08/30 22:02:10 790 [debug]: SELECT user_pwd, user_email FROM admin WHERE user_email='ed@naver.com';
+22/08/30 22:02:10 799 [info]:  >> Connection 반납됨 [threaId]=228
+22/08/30 22:02:10 814 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 215ms
+22/08/30 22:02:10 814 [debug]: ----------------------------------------------
+22/08/30 22:02:33 437 [debug]: 클라이언트가 접속했습니다.
+22/08/30 22:02:33 439 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 22:02:33 441 [debug]: [OPTIONS] http://localhost:3001/
+22/08/30 22:02:33 443 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 4ms
+22/08/30 22:02:33 444 [debug]: ----------------------------------------------
+22/08/30 22:02:33 450 [debug]: 클라이언트가 접속했습니다.
+22/08/30 22:02:33 451 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 22:02:33 452 [debug]: [POST] http://localhost:3001/
+22/08/30 22:02:33 459 [debug]: [HTTP %s Params] %s=%s
+22/08/30 22:02:33 460 [debug]: [HTTP %s Params] %s=%s
+22/08/30 22:02:33 461 [debug]: id= ed@naver.com
+22/08/30 22:02:33 462 [debug]: pw= asdf
+22/08/30 22:02:33 464 [info]:  >> Connection 임대됨 [threaId=228]
+22/08/30 22:02:33 467 [debug]: SELECT user_pwd, user_email FROM admin WHERE user_email='ed@naver.com';
+22/08/30 22:02:33 470 [info]:  >> Connection 반납됨 [threaId]=228
+22/08/30 22:02:33 474 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 23ms
+22/08/30 22:02:33 475 [debug]: ----------------------------------------------
+22/08/30 22:03:35 813 [debug]: ----------------------------------------------
+22/08/30 22:03:35 819 [debug]: |            Start Express Server            |
+22/08/30 22:03:35 820 [debug]: ----------------------------------------------
+22/08/30 22:03:35 822 [debug]: Server Address => http://192.168.199.1:3001
+22/08/30 22:03:35 823 [debug]: Server Address => http://192.168.233.1:3001
+22/08/30 22:03:35 825 [debug]: Server Address => http://192.168.0.196:3001
+22/08/30 22:03:35 825 [debug]: ----------------------------------------------
+22/08/30 22:03:38 137 [debug]: 클라이언트가 접속했습니다.
+22/08/30 22:03:38 139 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 22:03:38 144 [debug]: [OPTIONS] http://localhost:3001/
+22/08/30 22:03:38 158 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 19ms
+22/08/30 22:03:38 160 [debug]: ----------------------------------------------
+22/08/30 22:03:38 175 [debug]: 클라이언트가 접속했습니다.
+22/08/30 22:03:38 177 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 22:03:38 178 [debug]: [POST] http://localhost:3001/
+22/08/30 22:03:38 248 [debug]: [HTTP %s Params] %s=%s
+22/08/30 22:03:38 253 [debug]: [HTTP %s Params] %s=%s
+22/08/30 22:03:38 254 [debug]: id= ed@naver.com
+22/08/30 22:03:38 256 [debug]: pw= asdf
+22/08/30 22:03:38 388 [info]:  >> DATABASE 접속됨 [threaId=229]
+22/08/30 22:03:38 389 [info]:  >> Connection 임대됨 [threaId=229]
+22/08/30 22:03:38 394 [debug]: SELECT user_pwd, user_email FROM admin WHERE user_email='ed@naver.com';
+22/08/30 22:03:38 401 [info]:  >> Connection 반납됨 [threaId]=229
+22/08/30 22:03:38 413 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 237ms
+22/08/30 22:03:38 414 [debug]: ----------------------------------------------
+22/08/30 22:05:13 333 [debug]: 클라이언트가 접속했습니다.
+22/08/30 22:05:13 335 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 22:05:13 337 [debug]: [OPTIONS] http://localhost:3001/signup
+22/08/30 22:05:13 339 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 4ms
+22/08/30 22:05:13 340 [debug]: ----------------------------------------------
+22/08/30 22:05:13 349 [debug]: 클라이언트가 접속했습니다.
+22/08/30 22:05:13 350 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 22:05:13 350 [debug]: [POST] http://localhost:3001/signup
+22/08/30 22:05:13 358 [debug]: [HTTP %s Params] %s=%s
+22/08/30 22:05:13 359 [debug]: [HTTP %s Params] %s=%s
+22/08/30 22:05:13 360 [debug]: [HTTP %s Params] %s=%s
+22/08/30 22:05:13 361 [debug]: [HTTP %s Params] %s=%s
+22/08/30 22:05:13 407 [info]:  >> Connection 임대됨 [threaId=229]
+22/08/30 22:05:13 411 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 61ms
+22/08/30 22:05:13 412 [debug]: ----------------------------------------------
+22/08/30 22:05:13 415 [debug]: INSERT INTO admin (name, user_pwd, user_email, is_out)  VALUES ('한주애', '$2b$08$HLDpTAqxSn51COfhEvi8o.B5/Ty6uxynSf6cgf.v3YFLrN0WWBPA6', 'imi0912@naver.com', 'Y');
+22/08/30 22:05:13 422 [info]:  >> Connection 반납됨 [threaId]=229
+22/08/30 22:05:27 401 [debug]: 클라이언트가 접속했습니다.
+22/08/30 22:05:27 402 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 22:05:27 403 [debug]: [OPTIONS] http://localhost:3001/
+22/08/30 22:05:27 405 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 3ms
+22/08/30 22:05:27 406 [debug]: ----------------------------------------------
+22/08/30 22:05:27 408 [debug]: 클라이언트가 접속했습니다.
+22/08/30 22:05:27 408 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 22:05:27 409 [debug]: [POST] http://localhost:3001/
+22/08/30 22:05:27 412 [debug]: [HTTP %s Params] %s=%s
+22/08/30 22:05:27 413 [debug]: [HTTP %s Params] %s=%s
+22/08/30 22:05:27 413 [debug]: id= imi0912@naver.com
+22/08/30 22:05:27 414 [debug]: pw= asdf123
+22/08/30 22:05:27 415 [info]:  >> Connection 임대됨 [threaId=229]
+22/08/30 22:05:27 417 [debug]: SELECT user_pwd, user_email FROM admin WHERE user_email='imi0912@naver.com';
+22/08/30 22:05:27 419 [info]:  >> Connection 반납됨 [threaId]=229
+22/08/30 22:05:27 421 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 13ms
+22/08/30 22:05:27 422 [debug]: ----------------------------------------------
+22/08/30 22:05:31 513 [debug]: 클라이언트가 접속했습니다.
+22/08/30 22:05:31 514 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 22:05:31 515 [debug]: [POST] http://localhost:3001/
+22/08/30 22:05:31 517 [debug]: [HTTP %s Params] %s=%s
+22/08/30 22:05:31 518 [debug]: [HTTP %s Params] %s=%s
+22/08/30 22:05:31 518 [debug]: id= imi0912@naver.com
+22/08/30 22:05:31 519 [debug]: pw= asdf123
+22/08/30 22:05:31 520 [info]:  >> Connection 임대됨 [threaId=229]
+22/08/30 22:05:31 521 [debug]: SELECT user_pwd, user_email FROM admin WHERE user_email='imi0912@naver.com';
+22/08/30 22:05:31 523 [info]:  >> Connection 반납됨 [threaId]=229
+22/08/30 22:05:31 525 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/08/30 22:05:31 526 [debug]: ----------------------------------------------
+22/08/30 22:05:55 015 [debug]: 클라이언트가 접속했습니다.
+22/08/30 22:05:55 016 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 22:05:55 017 [debug]: [OPTIONS] http://localhost:3001/
+22/08/30 22:05:55 020 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 4ms
+22/08/30 22:05:55 021 [debug]: ----------------------------------------------
+22/08/30 22:05:55 023 [debug]: 클라이언트가 접속했습니다.
+22/08/30 22:05:55 023 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 22:05:55 025 [debug]: [POST] http://localhost:3001/
+22/08/30 22:05:55 027 [debug]: [HTTP %s Params] %s=%s
+22/08/30 22:05:55 028 [debug]: [HTTP %s Params] %s=%s
+22/08/30 22:05:55 028 [debug]: id= imi0912@naver.com
+22/08/30 22:05:55 029 [debug]: pw= asdf12
+22/08/30 22:05:55 030 [info]:  >> Connection 임대됨 [threaId=229]
+22/08/30 22:05:55 031 [debug]: SELECT user_pwd, user_email FROM admin WHERE user_email='imi0912@naver.com';
+22/08/30 22:05:55 033 [info]:  >> Connection 반납됨 [threaId]=229
+22/08/30 22:05:55 036 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 13ms
+22/08/30 22:05:55 037 [debug]: ----------------------------------------------
+22/08/30 22:07:51 464 [debug]: ----------------------------------------------
+22/08/30 22:07:51 468 [debug]: |            Start Express Server            |
+22/08/30 22:07:51 469 [debug]: ----------------------------------------------
+22/08/30 22:07:51 470 [debug]: Server Address => http://192.168.199.1:3001
+22/08/30 22:07:51 472 [debug]: Server Address => http://192.168.233.1:3001
+22/08/30 22:07:51 473 [debug]: Server Address => http://192.168.0.196:3001
+22/08/30 22:07:51 474 [debug]: ----------------------------------------------
+22/08/30 22:08:29 349 [debug]: ----------------------------------------------
+22/08/30 22:08:29 358 [debug]: |            Start Express Server            |
+22/08/30 22:08:29 360 [debug]: ----------------------------------------------
+22/08/30 22:08:29 363 [debug]: Server Address => http://192.168.199.1:3001
+22/08/30 22:08:29 364 [debug]: Server Address => http://192.168.233.1:3001
+22/08/30 22:08:29 366 [debug]: Server Address => http://192.168.0.196:3001
+22/08/30 22:08:29 367 [debug]: ----------------------------------------------
+22/08/30 22:08:39 695 [debug]: 클라이언트가 접속했습니다.
+22/08/30 22:08:39 697 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 22:08:39 699 [debug]: [OPTIONS] http://localhost:3001/
+22/08/30 22:08:39 707 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/08/30 22:08:39 709 [debug]: ----------------------------------------------
+22/08/30 22:08:39 717 [debug]: 클라이언트가 접속했습니다.
+22/08/30 22:08:39 718 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 22:08:39 721 [debug]: [POST] http://localhost:3001/
+22/08/30 22:08:39 761 [debug]: [HTTP %s Params] %s=%s
+22/08/30 22:08:39 763 [debug]: [HTTP %s Params] %s=%s
+22/08/30 22:08:39 764 [debug]: id= imi0912@naver.com
+22/08/30 22:08:39 765 [debug]: pw= asdf
+22/08/30 22:08:39 884 [info]:  >> DATABASE 접속됨 [threaId=230]
+22/08/30 22:08:39 886 [info]:  >> Connection 임대됨 [threaId=230]
+22/08/30 22:08:39 893 [debug]: SELECT user_pwd, user_email FROM admin WHERE user_email='imi0912@naver.com';
+22/08/30 22:08:39 916 [info]:  >> Connection 반납됨 [threaId]=230
+22/08/30 22:08:39 918 [error]: [ReferenceError] user_email is not defined
+22/08/30 22:08:39 919 [error]: ReferenceError: user_email is not defined
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/AdminController.js:67:26
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+22/08/30 22:08:39 925 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 207ms
+22/08/30 22:08:39 925 [debug]: ----------------------------------------------
+22/08/30 22:09:04 235 [debug]: 클라이언트가 접속했습니다.
+22/08/30 22:09:04 235 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 22:09:04 236 [debug]: [OPTIONS] http://localhost:3001/
+22/08/30 22:09:04 238 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 3ms
+22/08/30 22:09:04 240 [debug]: ----------------------------------------------
+22/08/30 22:09:04 243 [debug]: 클라이언트가 접속했습니다.
+22/08/30 22:09:04 244 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 22:09:04 245 [debug]: [POST] http://localhost:3001/
+22/08/30 22:09:04 250 [debug]: [HTTP %s Params] %s=%s
+22/08/30 22:09:04 251 [debug]: [HTTP %s Params] %s=%s
+22/08/30 22:09:04 252 [debug]: id= imi0912@naver.com
+22/08/30 22:09:04 253 [debug]: pw= dsafsdafsf
+22/08/30 22:09:04 254 [info]:  >> Connection 임대됨 [threaId=230]
+22/08/30 22:09:04 257 [debug]: SELECT user_pwd, user_email FROM admin WHERE user_email='imi0912@naver.com';
+22/08/30 22:09:04 259 [info]:  >> Connection 반납됨 [threaId]=230
+22/08/30 22:09:04 260 [error]: [ReferenceError] user_email is not defined
+22/08/30 22:09:04 261 [error]: ReferenceError: user_email is not defined
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/AdminController.js:67:26
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+22/08/30 22:09:04 264 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 20ms
+22/08/30 22:09:04 265 [debug]: ----------------------------------------------
+22/08/30 22:09:21 670 [debug]: 클라이언트가 접속했습니다.
+22/08/30 22:09:21 671 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 22:09:21 672 [debug]: [OPTIONS] http://localhost:3001/
+22/08/30 22:09:21 674 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 3ms
+22/08/30 22:09:21 675 [debug]: ----------------------------------------------
+22/08/30 22:09:21 677 [debug]: 클라이언트가 접속했습니다.
+22/08/30 22:09:21 678 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 22:09:21 678 [debug]: [POST] http://localhost:3001/
+22/08/30 22:09:21 681 [debug]: [HTTP %s Params] %s=%s
+22/08/30 22:09:21 683 [debug]: [HTTP %s Params] %s=%s
+22/08/30 22:09:21 684 [debug]: id= imi0912@naver.com
+22/08/30 22:09:21 684 [debug]: pw= asd123
+22/08/30 22:09:21 685 [info]:  >> Connection 임대됨 [threaId=230]
+22/08/30 22:09:21 687 [debug]: SELECT user_pwd, user_email FROM admin WHERE user_email='imi0912@naver.com';
+22/08/30 22:09:21 690 [info]:  >> Connection 반납됨 [threaId]=230
+22/08/30 22:09:21 692 [error]: [ReferenceError] user_email is not defined
+22/08/30 22:09:21 692 [error]: ReferenceError: user_email is not defined
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/AdminController.js:67:26
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+22/08/30 22:09:21 695 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 18ms
+22/08/30 22:09:21 696 [debug]: ----------------------------------------------
+22/08/30 22:11:08 817 [debug]: 클라이언트가 접속했습니다.
+22/08/30 22:11:08 818 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 22:11:08 819 [debug]: [OPTIONS] http://localhost:3001/
+22/08/30 22:11:08 821 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 3ms
+22/08/30 22:11:08 822 [debug]: ----------------------------------------------
+22/08/30 22:11:08 825 [debug]: 클라이언트가 접속했습니다.
+22/08/30 22:11:08 826 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 22:11:08 826 [debug]: [POST] http://localhost:3001/
+22/08/30 22:11:08 829 [debug]: [HTTP %s Params] %s=%s
+22/08/30 22:11:08 829 [debug]: [HTTP %s Params] %s=%s
+22/08/30 22:11:08 830 [debug]: id= null
+22/08/30 22:11:08 831 [debug]: pw= null
+22/08/30 22:11:08 832 [info]:  >> Connection 임대됨 [threaId=230]
+22/08/30 22:11:08 834 [debug]: SELECT user_pwd, user_email FROM admin WHERE user_email=NULL;
+22/08/30 22:11:08 836 [info]:  >> Connection 반납됨 [threaId]=230
+22/08/30 22:11:08 837 [error]: [Error] 조회된 데이터가 없습니다.
+22/08/30 22:11:08 838 [error]: Error: 조회된 데이터가 없습니다.
+    at AdminService.login (file:///C:/Users/juae/Desktop/LargeBread_BE/services/AdminService.js:49:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/AdminController.js:63:24
+22/08/30 22:11:08 841 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 15ms
+22/08/30 22:11:08 842 [debug]: ----------------------------------------------
+22/08/30 22:11:35 864 [debug]: 클라이언트가 접속했습니다.
+22/08/30 22:11:35 865 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 22:11:35 866 [debug]: [OPTIONS] http://localhost:3001/
+22/08/30 22:11:35 869 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 3ms
+22/08/30 22:11:35 869 [debug]: ----------------------------------------------
+22/08/30 22:11:35 872 [debug]: 클라이언트가 접속했습니다.
+22/08/30 22:11:35 873 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 22:11:35 874 [debug]: [POST] http://localhost:3001/
+22/08/30 22:11:35 876 [debug]: [HTTP %s Params] %s=%s
+22/08/30 22:11:35 877 [debug]: [HTTP %s Params] %s=%s
+22/08/30 22:11:35 878 [debug]: id= null
+22/08/30 22:11:35 878 [debug]: pw= null
+22/08/30 22:11:35 879 [info]:  >> Connection 임대됨 [threaId=230]
+22/08/30 22:11:35 880 [debug]: SELECT user_pwd, user_email FROM admin WHERE user_email=NULL;
+22/08/30 22:11:35 882 [info]:  >> Connection 반납됨 [threaId]=230
+22/08/30 22:11:35 884 [error]: [Error] 조회된 데이터가 없습니다.
+22/08/30 22:11:35 885 [error]: Error: 조회된 데이터가 없습니다.
+    at AdminService.login (file:///C:/Users/juae/Desktop/LargeBread_BE/services/AdminService.js:49:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/AdminController.js:63:24
+22/08/30 22:11:35 887 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 14ms
+22/08/30 22:11:35 888 [debug]: ----------------------------------------------
+22/08/30 22:11:54 658 [debug]: 클라이언트가 접속했습니다.
+22/08/30 22:11:54 659 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 22:11:54 660 [debug]: [OPTIONS] http://localhost:3001/
+22/08/30 22:11:54 662 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 4ms
+22/08/30 22:11:54 663 [debug]: ----------------------------------------------
+22/08/30 22:11:54 665 [debug]: 클라이언트가 접속했습니다.
+22/08/30 22:11:54 666 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/08/30 22:11:54 667 [debug]: [POST] http://localhost:3001/
+22/08/30 22:11:54 672 [debug]: [HTTP %s Params] %s=%s
+22/08/30 22:11:54 672 [debug]: [HTTP %s Params] %s=%s
+22/08/30 22:11:54 673 [debug]: id= imi0912@naver.com
+22/08/30 22:11:54 674 [debug]: pw= asdf123
+22/08/30 22:11:54 675 [info]:  >> Connection 임대됨 [threaId=230]
+22/08/30 22:11:54 676 [debug]: SELECT user_pwd, user_email FROM admin WHERE user_email='imi0912@naver.com';
+22/08/30 22:11:54 678 [info]:  >> Connection 반납됨 [threaId]=230
+22/08/30 22:11:54 679 [error]: [ReferenceError] user_email is not defined
+22/08/30 22:11:54 679 [error]: ReferenceError: user_email is not defined
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/AdminController.js:67:26
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+22/08/30 22:11:54 682 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 16ms
+22/08/30 22:11:54 683 [debug]: ----------------------------------------------
+22/08/30 22:16:12 580 [info]: -------- Server is close -------
