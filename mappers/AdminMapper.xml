@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
     
-<mapper namespace="JoinMapper">
+<mapper namespace="AdminMapper">
 
     <!-- 회원가입 -->
     <insert id="insertAdmin">
@@ -15,4 +15,20 @@
         SELECT user_pwd, user_email FROM admin WHERE user_email=#{user_email};
     </select>
 
+
+
+    <!-- 관리자 메뉴관리 - 리스트 -->
+    <select id="getProductList">
+        SELECT c.category_name, p.product_name, p.price, p.product_state 
+        FROM product p inner join category c 
+        ON p.category_id = c.category_name;
+    </select>
+
+    <!-- <update id="SQL문_식별값">
+    
+    </update>
+
+    <delete id="SQL문_식별값">
+    
+    </delete> -->
 </mapper>

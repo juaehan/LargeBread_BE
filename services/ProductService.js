@@ -6,8 +6,7 @@ class ProductService {
     constructor() {
         mybatisMapper.createMapper([
             './mappers/ProductMapper.xml',
-            './mappers/CartMapper.xml',
-            './mappers/JoinMapper.xml'
+            './mappers/CartMapper.xml'
         ]);
     }
     

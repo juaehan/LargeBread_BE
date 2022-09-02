@@ -20,11 +20,4 @@
         INSERT INTO 
     </insert> -->
 
-    <!-- <update id="SQL문_식별값">
-    
-    </update>
-
-    <delete id="SQL문_식별값">
-    
-    </delete> -->
 </mapper>

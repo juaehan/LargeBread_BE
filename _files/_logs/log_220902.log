@@ -1,0 +1,1340 @@
+22/09/02 13:47:06 946 [debug]: ----------------------------------------------
+22/09/02 13:47:06 951 [debug]: |            Start Express Server            |
+22/09/02 13:47:06 952 [debug]: ----------------------------------------------
+22/09/02 13:47:06 954 [debug]: Server Address => http://192.168.199.1:3001
+22/09/02 13:47:06 955 [debug]: Server Address => http://192.168.233.1:3001
+22/09/02 13:47:06 957 [debug]: Server Address => http://192.168.1.82:3001
+22/09/02 13:47:06 957 [debug]: ----------------------------------------------
+22/09/02 13:50:17 631 [debug]: ----------------------------------------------
+22/09/02 13:50:17 635 [debug]: |            Start Express Server            |
+22/09/02 13:50:17 636 [debug]: ----------------------------------------------
+22/09/02 13:50:17 638 [debug]: Server Address => http://192.168.199.1:3001
+22/09/02 13:50:17 639 [debug]: Server Address => http://192.168.233.1:3001
+22/09/02 13:50:17 640 [debug]: Server Address => http://192.168.1.82:3001
+22/09/02 13:50:17 641 [debug]: ----------------------------------------------
+22/09/02 16:36:57 575 [debug]: ----------------------------------------------
+22/09/02 16:36:57 580 [debug]: |            Start Express Server            |
+22/09/02 16:36:57 581 [debug]: ----------------------------------------------
+22/09/02 16:36:57 583 [debug]: Server Address => http://192.168.199.1:3001
+22/09/02 16:36:57 585 [debug]: Server Address => http://192.168.233.1:3001
+22/09/02 16:36:57 587 [debug]: Server Address => http://192.168.1.82:3001
+22/09/02 16:36:57 588 [debug]: ----------------------------------------------
+22/09/02 16:42:10 961 [debug]: ----------------------------------------------
+22/09/02 16:42:10 966 [debug]: |            Start Express Server            |
+22/09/02 16:42:10 967 [debug]: ----------------------------------------------
+22/09/02 16:42:10 968 [debug]: Server Address => http://192.168.199.1:3001
+22/09/02 16:42:10 969 [debug]: Server Address => http://192.168.233.1:3001
+22/09/02 16:42:10 971 [debug]: Server Address => http://192.168.1.82:3001
+22/09/02 16:42:10 972 [debug]: ----------------------------------------------
+22/09/02 16:47:04 402 [debug]: ----------------------------------------------
+22/09/02 16:47:04 408 [debug]: |            Start Express Server            |
+22/09/02 16:47:04 409 [debug]: ----------------------------------------------
+22/09/02 16:47:04 412 [debug]: Server Address => http://192.168.199.1:3001
+22/09/02 16:47:04 414 [debug]: Server Address => http://192.168.233.1:3001
+22/09/02 16:47:04 415 [debug]: Server Address => http://192.168.1.82:3001
+22/09/02 16:47:04 416 [debug]: ----------------------------------------------
+22/09/02 16:48:02 843 [debug]: ----------------------------------------------
+22/09/02 16:48:02 846 [debug]: |            Start Express Server            |
+22/09/02 16:48:02 848 [debug]: ----------------------------------------------
+22/09/02 16:48:02 849 [debug]: Server Address => http://192.168.199.1:3001
+22/09/02 16:48:02 850 [debug]: Server Address => http://192.168.233.1:3001
+22/09/02 16:48:02 852 [debug]: Server Address => http://192.168.1.82:3001
+22/09/02 16:48:02 852 [debug]: ----------------------------------------------
+22/09/02 16:48:14 665 [debug]: 클라이언트가 접속했습니다.
+22/09/02 16:48:14 668 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/09/02 16:48:14 670 [debug]: [GET] http://192.168.199.1:3001/admin/product
+22/09/02 16:48:14 881 [info]:  >> DATABASE 접속됨 [threaId=9]
+22/09/02 16:48:14 882 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 16:48:14 885 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 16:48:14 898 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 16:48:14 908 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 241ms
+22/09/02 16:48:14 909 [debug]: ----------------------------------------------
+22/09/02 17:08:07 299 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:08:07 300 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:08:07 301 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:08:07 306 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:08:07 308 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:08:07 311 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:08:07 314 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 14ms
+22/09/02 17:08:07 314 [debug]: ----------------------------------------------
+22/09/02 17:08:07 317 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:08:07 319 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:08:07 320 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:08:07 323 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:08:07 324 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:08:07 341 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:08:07 345 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 26ms
+22/09/02 17:08:07 346 [debug]: ----------------------------------------------
+22/09/02 17:08:45 293 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:08:45 294 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:08:45 295 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:08:45 297 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:08:45 299 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:08:45 303 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:08:45 308 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 14ms
+22/09/02 17:08:45 308 [debug]: ----------------------------------------------
+22/09/02 17:08:45 312 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:08:45 314 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:08:45 315 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:08:45 320 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:08:45 323 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:08:45 326 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:08:45 330 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 16ms
+22/09/02 17:08:45 331 [debug]: ----------------------------------------------
+22/09/02 17:09:48 959 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:09:48 961 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:09:48 962 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:09:48 965 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:09:48 966 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:09:48 968 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:09:48 970 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/09/02 17:09:48 971 [debug]: ----------------------------------------------
+22/09/02 17:09:48 973 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:09:48 974 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:09:48 975 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:09:48 977 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:09:48 978 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:09:48 980 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:09:48 983 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/09/02 17:09:48 983 [debug]: ----------------------------------------------
+22/09/02 17:10:22 710 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:10:22 711 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:10:22 712 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:10:22 714 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:10:22 715 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:10:22 717 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:10:22 720 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/09/02 17:10:22 721 [debug]: ----------------------------------------------
+22/09/02 17:10:22 726 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:10:22 728 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:10:22 729 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:10:22 733 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:10:22 736 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:10:22 739 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:10:22 742 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 14ms
+22/09/02 17:10:22 743 [debug]: ----------------------------------------------
+22/09/02 17:12:27 479 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:12:27 481 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:12:27 482 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:12:27 485 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:12:27 488 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:12:27 490 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:12:27 494 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 13ms
+22/09/02 17:12:27 495 [debug]: ----------------------------------------------
+22/09/02 17:12:27 512 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:12:27 514 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:12:27 528 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:12:27 531 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:12:27 533 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:12:27 535 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:12:27 543 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 30ms
+22/09/02 17:12:27 544 [debug]: ----------------------------------------------
+22/09/02 17:12:34 234 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:12:34 235 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:12:34 236 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:12:34 239 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:12:34 245 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:12:34 246 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:12:34 250 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 15ms
+22/09/02 17:12:34 251 [debug]: ----------------------------------------------
+22/09/02 17:12:34 259 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:12:34 259 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:12:34 260 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:12:34 262 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:12:34 264 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:12:34 269 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:12:34 273 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 14ms
+22/09/02 17:12:34 274 [debug]: ----------------------------------------------
+22/09/02 17:13:41 088 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:13:41 089 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:13:41 090 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:13:41 094 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:13:41 096 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:13:41 098 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:13:41 102 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 13ms
+22/09/02 17:13:41 103 [debug]: ----------------------------------------------
+22/09/02 17:13:41 105 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:13:41 105 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:13:41 106 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:13:41 108 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:13:41 110 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:13:41 112 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:13:41 116 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/09/02 17:13:41 117 [debug]: ----------------------------------------------
+22/09/02 17:16:26 664 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:16:26 665 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:16:26 666 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:16:26 668 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:16:26 670 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:16:26 673 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:16:26 675 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/09/02 17:16:26 676 [debug]: ----------------------------------------------
+22/09/02 17:16:26 683 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:16:26 683 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:16:26 684 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:16:26 686 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:16:26 688 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:16:26 690 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:16:26 693 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/09/02 17:16:26 695 [debug]: ----------------------------------------------
+22/09/02 17:17:34 321 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:17:34 322 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:17:34 323 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:17:34 325 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:17:34 327 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:17:34 329 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:17:34 333 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/09/02 17:17:34 334 [debug]: ----------------------------------------------
+22/09/02 17:17:34 337 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:17:34 338 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:17:34 340 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:17:34 346 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:17:34 348 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:17:34 350 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:17:34 352 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 14ms
+22/09/02 17:17:34 353 [debug]: ----------------------------------------------
+22/09/02 17:18:22 252 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:18:22 253 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:18:22 254 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:18:22 257 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:18:22 258 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:18:22 260 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:18:22 262 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/09/02 17:18:22 263 [debug]: ----------------------------------------------
+22/09/02 17:18:22 267 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:18:22 267 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:18:22 268 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:18:22 271 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:18:22 273 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:18:22 274 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:18:22 277 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/09/02 17:18:22 278 [debug]: ----------------------------------------------
+22/09/02 17:18:27 539 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:18:27 541 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:18:27 543 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:18:27 548 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:18:27 550 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:18:27 552 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:18:27 555 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 15ms
+22/09/02 17:18:27 556 [debug]: ----------------------------------------------
+22/09/02 17:18:27 557 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:18:27 558 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:18:27 559 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:18:27 562 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:18:27 563 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:18:27 565 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:18:27 567 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/09/02 17:18:27 567 [debug]: ----------------------------------------------
+22/09/02 17:19:19 526 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:19:19 527 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:19:19 528 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:19:19 530 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:19:19 532 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:19:19 534 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:19:19 536 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/09/02 17:19:19 536 [debug]: ----------------------------------------------
+22/09/02 17:22:27 139 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:22:27 140 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:22:27 140 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:22:27 142 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:22:27 144 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:22:27 145 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:22:27 147 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 17:22:27 148 [debug]: ----------------------------------------------
+22/09/02 17:43:49 016 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:43:49 017 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:43:49 018 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:43:49 020 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:43:49 021 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:43:49 023 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:43:49 026 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/09/02 17:43:49 027 [debug]: ----------------------------------------------
+22/09/02 17:46:01 008 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:46:01 009 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:46:01 009 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:46:01 011 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:46:01 013 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:46:01 016 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:46:01 018 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/09/02 17:46:01 019 [debug]: ----------------------------------------------
+22/09/02 17:46:01 020 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:46:01 021 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:46:01 022 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:46:01 023 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:46:01 025 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:46:01 027 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:46:01 028 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 17:46:01 029 [debug]: ----------------------------------------------
+22/09/02 17:46:55 010 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:46:55 011 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:46:55 012 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:46:55 014 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:46:55 016 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:46:55 018 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:46:55 020 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/09/02 17:46:55 021 [debug]: ----------------------------------------------
+22/09/02 17:51:14 003 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:51:14 004 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:51:14 005 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:51:14 007 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:51:14 008 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:51:14 010 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:51:14 012 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/09/02 17:51:14 013 [debug]: ----------------------------------------------
+22/09/02 17:51:14 014 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:51:14 015 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:51:14 016 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:51:14 018 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:51:14 019 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:51:14 022 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:51:14 024 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/09/02 17:51:14 025 [debug]: ----------------------------------------------
+22/09/02 17:51:17 570 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:51:17 570 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:51:17 571 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:51:17 573 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:51:17 574 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:51:17 576 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:51:17 578 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/09/02 17:51:17 578 [debug]: ----------------------------------------------
+22/09/02 17:51:17 591 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:51:17 591 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:51:17 594 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:51:17 596 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:51:17 598 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:51:17 601 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:51:17 603 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/09/02 17:51:17 604 [debug]: ----------------------------------------------
+22/09/02 17:52:57 021 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:52:57 021 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:52:57 022 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:52:57 024 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:52:57 025 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:52:57 027 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:52:57 029 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/09/02 17:52:57 030 [debug]: ----------------------------------------------
+22/09/02 17:54:38 012 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:54:38 012 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:54:38 013 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:54:38 015 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:54:38 017 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:54:38 021 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:54:38 023 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/09/02 17:54:38 024 [debug]: ----------------------------------------------
+22/09/02 17:54:40 971 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:54:40 971 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:54:40 972 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:54:40 974 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:54:40 979 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:54:40 981 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:54:40 984 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 13ms
+22/09/02 17:54:40 985 [debug]: ----------------------------------------------
+22/09/02 17:54:40 986 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:54:40 987 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:54:40 987 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:54:40 990 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:54:40 991 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:54:40 993 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:54:40 995 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/09/02 17:54:40 995 [debug]: ----------------------------------------------
+22/09/02 17:55:05 006 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:55:05 007 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:55:05 007 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:55:05 010 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:55:05 011 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:55:05 013 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:55:05 015 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/09/02 17:55:05 016 [debug]: ----------------------------------------------
+22/09/02 17:55:08 434 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:55:08 435 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:55:08 437 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:55:08 440 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:55:08 441 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:55:08 442 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:55:08 444 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/09/02 17:55:08 445 [debug]: ----------------------------------------------
+22/09/02 17:55:08 446 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:55:08 447 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:55:08 447 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:55:08 449 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:55:08 450 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:55:08 451 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:55:08 454 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 17:55:08 455 [debug]: ----------------------------------------------
+22/09/02 17:56:27 273 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:56:27 274 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:56:27 275 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:56:27 277 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:56:27 278 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:56:27 282 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:56:27 284 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/09/02 17:56:27 285 [debug]: ----------------------------------------------
+22/09/02 17:56:27 293 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:56:27 294 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:56:27 294 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:56:27 297 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:56:27 299 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:56:27 303 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:56:27 304 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/09/02 17:56:27 305 [debug]: ----------------------------------------------
+22/09/02 17:56:36 729 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:56:36 729 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:56:36 730 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:56:36 733 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:56:36 734 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:56:36 737 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:56:36 740 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/09/02 17:56:36 741 [debug]: ----------------------------------------------
+22/09/02 17:56:36 742 [debug]: 클라이언트가 접속했습니다.
+22/09/02 17:56:36 743 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 17:56:36 743 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 17:56:36 745 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 17:56:36 746 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 17:56:36 747 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 17:56:36 749 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 6ms
+22/09/02 17:56:36 749 [debug]: ----------------------------------------------
+22/09/02 18:01:49 070 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:01:49 071 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:01:49 072 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:01:49 075 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:01:49 077 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:01:49 079 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:01:49 083 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/09/02 18:01:49 084 [debug]: ----------------------------------------------
+22/09/02 18:01:49 085 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:01:49 086 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:01:49 087 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:01:49 089 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:01:49 091 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:01:49 093 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:01:49 096 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/09/02 18:01:49 097 [debug]: ----------------------------------------------
+22/09/02 18:01:51 622 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:01:51 629 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:01:51 630 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:01:51 634 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:01:51 636 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:01:51 637 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:01:51 641 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/09/02 18:01:51 642 [debug]: ----------------------------------------------
+22/09/02 18:01:51 658 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:01:51 659 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:01:51 660 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:01:51 663 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:01:51 664 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:01:51 666 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:01:51 669 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/09/02 18:01:51 669 [debug]: ----------------------------------------------
+22/09/02 18:03:01 025 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:03:01 026 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:03:01 026 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:03:01 029 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:03:01 030 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:03:01 032 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:03:01 034 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/09/02 18:03:01 035 [debug]: ----------------------------------------------
+22/09/02 18:03:24 025 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:03:24 027 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:03:24 028 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:03:24 033 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:03:24 037 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:03:24 038 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:03:24 040 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 13ms
+22/09/02 18:03:24 041 [debug]: ----------------------------------------------
+22/09/02 18:05:44 011 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:05:44 012 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:05:44 013 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:05:44 015 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:05:44 017 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:05:44 018 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:05:44 020 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/09/02 18:05:44 021 [debug]: ----------------------------------------------
+22/09/02 18:05:46 467 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:05:46 468 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:05:46 469 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:05:46 471 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:05:46 472 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:05:46 474 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:05:46 476 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/09/02 18:05:46 477 [debug]: ----------------------------------------------
+22/09/02 18:05:46 479 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:05:46 480 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:05:46 481 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:05:46 483 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:05:46 485 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:05:46 489 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:05:46 491 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/09/02 18:05:46 492 [debug]: ----------------------------------------------
+22/09/02 18:06:03 004 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:06:03 004 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:06:03 005 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:06:03 007 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:06:03 008 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:06:03 010 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:06:03 012 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/09/02 18:06:03 012 [debug]: ----------------------------------------------
+22/09/02 18:07:03 472 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:07:03 476 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:07:03 479 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:07:03 484 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:07:03 490 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:07:03 498 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:07:03 502 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 27ms
+22/09/02 18:07:03 506 [debug]: ----------------------------------------------
+22/09/02 18:11:36 051 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:11:36 052 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:11:36 053 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:11:36 055 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:11:36 056 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:11:36 058 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:11:36 059 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/09/02 18:11:36 060 [debug]: ----------------------------------------------
+22/09/02 18:11:36 062 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:11:36 062 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:11:36 063 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:11:36 066 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:11:36 067 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:11:36 068 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:11:36 071 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/09/02 18:11:36 071 [debug]: ----------------------------------------------
+22/09/02 18:12:08 675 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:12:08 676 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:12:08 681 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:12:08 684 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:12:08 685 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:12:08 686 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:12:08 688 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/09/02 18:12:08 688 [debug]: ----------------------------------------------
+22/09/02 18:12:08 702 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:12:08 703 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:12:08 704 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:12:08 707 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:12:08 709 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:12:08 711 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:12:08 713 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/09/02 18:12:08 714 [debug]: ----------------------------------------------
+22/09/02 18:13:05 498 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:13:05 499 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:13:05 501 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:13:05 505 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:13:05 506 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:13:05 508 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:13:05 510 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/09/02 18:13:05 511 [debug]: ----------------------------------------------
+22/09/02 18:13:05 514 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:13:05 515 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:13:05 517 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:13:05 524 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:13:05 527 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:13:05 531 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:13:05 536 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 21ms
+22/09/02 18:13:05 537 [debug]: ----------------------------------------------
+22/09/02 18:22:30 137 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:22:30 138 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:22:30 139 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:22:30 142 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:22:30 143 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:22:30 147 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:22:30 148 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/09/02 18:22:30 149 [debug]: ----------------------------------------------
+22/09/02 18:22:30 156 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:22:30 157 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:22:30 158 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:22:30 160 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:22:30 162 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:22:30 164 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:22:30 166 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/09/02 18:22:30 168 [debug]: ----------------------------------------------
+22/09/02 18:24:04 894 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:24:04 896 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:24:04 897 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:24:04 899 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:24:04 901 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:24:04 903 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:24:04 906 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/09/02 18:24:04 907 [debug]: ----------------------------------------------
+22/09/02 18:24:06 525 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:24:06 526 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:24:06 527 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:24:06 529 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:24:06 530 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:24:06 533 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:24:06 535 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/09/02 18:24:06 536 [debug]: ----------------------------------------------
+22/09/02 18:24:06 537 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:24:06 538 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:24:06 539 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:24:06 541 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:24:06 542 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:24:06 543 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:24:06 545 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 18:24:06 545 [debug]: ----------------------------------------------
+22/09/02 18:33:42 294 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:33:42 295 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:33:42 296 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:33:42 298 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:33:42 299 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:33:42 301 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:33:42 303 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/09/02 18:33:42 304 [debug]: ----------------------------------------------
+22/09/02 18:33:55 642 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:33:55 643 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:33:55 644 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:33:55 648 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:33:55 650 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:33:55 651 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:33:55 653 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/09/02 18:33:55 654 [debug]: ----------------------------------------------
+22/09/02 18:34:36 134 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:34:36 135 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:34:36 136 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:34:36 138 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:34:36 139 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:34:36 141 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:34:36 142 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 18:34:36 143 [debug]: ----------------------------------------------
+22/09/02 18:38:35 169 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:38:35 170 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:38:35 171 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:38:35 173 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:38:35 174 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:38:35 175 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:38:35 177 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 18:38:35 178 [debug]: ----------------------------------------------
+22/09/02 18:38:35 181 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:38:35 182 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:38:35 183 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:38:35 185 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:38:35 188 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:38:35 194 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:38:35 196 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 14ms
+22/09/02 18:38:35 197 [debug]: ----------------------------------------------
+22/09/02 18:38:36 225 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:38:36 226 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:38:36 227 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:38:36 230 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:38:36 231 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:38:36 233 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:38:36 235 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/09/02 18:38:36 237 [debug]: ----------------------------------------------
+22/09/02 18:38:36 242 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:38:36 243 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:38:36 244 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:38:36 246 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:38:36 248 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:38:36 249 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:38:36 251 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/09/02 18:38:36 252 [debug]: ----------------------------------------------
+22/09/02 18:38:48 015 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:38:48 016 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:38:48 016 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:38:48 019 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:38:48 020 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:38:48 022 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:38:48 024 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/09/02 18:38:48 025 [debug]: ----------------------------------------------
+22/09/02 18:40:13 475 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:40:13 476 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:40:13 478 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:40:13 495 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:40:13 497 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:40:13 501 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:40:13 508 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 32ms
+22/09/02 18:40:13 511 [debug]: ----------------------------------------------
+22/09/02 18:40:26 015 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:40:26 017 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:40:26 018 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:40:26 020 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:40:26 021 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:40:26 023 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:40:26 025 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/09/02 18:40:26 026 [debug]: ----------------------------------------------
+22/09/02 18:42:43 935 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:42:43 935 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:42:43 936 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:42:43 938 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:42:43 939 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:42:43 940 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:42:43 942 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 18:42:43 943 [debug]: ----------------------------------------------
+22/09/02 18:42:49 783 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:42:49 784 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:42:49 785 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:42:49 787 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:42:49 788 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:42:49 790 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:42:49 792 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/09/02 18:42:49 792 [debug]: ----------------------------------------------
+22/09/02 18:42:55 667 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:42:55 668 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:42:55 669 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:42:55 672 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:42:55 673 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:42:55 674 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:42:55 676 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/09/02 18:42:55 676 [debug]: ----------------------------------------------
+22/09/02 18:42:55 678 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:42:55 678 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:42:55 679 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:42:55 682 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:42:55 683 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:42:55 685 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:42:55 688 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/09/02 18:42:55 689 [debug]: ----------------------------------------------
+22/09/02 18:43:01 556 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:43:01 557 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:43:01 557 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:43:01 560 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:43:01 561 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:43:01 563 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:43:01 564 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/09/02 18:43:01 565 [debug]: ----------------------------------------------
+22/09/02 18:43:01 569 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:43:01 569 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:43:01 570 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:43:01 574 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:43:01 575 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:43:01 577 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:43:01 579 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/09/02 18:43:01 580 [debug]: ----------------------------------------------
+22/09/02 18:43:08 289 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:43:08 290 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:43:08 291 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:43:08 293 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:43:08 294 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:43:08 295 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:43:08 297 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 18:43:08 298 [debug]: ----------------------------------------------
+22/09/02 18:43:12 987 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:43:12 987 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:43:12 988 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:43:12 991 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:43:12 992 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:43:12 995 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:43:12 997 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/09/02 18:43:12 998 [debug]: ----------------------------------------------
+22/09/02 18:43:12 999 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:43:13 001 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:43:13 002 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:43:13 004 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:43:13 005 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:43:13 007 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:43:13 009 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/09/02 18:43:13 010 [debug]: ----------------------------------------------
+22/09/02 18:43:35 448 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:43:35 449 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:43:35 450 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:43:35 452 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:43:35 453 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:43:35 454 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:43:35 456 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 18:43:35 457 [debug]: ----------------------------------------------
+22/09/02 18:43:46 877 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:43:46 878 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:43:46 878 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:43:46 880 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:43:46 881 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:43:46 882 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:43:46 884 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 6ms
+22/09/02 18:43:46 885 [debug]: ----------------------------------------------
+22/09/02 18:43:46 887 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:43:46 888 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:43:46 889 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:43:46 892 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:43:46 894 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:43:46 896 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:43:46 898 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/09/02 18:43:46 899 [debug]: ----------------------------------------------
+22/09/02 18:43:48 466 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:43:48 467 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:43:48 468 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:43:48 471 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:43:48 472 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:43:48 475 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:43:48 481 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 14ms
+22/09/02 18:43:48 481 [debug]: ----------------------------------------------
+22/09/02 18:43:48 483 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:43:48 484 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:43:48 485 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:43:48 486 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:43:48 487 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:43:48 489 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:43:48 491 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 18:43:48 493 [debug]: ----------------------------------------------
+22/09/02 18:43:51 499 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:43:51 500 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:43:51 501 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:43:51 503 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:43:51 504 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:43:51 505 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:43:51 508 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/09/02 18:43:51 508 [debug]: ----------------------------------------------
+22/09/02 18:43:51 511 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:43:51 512 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:43:51 513 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:43:51 515 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:43:51 516 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:43:51 518 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:43:51 520 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/09/02 18:43:51 521 [debug]: ----------------------------------------------
+22/09/02 18:44:02 082 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:44:02 082 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:44:02 083 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:44:02 085 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:44:02 086 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:44:02 087 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:44:02 089 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 18:44:02 089 [debug]: ----------------------------------------------
+22/09/02 18:44:05 306 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:44:05 307 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:44:05 307 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:44:05 310 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:44:05 312 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:44:05 315 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:44:05 319 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/09/02 18:44:05 320 [debug]: ----------------------------------------------
+22/09/02 18:44:05 322 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:44:05 322 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:44:05 323 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:44:05 325 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:44:05 326 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:44:05 327 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:44:05 330 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/09/02 18:44:05 331 [debug]: ----------------------------------------------
+22/09/02 18:44:07 857 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:44:07 858 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:44:07 858 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:44:07 860 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:44:07 862 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:44:07 864 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:44:07 867 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/09/02 18:44:07 867 [debug]: ----------------------------------------------
+22/09/02 18:44:07 869 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:44:07 870 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:44:07 871 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:44:07 873 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:44:07 874 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:44:07 877 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:44:07 878 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/09/02 18:44:07 879 [debug]: ----------------------------------------------
+22/09/02 18:44:09 392 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:44:09 393 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:44:09 394 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:44:09 397 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:44:09 399 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:44:09 403 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:44:09 405 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/09/02 18:44:09 406 [debug]: ----------------------------------------------
+22/09/02 18:44:09 408 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:44:09 413 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:44:09 414 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:44:09 418 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:44:09 421 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:44:09 423 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:44:09 426 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 13ms
+22/09/02 18:44:09 427 [debug]: ----------------------------------------------
+22/09/02 18:44:33 245 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:44:33 246 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:44:33 247 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:44:33 248 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:44:33 250 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:44:33 251 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:44:33 253 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 18:44:33 254 [debug]: ----------------------------------------------
+22/09/02 18:44:33 256 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:44:33 257 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:44:33 258 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:44:33 259 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:44:33 261 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:44:33 263 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:44:33 265 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/09/02 18:44:33 266 [debug]: ----------------------------------------------
+22/09/02 18:44:36 206 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:44:36 207 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:44:36 207 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:44:36 210 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:44:36 211 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:44:36 213 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:44:36 215 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/09/02 18:44:36 215 [debug]: ----------------------------------------------
+22/09/02 18:44:36 217 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:44:36 218 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:44:36 219 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:44:36 221 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:44:36 222 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:44:36 224 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:44:36 228 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/09/02 18:44:36 228 [debug]: ----------------------------------------------
+22/09/02 18:45:59 855 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:45:59 856 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:45:59 860 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:45:59 862 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:45:59 863 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:45:59 865 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:45:59 867 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/09/02 18:45:59 867 [debug]: ----------------------------------------------
+22/09/02 18:46:01 234 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:46:01 235 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:46:01 257 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:46:01 260 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:46:01 262 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:46:01 268 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:46:01 271 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 36ms
+22/09/02 18:46:01 272 [debug]: ----------------------------------------------
+22/09/02 18:46:01 277 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:46:01 280 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:46:01 281 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:46:01 283 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:46:01 285 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:46:01 286 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:46:01 288 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/09/02 18:46:01 289 [debug]: ----------------------------------------------
+22/09/02 18:46:10 560 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:46:10 562 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:46:10 563 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:46:10 565 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:46:10 566 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:46:10 567 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:46:10 569 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/09/02 18:46:10 570 [debug]: ----------------------------------------------
+22/09/02 18:46:10 571 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:46:10 572 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:46:10 573 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:46:10 576 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:46:10 578 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:46:10 580 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:46:10 581 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/09/02 18:46:10 582 [debug]: ----------------------------------------------
+22/09/02 18:54:56 034 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:54:56 035 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:54:56 036 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:54:56 038 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:54:56 039 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:54:56 041 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:54:56 042 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 18:54:56 043 [debug]: ----------------------------------------------
+22/09/02 18:54:56 045 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:54:56 045 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:54:56 046 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:54:56 049 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:54:56 050 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:54:56 053 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:54:56 055 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/09/02 18:54:56 056 [debug]: ----------------------------------------------
+22/09/02 18:55:31 701 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:55:31 702 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:55:31 702 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:55:31 704 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:55:31 705 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:55:31 707 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:55:31 711 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/09/02 18:55:31 711 [debug]: ----------------------------------------------
+22/09/02 18:55:31 716 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:55:31 716 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:55:31 717 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:55:31 719 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:55:31 720 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:55:31 722 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:55:31 724 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/09/02 18:55:31 725 [debug]: ----------------------------------------------
+22/09/02 18:56:22 461 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:56:22 462 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:56:22 463 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:56:22 465 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:56:22 466 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:56:22 467 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:56:22 469 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 18:56:22 469 [debug]: ----------------------------------------------
+22/09/02 18:56:38 496 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:56:38 497 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:56:38 498 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:56:38 500 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:56:38 501 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:56:38 502 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:56:38 504 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 18:56:38 504 [debug]: ----------------------------------------------
+22/09/02 18:56:56 398 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:56:56 399 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:56:56 400 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:56:56 401 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:56:56 402 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:56:56 404 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:56:56 405 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 6ms
+22/09/02 18:56:56 406 [debug]: ----------------------------------------------
+22/09/02 18:57:08 407 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:57:08 408 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:57:08 409 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:57:08 410 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:57:08 411 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:57:08 429 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:57:08 432 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 24ms
+22/09/02 18:57:08 434 [debug]: ----------------------------------------------
+22/09/02 18:57:26 123 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:57:26 124 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:57:26 125 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:57:26 126 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:57:26 143 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:57:26 144 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:57:26 147 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 23ms
+22/09/02 18:57:26 148 [debug]: ----------------------------------------------
+22/09/02 18:57:53 364 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:57:53 365 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:57:53 365 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:57:53 367 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:57:53 368 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:57:53 369 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:57:53 371 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 6ms
+22/09/02 18:57:53 372 [debug]: ----------------------------------------------
+22/09/02 18:58:08 087 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:58:08 088 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:58:08 089 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:58:08 090 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:58:08 091 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:58:08 093 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:58:08 094 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 6ms
+22/09/02 18:58:08 095 [debug]: ----------------------------------------------
+22/09/02 18:58:18 006 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:58:18 007 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:58:18 007 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:58:18 009 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:58:18 010 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:58:18 011 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:58:18 028 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 22ms
+22/09/02 18:58:18 029 [debug]: ----------------------------------------------
+22/09/02 18:58:35 385 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:58:35 386 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:58:35 387 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:58:35 388 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:58:35 389 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:58:35 391 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:58:35 395 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/09/02 18:58:35 396 [debug]: ----------------------------------------------
+22/09/02 18:58:44 224 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:58:44 225 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:58:44 226 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:58:44 228 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:58:44 230 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:58:44 231 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:58:44 234 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/09/02 18:58:44 235 [debug]: ----------------------------------------------
+22/09/02 18:58:55 189 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:58:55 190 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:58:55 190 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:58:55 192 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:58:55 194 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:58:55 196 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:58:55 198 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/09/02 18:58:55 199 [debug]: ----------------------------------------------
+22/09/02 18:59:01 655 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:59:01 656 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:59:01 657 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:59:01 659 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:59:01 660 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:59:01 662 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:59:01 664 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/09/02 18:59:01 664 [debug]: ----------------------------------------------
+22/09/02 18:59:08 607 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:59:08 607 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:59:08 608 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:59:08 610 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:59:08 611 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:59:08 612 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:59:08 614 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 18:59:08 614 [debug]: ----------------------------------------------
+22/09/02 18:59:30 666 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:59:30 668 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:59:30 670 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:59:30 673 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:59:30 675 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:59:30 677 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:59:30 680 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/09/02 18:59:30 681 [debug]: ----------------------------------------------
+22/09/02 18:59:54 461 [debug]: 클라이언트가 접속했습니다.
+22/09/02 18:59:54 463 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 18:59:54 464 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 18:59:54 465 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 18:59:54 466 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 18:59:54 468 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 18:59:54 469 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 18:59:54 470 [debug]: ----------------------------------------------
+22/09/02 19:00:09 597 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:00:09 598 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:00:09 599 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:00:09 601 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:00:09 602 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:00:09 603 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:00:09 604 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 6ms
+22/09/02 19:00:09 605 [debug]: ----------------------------------------------
+22/09/02 19:00:13 700 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:00:13 701 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:00:13 701 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:00:13 703 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:00:13 704 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:00:13 706 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:00:13 707 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 6ms
+22/09/02 19:00:13 708 [debug]: ----------------------------------------------
+22/09/02 19:02:12 309 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:02:12 310 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:02:12 310 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:02:12 312 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:02:12 313 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:02:12 315 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:02:12 317 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 19:02:12 318 [debug]: ----------------------------------------------
+22/09/02 19:02:13 592 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:02:13 593 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:02:13 595 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:02:13 599 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:02:13 602 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:02:13 605 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:02:13 606 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 13ms
+22/09/02 19:02:13 607 [debug]: ----------------------------------------------
+22/09/02 19:02:13 608 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:02:13 609 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:02:13 611 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:02:13 614 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:02:13 615 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:02:13 618 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:02:13 620 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/09/02 19:02:13 621 [debug]: ----------------------------------------------
+22/09/02 19:02:51 587 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:02:51 588 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:02:51 588 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:02:51 590 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:02:51 591 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:02:51 593 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:02:51 595 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 6ms
+22/09/02 19:02:51 595 [debug]: ----------------------------------------------
+22/09/02 19:03:43 621 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:03:43 621 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:03:43 622 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:03:43 624 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:03:43 625 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:03:43 626 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:03:43 628 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 19:03:43 628 [debug]: ----------------------------------------------
+22/09/02 19:04:27 614 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:04:27 614 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:04:27 615 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:04:27 617 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:04:27 618 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:04:27 621 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:04:27 623 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/09/02 19:04:27 623 [debug]: ----------------------------------------------
+22/09/02 19:04:38 109 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:04:38 110 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:04:38 110 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:04:38 112 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:04:38 113 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:04:38 114 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:04:38 116 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 19:04:38 117 [debug]: ----------------------------------------------
+22/09/02 19:18:13 524 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:18:13 524 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:18:13 525 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:18:13 527 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:18:13 528 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:18:13 529 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:18:13 531 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 19:18:13 531 [debug]: ----------------------------------------------
+22/09/02 19:19:35 051 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:19:35 051 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:19:35 052 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:19:35 054 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:19:35 055 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:19:35 056 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:19:35 058 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 19:19:35 059 [debug]: ----------------------------------------------
+22/09/02 19:20:03 405 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:20:03 406 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:20:03 407 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:20:03 409 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:20:03 410 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:20:03 411 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:20:03 413 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 19:20:03 413 [debug]: ----------------------------------------------
+22/09/02 19:20:12 919 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:20:12 920 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:20:12 920 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:20:12 922 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:20:12 923 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:20:12 925 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:20:12 927 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 19:20:12 928 [debug]: ----------------------------------------------
+22/09/02 19:20:16 358 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:20:16 359 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:20:16 360 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:20:16 361 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:20:16 363 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:20:16 365 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:20:16 366 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 19:20:16 367 [debug]: ----------------------------------------------
+22/09/02 19:20:23 375 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:20:23 376 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:20:23 376 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:20:23 378 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:20:23 379 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:20:23 384 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:20:23 386 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/09/02 19:20:23 387 [debug]: ----------------------------------------------
+22/09/02 19:21:08 661 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:21:08 661 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:21:08 662 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:21:08 664 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:21:08 665 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:21:08 667 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:21:08 669 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/09/02 19:21:08 670 [debug]: ----------------------------------------------
+22/09/02 19:21:17 928 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:21:17 928 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:21:17 944 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:21:17 946 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:21:17 947 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:21:17 950 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:21:17 952 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 24ms
+22/09/02 19:21:17 953 [debug]: ----------------------------------------------
+22/09/02 19:21:44 481 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:21:44 482 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:21:44 483 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:21:44 484 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:21:44 485 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:21:44 486 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:21:44 488 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 6ms
+22/09/02 19:21:44 489 [debug]: ----------------------------------------------
+22/09/02 19:22:38 368 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:22:38 368 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:22:38 369 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:22:38 371 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:22:38 372 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:22:38 373 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:22:38 375 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 19:22:38 376 [debug]: ----------------------------------------------
+22/09/02 19:22:42 351 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:22:42 352 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:22:42 353 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:22:42 354 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:22:42 355 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:22:42 357 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:22:42 359 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 19:22:42 360 [debug]: ----------------------------------------------
+22/09/02 19:26:09 808 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:26:09 809 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:26:09 810 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:26:09 812 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:26:09 813 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:26:09 814 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:26:09 816 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/09/02 19:26:09 817 [debug]: ----------------------------------------------
+22/09/02 19:26:44 798 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:26:44 799 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:26:44 799 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:26:44 816 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:26:44 817 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:26:44 818 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:26:44 820 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 22ms
+22/09/02 19:26:44 821 [debug]: ----------------------------------------------
+22/09/02 19:27:00 917 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:27:00 917 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:27:00 918 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:27:00 920 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:27:00 921 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:27:00 922 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:27:00 924 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 19:27:00 925 [debug]: ----------------------------------------------
+22/09/02 19:27:05 365 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:27:05 365 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:27:05 366 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:27:05 368 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:27:05 369 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:27:05 370 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:27:05 372 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 19:27:05 372 [debug]: ----------------------------------------------
+22/09/02 19:27:11 379 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:27:11 380 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:27:11 381 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:27:11 382 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:27:11 384 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:27:11 385 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:27:11 387 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 19:27:11 388 [debug]: ----------------------------------------------
+22/09/02 19:27:20 925 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:27:20 926 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:27:20 926 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:27:20 928 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:27:20 929 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:27:20 930 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:27:20 933 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 19:27:20 934 [debug]: ----------------------------------------------
+22/09/02 19:27:40 979 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:27:40 980 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:27:40 981 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:27:40 982 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:27:40 983 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:27:40 985 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:27:40 986 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 6ms
+22/09/02 19:27:40 987 [debug]: ----------------------------------------------
+22/09/02 19:28:02 155 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:28:02 156 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:28:02 156 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:28:02 159 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:28:02 160 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:28:02 161 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:28:02 166 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 10ms
+22/09/02 19:28:02 167 [debug]: ----------------------------------------------
+22/09/02 19:28:10 657 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:28:10 658 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:28:10 659 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:28:10 660 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:28:10 661 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:28:10 663 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:28:10 664 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 6ms
+22/09/02 19:28:10 665 [debug]: ----------------------------------------------
+22/09/02 19:28:16 123 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:28:16 123 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:28:16 124 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:28:16 126 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:28:16 127 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:28:16 128 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:28:16 131 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 7ms
+22/09/02 19:28:16 131 [debug]: ----------------------------------------------
+22/09/02 19:28:26 114 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:28:26 115 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:28:26 116 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:28:26 133 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:28:26 135 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:28:26 136 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:28:26 138 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 23ms
+22/09/02 19:28:26 139 [debug]: ----------------------------------------------
+22/09/02 19:29:12 244 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:29:12 244 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:29:12 245 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:29:12 246 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:29:12 247 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:29:12 249 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:29:12 250 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 6ms
+22/09/02 19:29:12 251 [debug]: ----------------------------------------------
+22/09/02 19:29:34 029 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:29:34 029 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:29:34 030 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:29:34 032 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:29:34 034 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:29:34 036 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:29:34 038 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 9ms
+22/09/02 19:29:34 038 [debug]: ----------------------------------------------
+22/09/02 19:29:40 322 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:29:40 323 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:29:40 323 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:29:40 325 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:29:40 326 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:29:40 327 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:29:40 329 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 6ms
+22/09/02 19:29:40 330 [debug]: ----------------------------------------------
+22/09/02 19:29:55 485 [debug]: 클라이언트가 접속했습니다.
+22/09/02 19:29:55 486 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/02 19:29:55 487 [debug]: [GET] http://localhost:3001/admin/product
+22/09/02 19:29:55 488 [info]:  >> Connection 임대됨 [threaId=9]
+22/09/02 19:29:55 489 [debug]: SELECT c.category_name, p.product_name, p.price, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name;
+22/09/02 19:29:55 491 [info]:  >> Connection 반납됨 [threaId]=9
+22/09/02 19:29:55 493 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 8ms
+22/09/02 19:29:55 493 [debug]: ----------------------------------------------
+22/09/02 19:33:09 988 [info]: -------- Server is close -------
