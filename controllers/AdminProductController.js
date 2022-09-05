@@ -7,29 +7,23 @@ import regexHelper from '../helper/RegexHelper.js';
 export default () => {
     const router = express.Router();
     const url = '/admin/product';
+    const url1 = '/admin/order_list';
 
-    router.get('/admin/order_list', async (req, res, next) => {
+    router.get(url1, async (req, res, next) => {
+        const query = req.get('query');
+        const params = {};
+        if(query){
+            params.date = query;
+        }
+        
         let json = null;
 
         try{
-            json = await AdminService.getOrderLists();
+            json = await AdminService.getOrderList(params);
         }catch (err) {
             return next(err);
         }
-        res.sendResult({item: json});
-    });
 
-    router.get('/admin/order_list/:orderDt', async (req, res, next) => {
-        const orderDt = req.get('orderDt');
-        let json = null;
-
-        try{
-            json = await AdminService.getOrderList({
-                date: orderDt
-            });
-        }catch (err) {
-            return next(err);
-        }
         res.sendResult({item: json});
     });
 

@@ -8833,3 +8833,449 @@
 22/09/05 10:02:04 790 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 38ms
 22/09/05 10:02:04 791 [debug]: ----------------------------------------------
 22/09/05 10:03:13 199 [info]: -------- Server is close -------
+22/09/05 23:07:59 035 [debug]: ----------------------------------------------
+22/09/05 23:07:59 041 [debug]: |            Start Express Server            |
+22/09/05 23:07:59 048 [debug]: ----------------------------------------------
+22/09/05 23:07:59 071 [debug]: Server Address => http://192.168.199.1:3001
+22/09/05 23:07:59 089 [debug]: Server Address => http://192.168.233.1:3001
+22/09/05 23:07:59 094 [debug]: Server Address => http://192.168.1.82:3001
+22/09/05 23:07:59 107 [debug]: ----------------------------------------------
+22/09/05 23:08:26 696 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:08:26 699 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:08:26 703 [debug]: [GET] http://localhost:3001/admin/product
+22/09/05 23:08:26 898 [info]:  >> DATABASE 접속됨 [threaId=147]
+22/09/05 23:08:26 901 [info]:  >> Connection 임대됨 [threaId=147]
+22/09/05 23:08:26 911 [debug]: SELECT p.id, c.category_name, p.product_name, p.price, p.cost, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name  ORDER BY c.id ASC;
+22/09/05 23:08:26 939 [info]:  >> Connection 반납됨 [threaId]=147
+22/09/05 23:08:26 956 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 257ms
+22/09/05 23:08:26 960 [debug]: ----------------------------------------------
+22/09/05 23:08:26 991 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:08:26 996 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:08:27 002 [debug]: [GET] http://localhost:3001/admin/product
+22/09/05 23:08:27 016 [info]:  >> Connection 임대됨 [threaId=147]
+22/09/05 23:08:27 051 [debug]: SELECT p.id, c.category_name, p.product_name, p.price, p.cost, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name  ORDER BY c.id ASC;
+22/09/05 23:08:27 062 [info]:  >> Connection 반납됨 [threaId]=147
+22/09/05 23:08:27 074 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 78ms
+22/09/05 23:08:27 130 [debug]: ----------------------------------------------
+22/09/05 23:09:24 894 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:09:24 895 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:09:24 897 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:09:24 900 [info]:  >> Connection 임대됨 [threaId=147]
+22/09/05 23:09:24 902 [debug]: SELECT c.id, c.amount, p.product_name, c.date, c.sale_code FROM cart c inner join product p ON p.id = c.product_id;
+22/09/05 23:09:24 912 [info]:  >> Connection 반납됨 [threaId]=147
+22/09/05 23:09:24 915 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 19ms
+22/09/05 23:09:24 915 [debug]: ----------------------------------------------
+22/09/05 23:09:24 919 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:09:24 920 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:09:24 923 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:09:24 926 [info]:  >> Connection 임대됨 [threaId=147]
+22/09/05 23:09:24 928 [debug]: SELECT c.id, c.amount, p.product_name, c.date, c.sale_code FROM cart c inner join product p ON p.id = c.product_id;
+22/09/05 23:09:24 932 [info]:  >> Connection 반납됨 [threaId]=147
+22/09/05 23:09:24 935 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 15ms
+22/09/05 23:09:24 937 [debug]: ----------------------------------------------
+22/09/05 23:09:58 121 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:09:58 121 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:09:58 123 [debug]: [GET] http://localhost:3001/admin/product
+22/09/05 23:09:58 125 [info]:  >> Connection 임대됨 [threaId=147]
+22/09/05 23:09:58 127 [debug]: SELECT p.id, c.category_name, p.product_name, p.price, p.cost, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name  ORDER BY c.id ASC;
+22/09/05 23:09:58 130 [info]:  >> Connection 반납됨 [threaId]=147
+22/09/05 23:09:58 133 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/09/05 23:09:58 134 [debug]: ----------------------------------------------
+22/09/05 23:09:58 137 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:09:58 138 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:09:58 139 [debug]: [GET] http://localhost:3001/admin/product
+22/09/05 23:09:58 141 [info]:  >> Connection 임대됨 [threaId=147]
+22/09/05 23:09:58 143 [debug]: SELECT p.id, c.category_name, p.product_name, p.price, p.cost, p.product_state   FROM product p inner join category c   ON p.category_id = c.category_name  ORDER BY c.id ASC;
+22/09/05 23:09:58 146 [info]:  >> Connection 반납됨 [threaId]=147
+22/09/05 23:09:58 149 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/09/05 23:09:58 150 [debug]: ----------------------------------------------
+22/09/05 23:10:02 210 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:10:02 211 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:10:02 212 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:10:02 216 [info]:  >> Connection 임대됨 [threaId=147]
+22/09/05 23:10:02 218 [debug]: SELECT c.id, c.amount, p.product_name, c.date, c.sale_code FROM cart c inner join product p ON p.id = c.product_id;
+22/09/05 23:10:02 220 [info]:  >> Connection 반납됨 [threaId]=147
+22/09/05 23:10:02 223 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/09/05 23:10:02 224 [debug]: ----------------------------------------------
+22/09/05 23:10:02 226 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:10:02 227 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:10:02 228 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:10:02 232 [info]:  >> Connection 임대됨 [threaId=147]
+22/09/05 23:10:02 234 [debug]: SELECT c.id, c.amount, p.product_name, c.date, c.sale_code FROM cart c inner join product p ON p.id = c.product_id;
+22/09/05 23:10:02 238 [info]:  >> Connection 반납됨 [threaId]=147
+22/09/05 23:10:02 241 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 14ms
+22/09/05 23:10:02 242 [debug]: ----------------------------------------------
+22/09/05 23:17:06 941 [debug]: ----------------------------------------------
+22/09/05 23:17:06 945 [debug]: |            Start Express Server            |
+22/09/05 23:17:06 946 [debug]: ----------------------------------------------
+22/09/05 23:17:06 947 [debug]: Server Address => http://192.168.199.1:3001
+22/09/05 23:17:06 948 [debug]: Server Address => http://192.168.233.1:3001
+22/09/05 23:17:06 949 [debug]: Server Address => http://192.168.1.82:3001
+22/09/05 23:17:06 950 [debug]: ----------------------------------------------
+22/09/05 23:17:18 256 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:17:18 258 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:17:18 261 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:17:18 283 [debug]: [HTTP %s Params] %s=%s
+22/09/05 23:17:18 398 [info]:  >> DATABASE 접속됨 [threaId=149]
+22/09/05 23:17:18 400 [info]:  >> Connection 임대됨 [threaId=149]
+22/09/05 23:17:18 404 [debug]: SELECT c.id, c.amount, p.product_name, c.date, c.sale_code, p.price, p.cost, SUM(p.price) AS '합계', SUM(p.cost) AS '합계' FROM cart c inner join product p ON p.id = c.product_id WHERE c.date=NULL;
+22/09/05 23:17:18 412 [info]:  >> Connection 반납됨 [threaId]=149
+22/09/05 23:17:18 430 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 171ms
+22/09/05 23:17:18 432 [debug]: ----------------------------------------------
+22/09/05 23:17:18 443 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:17:18 444 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:17:18 446 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:17:18 452 [debug]: [HTTP %s Params] %s=%s
+22/09/05 23:17:18 455 [info]:  >> Connection 임대됨 [threaId=149]
+22/09/05 23:17:18 457 [debug]: SELECT c.id, c.amount, p.product_name, c.date, c.sale_code, p.price, p.cost, SUM(p.price) AS '합계', SUM(p.cost) AS '합계' FROM cart c inner join product p ON p.id = c.product_id WHERE c.date=NULL;
+22/09/05 23:17:18 489 [info]:  >> Connection 반납됨 [threaId]=149
+22/09/05 23:17:18 494 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 50ms
+22/09/05 23:17:18 495 [debug]: ----------------------------------------------
+22/09/05 23:18:25 026 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:18:25 026 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:18:25 027 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:18:25 030 [debug]: [HTTP %s Params] %s=%s
+22/09/05 23:18:25 031 [info]:  >> Connection 임대됨 [threaId=149]
+22/09/05 23:18:25 033 [debug]: SELECT c.id, c.amount, p.product_name, c.date, c.sale_code, p.price, p.cost, SUM(p.price) AS '합계', SUM(p.cost) AS '합계' FROM cart c inner join product p ON p.id = c.product_id WHERE c.date=NULL;
+22/09/05 23:18:25 035 [info]:  >> Connection 반납됨 [threaId]=149
+22/09/05 23:18:25 038 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/09/05 23:18:25 040 [debug]: ----------------------------------------------
+22/09/05 23:18:25 049 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:18:25 050 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:18:25 051 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:18:25 055 [debug]: [HTTP %s Params] %s=%s
+22/09/05 23:18:25 057 [info]:  >> Connection 임대됨 [threaId=149]
+22/09/05 23:18:25 061 [debug]: SELECT c.id, c.amount, p.product_name, c.date, c.sale_code, p.price, p.cost, SUM(p.price) AS '합계', SUM(p.cost) AS '합계' FROM cart c inner join product p ON p.id = c.product_id WHERE c.date=NULL;
+22/09/05 23:18:25 063 [info]:  >> Connection 반납됨 [threaId]=149
+22/09/05 23:18:25 066 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 16ms
+22/09/05 23:18:25 068 [debug]: ----------------------------------------------
+22/09/05 23:18:36 244 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:18:36 245 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:18:36 246 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:18:36 249 [debug]: [HTTP %s Params] %s=%s
+22/09/05 23:18:36 251 [info]:  >> Connection 임대됨 [threaId=149]
+22/09/05 23:18:36 253 [debug]: SELECT c.id, c.amount, p.product_name, c.date, c.sale_code, p.price, p.cost, SUM(p.price) AS '합계', SUM(p.cost) AS '합계' FROM cart c inner join product p ON p.id = c.product_id WHERE c.date=NULL;
+22/09/05 23:18:36 256 [info]:  >> Connection 반납됨 [threaId]=149
+22/09/05 23:18:36 260 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 15ms
+22/09/05 23:18:36 261 [debug]: ----------------------------------------------
+22/09/05 23:19:16 880 [info]: -------- Server is close -------
+22/09/05 23:19:20 476 [debug]: ----------------------------------------------
+22/09/05 23:19:20 479 [debug]: |            Start Express Server            |
+22/09/05 23:19:20 480 [debug]: ----------------------------------------------
+22/09/05 23:19:20 481 [debug]: Server Address => http://192.168.199.1:3001
+22/09/05 23:19:20 482 [debug]: Server Address => http://192.168.233.1:3001
+22/09/05 23:19:20 484 [debug]: Server Address => http://192.168.1.82:3001
+22/09/05 23:19:20 484 [debug]: ----------------------------------------------
+22/09/05 23:19:26 074 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:19:26 078 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:19:26 083 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:19:26 094 [debug]: [HTTP %s Params] %s=%s
+22/09/05 23:19:26 220 [info]:  >> DATABASE 접속됨 [threaId=150]
+22/09/05 23:19:26 224 [info]:  >> Connection 임대됨 [threaId=150]
+22/09/05 23:19:26 231 [debug]: SELECT c.id, c.amount, p.product_name, c.date, c.sale_code, p.price, p.cost FROM cart c inner join product p ON p.id = c.product_id WHERE c.date=NULL;
+22/09/05 23:19:26 252 [info]:  >> Connection 반납됨 [threaId]=150
+22/09/05 23:19:26 254 [error]: [Error] 조회된 데이터가 없습니다.
+22/09/05 23:19:26 256 [error]: Error: 조회된 데이터가 없습니다.
+    at AdminService.getOrderList (file:///C:/Users/juae/Desktop/LargeBread_BE/services/AdminService.js:187:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/AdminProductController.js:27:20
+22/09/05 23:19:26 267 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 189ms
+22/09/05 23:19:26 268 [debug]: ----------------------------------------------
+22/09/05 23:19:26 282 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:19:26 284 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:19:26 286 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:19:26 294 [debug]: [HTTP %s Params] %s=%s
+22/09/05 23:19:26 295 [info]:  >> Connection 임대됨 [threaId=150]
+22/09/05 23:19:26 298 [debug]: SELECT c.id, c.amount, p.product_name, c.date, c.sale_code, p.price, p.cost FROM cart c inner join product p ON p.id = c.product_id WHERE c.date=NULL;
+22/09/05 23:19:26 301 [info]:  >> Connection 반납됨 [threaId]=150
+22/09/05 23:19:26 304 [error]: [Error] 조회된 데이터가 없습니다.
+22/09/05 23:19:26 305 [error]: Error: 조회된 데이터가 없습니다.
+    at AdminService.getOrderList (file:///C:/Users/juae/Desktop/LargeBread_BE/services/AdminService.js:187:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/AdminProductController.js:27:20
+22/09/05 23:19:26 313 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 30ms
+22/09/05 23:19:26 315 [debug]: ----------------------------------------------
+22/09/05 23:19:41 395 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:19:41 397 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:19:41 399 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:19:41 402 [debug]: [HTTP %s Params] %s=%s
+22/09/05 23:19:41 403 [info]:  >> Connection 임대됨 [threaId=150]
+22/09/05 23:19:41 406 [debug]: SELECT c.id, c.amount, p.product_name, c.date, c.sale_code, p.price, p.cost FROM cart c inner join product p ON p.id = c.product_id WHERE c.date=NULL;
+22/09/05 23:19:41 410 [info]:  >> Connection 반납됨 [threaId]=150
+22/09/05 23:19:41 411 [error]: [Error] 조회된 데이터가 없습니다.
+22/09/05 23:19:41 413 [error]: Error: 조회된 데이터가 없습니다.
+    at AdminService.getOrderList (file:///C:/Users/juae/Desktop/LargeBread_BE/services/AdminService.js:187:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/AdminProductController.js:27:20
+22/09/05 23:19:41 416 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 19ms
+22/09/05 23:19:41 417 [debug]: ----------------------------------------------
+22/09/05 23:19:41 427 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:19:41 429 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:19:41 431 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:19:41 441 [debug]: [HTTP %s Params] %s=%s
+22/09/05 23:19:41 444 [info]:  >> Connection 임대됨 [threaId=150]
+22/09/05 23:19:41 480 [debug]: SELECT c.id, c.amount, p.product_name, c.date, c.sale_code, p.price, p.cost FROM cart c inner join product p ON p.id = c.product_id WHERE c.date=NULL;
+22/09/05 23:19:41 491 [info]:  >> Connection 반납됨 [threaId]=150
+22/09/05 23:19:41 494 [error]: [Error] 조회된 데이터가 없습니다.
+22/09/05 23:19:41 497 [error]: Error: 조회된 데이터가 없습니다.
+    at AdminService.getOrderList (file:///C:/Users/juae/Desktop/LargeBread_BE/services/AdminService.js:187:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/AdminProductController.js:27:20
+22/09/05 23:19:41 506 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 77ms
+22/09/05 23:19:41 510 [debug]: ----------------------------------------------
+22/09/05 23:19:42 835 [info]: -------- Server is close -------
+22/09/05 23:19:46 114 [debug]: ----------------------------------------------
+22/09/05 23:19:46 117 [debug]: |            Start Express Server            |
+22/09/05 23:19:46 118 [debug]: ----------------------------------------------
+22/09/05 23:19:46 119 [debug]: Server Address => http://192.168.199.1:3001
+22/09/05 23:19:46 120 [debug]: Server Address => http://192.168.233.1:3001
+22/09/05 23:19:46 122 [debug]: Server Address => http://192.168.1.82:3001
+22/09/05 23:19:46 122 [debug]: ----------------------------------------------
+22/09/05 23:19:53 929 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:19:53 933 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:19:53 940 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:19:53 962 [debug]: [HTTP %s Params] %s=%s
+22/09/05 23:19:54 184 [info]:  >> DATABASE 접속됨 [threaId=151]
+22/09/05 23:19:54 189 [info]:  >> Connection 임대됨 [threaId=151]
+22/09/05 23:19:54 195 [debug]: SELECT c.id, c.amount, p.product_name, c.date, c.sale_code, p.price, p.cost FROM cart c inner join product p ON p.id = c.product_id;
+22/09/05 23:19:54 225 [info]:  >> Connection 반납됨 [threaId]=151
+22/09/05 23:19:54 242 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 310ms
+22/09/05 23:19:54 243 [debug]: ----------------------------------------------
+22/09/05 23:19:54 261 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:19:54 262 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:19:54 278 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:19:54 299 [debug]: [HTTP %s Params] %s=%s
+22/09/05 23:19:54 303 [info]:  >> Connection 임대됨 [threaId=151]
+22/09/05 23:19:54 307 [debug]: SELECT c.id, c.amount, p.product_name, c.date, c.sale_code, p.price, p.cost FROM cart c inner join product p ON p.id = c.product_id;
+22/09/05 23:19:54 322 [info]:  >> Connection 반납됨 [threaId]=151
+22/09/05 23:19:54 336 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 74ms
+22/09/05 23:19:54 339 [debug]: ----------------------------------------------
+22/09/05 23:20:43 677 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:20:43 678 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:20:43 679 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:20:43 682 [debug]: [HTTP %s Params] %s=%s
+22/09/05 23:20:43 683 [info]:  >> Connection 임대됨 [threaId=151]
+22/09/05 23:20:43 686 [debug]: SELECT c.id, c.amount, p.product_name, c.date, c.sale_code, p.price, p.cost FROM cart c inner join product p ON p.id = c.product_id;
+22/09/05 23:20:43 691 [info]:  >> Connection 반납됨 [threaId]=151
+22/09/05 23:20:43 695 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 17ms
+22/09/05 23:20:43 696 [debug]: ----------------------------------------------
+22/09/05 23:21:19 339 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:21:19 340 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:21:19 342 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:21:19 345 [debug]: [HTTP %s Params] %s=%s
+22/09/05 23:21:19 346 [info]:  >> Connection 임대됨 [threaId=151]
+22/09/05 23:21:19 349 [debug]: SELECT c.id, c.amount, p.product_name, c.date, c.sale_code, p.price, p.cost FROM cart c inner join product p ON p.id = c.product_id;
+22/09/05 23:21:19 353 [info]:  >> Connection 반납됨 [threaId]=151
+22/09/05 23:21:19 357 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 16ms
+22/09/05 23:21:19 357 [debug]: ----------------------------------------------
+22/09/05 23:22:16 444 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:22:16 445 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:22:16 446 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:22:16 448 [debug]: [HTTP %s Params] %s=%s
+22/09/05 23:22:16 450 [info]:  >> Connection 임대됨 [threaId=151]
+22/09/05 23:22:16 451 [debug]: SELECT c.id, c.amount, p.product_name, c.date, c.sale_code, p.price, p.cost FROM cart c inner join product p ON p.id = c.product_id;
+22/09/05 23:22:16 454 [info]:  >> Connection 반납됨 [threaId]=151
+22/09/05 23:22:16 457 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/09/05 23:22:16 458 [debug]: ----------------------------------------------
+22/09/05 23:22:41 928 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:22:41 928 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:22:41 930 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:22:41 932 [debug]: [HTTP %s Params] %s=%s
+22/09/05 23:22:41 933 [info]:  >> Connection 임대됨 [threaId=151]
+22/09/05 23:22:41 937 [debug]: SELECT c.id, c.amount, p.product_name, c.date, c.sale_code, p.price, p.cost FROM cart c inner join product p ON p.id = c.product_id;
+22/09/05 23:22:41 940 [info]:  >> Connection 반납됨 [threaId]=151
+22/09/05 23:22:41 944 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 16ms
+22/09/05 23:22:41 944 [debug]: ----------------------------------------------
+22/09/05 23:36:23 135 [info]: -------- Server is close -------
+22/09/05 23:36:27 875 [debug]: ----------------------------------------------
+22/09/05 23:36:27 883 [debug]: |            Start Express Server            |
+22/09/05 23:36:27 884 [debug]: ----------------------------------------------
+22/09/05 23:36:27 885 [debug]: Server Address => http://192.168.199.1:3001
+22/09/05 23:36:27 886 [debug]: Server Address => http://192.168.233.1:3001
+22/09/05 23:36:27 888 [debug]: Server Address => http://192.168.1.82:3001
+22/09/05 23:36:27 888 [debug]: ----------------------------------------------
+22/09/05 23:36:31 920 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:36:31 921 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:36:31 926 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:36:31 944 [debug]: [HTTP %s Params] %s=%s
+22/09/05 23:36:32 190 [info]:  >> DATABASE 접속됨 [threaId=152]
+22/09/05 23:36:32 192 [info]:  >> Connection 임대됨 [threaId=152]
+22/09/05 23:36:32 199 [debug]: SELECT c.id, c.amount, p.product_name, date_format(c.date, '%Y-%m-%d %H:%i:%s'), c.sale_code, p.price, p.cost FROM cart c inner join product p ON p.id = c.product_id;
+22/09/05 23:36:32 214 [info]:  >> Connection 반납됨 [threaId]=152
+22/09/05 23:36:32 226 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 305ms
+22/09/05 23:36:32 228 [debug]: ----------------------------------------------
+22/09/05 23:36:32 241 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:36:32 243 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:36:32 252 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:36:32 269 [debug]: [HTTP %s Params] %s=%s
+22/09/05 23:36:32 275 [info]:  >> Connection 임대됨 [threaId=152]
+22/09/05 23:36:32 291 [debug]: SELECT c.id, c.amount, p.product_name, date_format(c.date, '%Y-%m-%d %H:%i:%s'), c.sale_code, p.price, p.cost FROM cart c inner join product p ON p.id = c.product_id;
+22/09/05 23:36:32 311 [info]:  >> Connection 반납됨 [threaId]=152
+22/09/05 23:36:32 321 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 78ms
+22/09/05 23:36:32 322 [debug]: ----------------------------------------------
+22/09/05 23:38:01 376 [info]: -------- Server is close -------
+22/09/05 23:38:05 321 [debug]: ----------------------------------------------
+22/09/05 23:38:05 326 [debug]: |            Start Express Server            |
+22/09/05 23:38:05 327 [debug]: ----------------------------------------------
+22/09/05 23:38:05 328 [debug]: Server Address => http://192.168.199.1:3001
+22/09/05 23:38:05 330 [debug]: Server Address => http://192.168.233.1:3001
+22/09/05 23:38:05 331 [debug]: Server Address => http://192.168.1.82:3001
+22/09/05 23:38:05 332 [debug]: ----------------------------------------------
+22/09/05 23:38:11 637 [info]: -------- Server is close -------
+22/09/05 23:38:17 096 [debug]: ----------------------------------------------
+22/09/05 23:38:17 100 [debug]: |            Start Express Server            |
+22/09/05 23:38:17 101 [debug]: ----------------------------------------------
+22/09/05 23:38:17 102 [debug]: Server Address => http://192.168.199.1:3001
+22/09/05 23:38:17 103 [debug]: Server Address => http://192.168.233.1:3001
+22/09/05 23:38:17 105 [debug]: Server Address => http://192.168.1.82:3001
+22/09/05 23:38:17 105 [debug]: ----------------------------------------------
+22/09/05 23:38:29 211 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:38:29 213 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:38:29 217 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:38:29 237 [debug]: [HTTP %s Params] %s=%s
+22/09/05 23:38:29 375 [info]:  >> DATABASE 접속됨 [threaId=153]
+22/09/05 23:38:29 376 [info]:  >> Connection 임대됨 [threaId=153]
+22/09/05 23:38:29 380 [debug]: SELECT c.id, c.amount, p.product_name, date_format(c.date, '%Y-%m-%d %H:%i:%s') AS date, c.sale_code, p.price, p.cost FROM cart c inner join product p ON p.id = c.product_id;
+22/09/05 23:38:29 397 [info]:  >> Connection 반납됨 [threaId]=153
+22/09/05 23:38:29 435 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 221ms
+22/09/05 23:38:29 455 [debug]: ----------------------------------------------
+22/09/05 23:38:29 470 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:38:29 471 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:38:29 473 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:38:29 478 [debug]: [HTTP %s Params] %s=%s
+22/09/05 23:38:29 483 [info]:  >> Connection 임대됨 [threaId=153]
+22/09/05 23:38:29 496 [debug]: SELECT c.id, c.amount, p.product_name, date_format(c.date, '%Y-%m-%d %H:%i:%s') AS date, c.sale_code, p.price, p.cost FROM cart c inner join product p ON p.id = c.product_id;
+22/09/05 23:38:29 522 [info]:  >> Connection 반납됨 [threaId]=153
+22/09/05 23:38:29 540 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 69ms
+22/09/05 23:38:29 544 [debug]: ----------------------------------------------
+22/09/05 23:42:09 581 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:42:09 583 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:42:09 586 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:42:09 588 [debug]: [HTTP %s Params] %s=%s
+22/09/05 23:42:09 589 [info]:  >> Connection 임대됨 [threaId=153]
+22/09/05 23:42:09 593 [debug]: SELECT c.id, c.amount, p.product_name, date_format(c.date, '%Y-%m-%d %H:%i:%s') AS date, c.sale_code, p.price, p.cost FROM cart c inner join product p ON p.id = c.product_id;
+22/09/05 23:42:09 596 [info]:  >> Connection 반납됨 [threaId]=153
+22/09/05 23:42:09 602 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 19ms
+22/09/05 23:42:09 604 [debug]: ----------------------------------------------
+22/09/05 23:42:26 544 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:42:26 545 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:42:26 546 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:42:26 548 [debug]: [HTTP %s Params] %s=%s
+22/09/05 23:42:26 549 [info]:  >> Connection 임대됨 [threaId=153]
+22/09/05 23:42:26 551 [debug]: SELECT c.id, c.amount, p.product_name, date_format(c.date, '%Y-%m-%d %H:%i:%s') AS date, c.sale_code, p.price, p.cost FROM cart c inner join product p ON p.id = c.product_id;
+22/09/05 23:42:26 553 [info]:  >> Connection 반납됨 [threaId]=153
+22/09/05 23:42:26 556 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 11ms
+22/09/05 23:42:26 556 [debug]: ----------------------------------------------
+22/09/05 23:43:00 824 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:43:00 825 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:43:00 826 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:43:00 828 [debug]: [HTTP %s Params] %s=%s
+22/09/05 23:43:00 829 [info]:  >> Connection 임대됨 [threaId=153]
+22/09/05 23:43:00 830 [debug]: SELECT c.id, c.amount, p.product_name, date_format(c.date, '%Y-%m-%d %H:%i:%s') AS date, c.sale_code, p.price, p.cost FROM cart c inner join product p ON p.id = c.product_id;
+22/09/05 23:43:00 834 [info]:  >> Connection 반납됨 [threaId]=153
+22/09/05 23:43:00 838 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 13ms
+22/09/05 23:43:00 839 [debug]: ----------------------------------------------
+22/09/05 23:43:30 465 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:43:30 466 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:43:30 467 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:43:30 469 [debug]: [HTTP %s Params] %s=%s
+22/09/05 23:43:30 470 [info]:  >> Connection 임대됨 [threaId=153]
+22/09/05 23:43:30 471 [debug]: SELECT c.id, c.amount, p.product_name, date_format(c.date, '%Y-%m-%d %H:%i:%s') AS date, c.sale_code, p.price, p.cost FROM cart c inner join product p ON p.id = c.product_id;
+22/09/05 23:43:30 474 [info]:  >> Connection 반납됨 [threaId]=153
+22/09/05 23:43:30 478 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/09/05 23:43:30 479 [debug]: ----------------------------------------------
+22/09/05 23:43:43 674 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:43:43 675 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:43:43 676 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:43:43 678 [debug]: [HTTP %s Params] %s=%s
+22/09/05 23:43:43 679 [info]:  >> Connection 임대됨 [threaId=153]
+22/09/05 23:43:43 681 [debug]: SELECT c.id, c.amount, p.product_name, date_format(c.date, '%Y-%m-%d %H:%i:%s') AS date, c.sale_code, p.price, p.cost FROM cart c inner join product p ON p.id = c.product_id;
+22/09/05 23:43:43 698 [info]:  >> Connection 반납됨 [threaId]=153
+22/09/05 23:43:43 703 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 28ms
+22/09/05 23:43:43 704 [debug]: ----------------------------------------------
+22/09/05 23:44:46 008 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:44:46 009 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:44:46 010 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:44:46 013 [debug]: [HTTP %s Params] %s=%s
+22/09/05 23:44:46 014 [info]:  >> Connection 임대됨 [threaId=153]
+22/09/05 23:44:46 015 [debug]: SELECT c.id, c.amount, p.product_name, date_format(c.date, '%Y-%m-%d %H:%i:%s') AS date, c.sale_code, p.price, p.cost FROM cart c inner join product p ON p.id = c.product_id;
+22/09/05 23:44:46 019 [info]:  >> Connection 반납됨 [threaId]=153
+22/09/05 23:44:46 022 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 13ms
+22/09/05 23:44:46 022 [debug]: ----------------------------------------------
+22/09/05 23:45:16 184 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:45:16 185 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:45:16 187 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:45:16 190 [debug]: [HTTP %s Params] %s=%s
+22/09/05 23:45:16 191 [info]:  >> Connection 임대됨 [threaId=153]
+22/09/05 23:45:16 194 [debug]: SELECT c.id, c.amount, p.product_name, date_format(c.date, '%Y-%m-%d %H:%i:%s') AS date, c.sale_code, p.price, p.cost FROM cart c inner join product p ON p.id = c.product_id;
+22/09/05 23:45:16 197 [info]:  >> Connection 반납됨 [threaId]=153
+22/09/05 23:45:16 200 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 15ms
+22/09/05 23:45:16 201 [debug]: ----------------------------------------------
+22/09/05 23:55:57 042 [debug]: ----------------------------------------------
+22/09/05 23:55:57 045 [debug]: |            Start Express Server            |
+22/09/05 23:55:57 046 [debug]: ----------------------------------------------
+22/09/05 23:55:57 048 [debug]: Server Address => http://192.168.199.1:3001
+22/09/05 23:55:57 049 [debug]: Server Address => http://192.168.233.1:3001
+22/09/05 23:55:57 051 [debug]: Server Address => http://192.168.1.82:3001
+22/09/05 23:55:57 052 [debug]: ----------------------------------------------
+22/09/05 23:56:04 789 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:56:04 792 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:56:04 796 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:56:04 815 [debug]: [HTTP %s Params] %s=%s
+22/09/05 23:56:04 978 [info]:  >> DATABASE 접속됨 [threaId=154]
+22/09/05 23:56:04 982 [info]:  >> Connection 임대됨 [threaId=154]
+22/09/05 23:56:04 994 [debug]: SELECT c.id, c.amount, p.product_name, date_format(c.date, '%Y-%m-%d %H:%i:%s') AS date, c.sale_code, p.price, p.cost FROM cart c INNER JOIN product p ON p.id = c.product_id;
+22/09/05 23:56:05 019 [debug]: SELECT SUM(c.amount) AS 'amountSum', SUM(p.price) AS 'priceSum', SUM(p.cost) AS 'costSum', SUM(p.price)- SUM(p.cost) AS 'sale'  FROM cart c INNER JOIN product p   ON p.id = c.product_id;
+22/09/05 23:56:05 042 [info]:  >> Connection 반납됨 [threaId]=154
+22/09/05 23:56:05 062 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 271ms
+22/09/05 23:56:05 067 [debug]: ----------------------------------------------
+22/09/05 23:56:05 088 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:56:05 091 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:56:05 094 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:56:05 108 [debug]: [HTTP %s Params] %s=%s
+22/09/05 23:56:05 117 [info]:  >> Connection 임대됨 [threaId=154]
+22/09/05 23:56:05 123 [debug]: SELECT c.id, c.amount, p.product_name, date_format(c.date, '%Y-%m-%d %H:%i:%s') AS date, c.sale_code, p.price, p.cost FROM cart c INNER JOIN product p ON p.id = c.product_id;
+22/09/05 23:56:05 132 [debug]: SELECT SUM(c.amount) AS 'amountSum', SUM(p.price) AS 'priceSum', SUM(p.cost) AS 'costSum', SUM(p.price)- SUM(p.cost) AS 'sale'  FROM cart c INNER JOIN product p   ON p.id = c.product_id;
+22/09/05 23:56:05 138 [info]:  >> Connection 반납됨 [threaId]=154
+22/09/05 23:56:05 142 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 51ms
+22/09/05 23:56:05 142 [debug]: ----------------------------------------------
+22/09/05 23:57:37 644 [debug]: ----------------------------------------------
+22/09/05 23:57:37 648 [debug]: |            Start Express Server            |
+22/09/05 23:57:37 649 [debug]: ----------------------------------------------
+22/09/05 23:57:37 650 [debug]: Server Address => http://192.168.199.1:3001
+22/09/05 23:57:37 651 [debug]: Server Address => http://192.168.233.1:3001
+22/09/05 23:57:37 653 [debug]: Server Address => http://192.168.1.82:3001
+22/09/05 23:57:37 654 [debug]: ----------------------------------------------
+22/09/05 23:57:40 507 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:57:40 511 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:57:40 514 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:57:40 534 [debug]: [HTTP %s Params] %s=%s
+22/09/05 23:57:40 708 [info]:  >> DATABASE 접속됨 [threaId=155]
+22/09/05 23:57:40 710 [info]:  >> Connection 임대됨 [threaId=155]
+22/09/05 23:57:40 714 [debug]: SELECT c.id, c.amount, p.product_name, date_format(c.date, '%Y-%m-%d %H:%i:%s') AS date, c.sale_code, p.price, p.cost FROM cart c INNER JOIN product p ON p.id = c.product_id;
+22/09/05 23:57:40 724 [info]:  >> Connection 반납됨 [threaId]=155
+22/09/05 23:57:40 736 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 226ms
+22/09/05 23:57:40 737 [debug]: ----------------------------------------------
+22/09/05 23:57:40 747 [debug]: 클라이언트가 접속했습니다.
+22/09/05 23:57:40 748 [debug]: [Client] ::1 / Windows 10.0 / Chrome (104.0.0.0) / Microsoft Windows
+22/09/05 23:57:40 750 [debug]: [GET] http://localhost:3001/admin/order_list
+22/09/05 23:57:40 754 [debug]: [HTTP %s Params] %s=%s
+22/09/05 23:57:40 755 [info]:  >> Connection 임대됨 [threaId=155]
+22/09/05 23:57:40 759 [debug]: SELECT c.id, c.amount, p.product_name, date_format(c.date, '%Y-%m-%d %H:%i:%s') AS date, c.sale_code, p.price, p.cost FROM cart c INNER JOIN product p ON p.id = c.product_id;
+22/09/05 23:57:40 765 [info]:  >> Connection 반납됨 [threaId]=155
+22/09/05 23:57:40 768 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 20ms
+22/09/05 23:57:40 770 [debug]: ----------------------------------------------
+22/09/05 23:59:06 600 [debug]: ----------------------------------------------
+22/09/05 23:59:06 604 [debug]: |            Start Express Server            |
+22/09/05 23:59:06 605 [debug]: ----------------------------------------------
+22/09/05 23:59:06 606 [debug]: Server Address => http://192.168.199.1:3001
+22/09/05 23:59:06 607 [debug]: Server Address => http://192.168.233.1:3001
+22/09/05 23:59:06 608 [debug]: Server Address => http://192.168.1.82:3001
+22/09/05 23:59:06 609 [debug]: ----------------------------------------------
+22/09/05 23:59:52 559 [debug]: ----------------------------------------------
+22/09/05 23:59:52 564 [debug]: |            Start Express Server            |
+22/09/05 23:59:52 565 [debug]: ----------------------------------------------
+22/09/05 23:59:52 566 [debug]: Server Address => http://192.168.199.1:3001
+22/09/05 23:59:52 567 [debug]: Server Address => http://192.168.233.1:3001
+22/09/05 23:59:52 569 [debug]: Server Address => http://192.168.1.82:3001
+22/09/05 23:59:52 570 [debug]: ----------------------------------------------

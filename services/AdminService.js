@@ -196,14 +196,14 @@ class AdminService {
         return data;
     }
 
-    async getOrderLists(params) {
+    async getOrderItem(params) {
         let dbcon = null;
         let data = null;
 
         try{
             dbcon = await DBPool.getConnection();
 
-            let sql = mybatisMapper.getStatement('AdminMapper', 'orderLists', params);
+            let sql = mybatisMapper.getStatement('AdminMapper', 'orderItem', params);
             let [result] = await dbcon.query(sql);
 
             if(result.length === 0){

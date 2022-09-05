@@ -48,10 +48,15 @@
 
     <!-- 주문내역 출력-->
     <select id="orderList">
-        SELECT c.id, c.amount, p.product_name, c.date, c.sale_code FROM cart c inner join product p ON p.id = c.product_id WHERE c.date=#{date};
-    </select>
+        SELECT c.id, c.amount, p.product_name, date_format(c.date, '%Y-%m-%d %H:%i:%s') AS date, c.sale_code, p.price, p.cost 
+        FROM cart c INNER JOIN product p 
+        ON p.id = c.product_id
 
-    <select id="orderLists">
-        SELECT c.id, c.amount, p.product_name, c.date, c.sale_code FROM cart c inner join product p ON p.id = c.product_id;
+        <where>
+            <if test="query != null and query != ''">
+                date="${date}"
+            </if>
+        </where>
+        ORDER BY date ASC;
     </select>
 </mapper>
