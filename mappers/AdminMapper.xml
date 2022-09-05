@@ -19,16 +19,39 @@
 
     <!-- 관리자 메뉴관리 - 리스트 -->
     <select id="getProductList">
-        SELECT c.category_name, p.product_name, p.price, p.product_state 
+        SELECT p.id, c.category_name, p.product_name, p.price, p.cost, p.product_state 
         FROM product p inner join category c 
-        ON p.category_id = c.category_name;
+        ON p.category_id = c.category_name
+        ORDER BY c.id ASC;
     </select>
 
-    <!-- <update id="SQL문_식별값">
-    
+    <!-- 메뉴 추가-->
+    <insert id="insertProduct">
+        INSERT INTO product (product_name, price, img_url, product_state, cost, category_id)
+        VALUES (#{product_name}, #{price}, #{img_url}, #{product_state}, #{cost}, #{category_id});
+    </insert>
+
+    <!-- 메뉴 수정 -->
+    <update id="updateProduct">
+        UPDATE product 
+        SET product_name=#{product_name}, price=#{price}, product_state=#{product_state}, cost=#{cost}, category_id=(
+            SELECT id FROM category WHERE id=#{category_id}
+        )
+        WHERE id=#{id};
     </update>
 
-    <delete id="SQL문_식별값">
-    
-    </delete> -->
+    <!-- 메뉴 삭제 -->
+    <delete id="deleteProduct">
+        DELETE FROM product WHERE id=#{id};
+    </delete>
+
+
+    <!-- 주문내역 출력-->
+    <select id="orderList">
+        SELECT c.id, c.amount, p.product_name, c.date, c.sale_code FROM cart c inner join product p ON p.id = c.product_id WHERE c.date=#{date};
+    </select>
+
+    <select id="orderLists">
+        SELECT c.id, c.amount, p.product_name, c.date, c.sale_code FROM cart c inner join product p ON p.id = c.product_id;
+    </select>
 </mapper>

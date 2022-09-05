@@ -17,6 +17,7 @@ class DBPool {
         connectionLimit: process.env.DATABASE_CONNECTION_LIMIT,
         connectTimeout: process.env.DATABASE_CONNECT_TIMEOUT,
         waitForConnections: process.env.DATABASE_WAIT_FOR_CONNECTIONS,
+        dateString: 'date'
     };
 
     static getInstance() {

@@ -74,7 +74,7 @@ const AdminController = () => {
             req.session.user_email = id;
             req.session.user_pw = pw;
             res.sendResult();
-        })
+        });
 
     return router;
 };

@@ -61,7 +61,6 @@ const initMulter = () => {
                 mkdirs(process.env.UPLOAD_DIR);
 
                 file.upload_dir = process.env.UPLOAD_DIR.replace(/\\/gi, '/');
-                file.thumb_dir = process.env.THUMB_DIR.replace(/\\/gi, '/');
 
                 callback(null, file.upload_dir);
             },

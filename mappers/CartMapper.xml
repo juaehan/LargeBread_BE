@@ -6,7 +6,12 @@
 
     <!-- 상품 담기-->
     <insert id="insertCart">
-        INSERT INTO cart (amount, product_id)
-        VALUES (#{amount}, #{product_id});
+        INSERT INTO cart (id, amount, product_id, date, sale_code)
+        VALUES (id, #{amount}, #{product_id}, now(), concat(substring(now(),1,8),substring(replace(now(), ':',''),12,17)));
     </insert>
+
+    <!-- 메뉴 삭제 -->
+    <delete id="deleteCart">
+        DELETE FROM cart WHERE product_id=#{product_id};
+    </delete>
 </mapper>

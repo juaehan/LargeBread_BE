@@ -34,32 +34,8 @@ class ProductService {
         return data;
     }
 
-    /** 메뉴 추가 */
-    async addItem(params) {
-        let dbcon = null;
-        let data = null;
-
-        try{
-            dbcon = await DBPool.getConnection();
-
-            let sql = mybatisMapper.getStatement('ProductMapper', 'insertProduct', params);
-            let [result] = await dbcon.query(sql);
-
-            if(result.length === 0){
-                throw new RuntimeException('저장된 데이터가 없습니다.');
-            }
-
-            data = result[0];
-        } catch (err) {
-            throw err;
-        } finally {
-            if (dbcon) {dbcon.release();}
-        }
-        return data;
-    }
-
-
-    /** 상품 담기*/
+    
+    /** 주문내역 담기*/
     async addCart(params) {
         let dbcon = null;
         let data = null;
@@ -82,6 +58,7 @@ class ProductService {
         }
         return data;
     }
+
 
 }
 

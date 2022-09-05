@@ -25,7 +25,7 @@ const ProductController = () => {
     router.post(url, async (req, res, next) => {
         const amount = req.post('amount');
         const product_id = req.post('product_id');
-
+        const date = new Date();
         let json = null;
         try{
             json = await productService.addCart({
