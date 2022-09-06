@@ -53,10 +53,10 @@
         ON p.id = c.product_id
 
         <where>
-            <if test="query != null and query != ''">
-                date="${date}"
+            <if test="date != null and date != ''">
+                date LIKE concat(#{date}, '%')
             </if>
         </where>
-        ORDER BY date ASC;
+        ORDER BY date ASC
     </select>
 </mapper>

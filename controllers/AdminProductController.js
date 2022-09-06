@@ -7,15 +7,15 @@ import regexHelper from '../helper/RegexHelper.js';
 export default () => {
     const router = express.Router();
     const url = '/admin/product';
-    const url1 = '/admin/order_list';
 
-    router.get(url1, async (req, res, next) => {
+    router.get('/admin/order_list', async (req, res, next) => {
         const query = req.get('query');
+
         const params = {};
         if(query){
             params.date = query;
         }
-        
+        console.log("params = " +params.date);
         let json = null;
 
         try{
