@@ -51,7 +51,7 @@ class RegexHelper {
      * @param {string} msg        값이 없을 경우 표시될 메시지
      */
     maxLength(content, len, msg){
-        if(!this.value(content) || content.length < len){
+        if(!this.value(content) || content.length > len){
             throw new BadRequestException(msg);
         }
 
@@ -188,41 +188,12 @@ class RegexHelper {
      * @param {HTMLElement} field 검사할 대상에 대한 <input>요소의 DOM 객체
      * @param {string} msg        검사에 실패할 경우 표시할 메시
      */
-    // check(field, msg) {
-    //     const checkedItem = Array.from(field).filter((v, i) => v.checked);
+    check(content, msg) {
 
-    //     if(checkedItem.length === 0){
-    //         throw new BadRequestException(msg, field[0]);
-    //     }
-    // }
-
-
-    /**
-     * 라디오나 체크박스의 최소 선택 갯수를 제한한다.
-     * @param {HTMLElement} field 검사할 대상에 대한 <input>요소의 DOM 객체
-     * @param {string} msg        검사에 실패할 경우 표시할 메시
-     */
-    // checkMin(field, len, msg) {
-    //     const checkedItem = Array.from(field).filter((v, i) => v.checked);
-
-    //     if(checkedItem.length < len){
-    //         throw new BadRequestException(msg, field[0]);
-    //     }
-    // }
-
-
-    /**
-     * 라디오나 체크박스의 최대 선택 갯수를 제한한다.
-     * @param {HTMLElement} field 검사할 대상에 대한 <input>요소의 DOM 객체
-     * @param {string} msg        검사에 실패할 경우 표시할 메시
-     */
-    // checkMax(field, len, msg) {
-    //     const checkedItem = Array.from(field).filter((v, i) => v.checked);
-
-    //     if(checkedItem.length > len){
-    //         throw new BadRequestException(msg, field[0]);
-    //     }
-    // }
+        if(content.length === 0){
+            throw new BadRequestException(msg);
+        }
+    }
 }
 
 export default new RegexHelper();

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    
+<mapper namespace="AdminMapper">
+
+    <!-- 회원가입 -->
+    <insert id="insertAdmin">
+        INSERT INTO admin (name, user_pwd, user_email, is_out)
+        VALUES (#{name}, #{user_pw}, #{user_email}, 'Y');
+    </insert>
+
+    <!-- 로그인 -->
+    <select id="login">
+        SELECT user_pwd, user_email FROM admin WHERE user_email=#{user_email};
+    </select>
+
+
+
+    <!-- 관리자 메뉴관리 - 리스트 -->
+    <select id="getProductList">
+        SELECT p.id, c.category_name, p.product_name, p.price, p.cost, p.product_state 
+        FROM product p inner join category c 
+        ON p.category_id = c.category_name
+        ORDER BY c.id ASC;
+    </select>
+
+    <!-- 메뉴 추가-->
+    <insert id="insertProduct">
+        INSERT INTO product (product_name, price, img_url, product_state, cost, category_id)
+        VALUES (#{product_name}, #{price}, #{img_url}, #{product_state}, #{cost}, #{category_id});
+    </insert>
+
+    <!-- 메뉴 수정 -->
+    <update id="updateProduct">
+        UPDATE product 
+        SET product_name=#{product_name}, price=#{price}, product_state=#{product_state}, cost=#{cost}, category_id=(
+            SELECT id FROM category WHERE id=#{category_id}
+        )
+        WHERE id=#{id};
+    </update>
+
+    <!-- 메뉴 삭제 -->
+    <delete id="deleteProduct">
+        DELETE FROM product WHERE id=#{id};
+    </delete>
+
+
+    <!-- 주문내역 출력-->
+    <select id="orderList">
+        SELECT c.id, c.amount, p.product_name, date_format(c.date, '%Y-%m-%d %H:%i:%s') AS date, c.sale_code, p.price, p.cost 
+        FROM cart c INNER JOIN product p 
+        ON p.id = c.product_id
+
+        <where>
+            <if test="date != null and date != ''">
+                date LIKE concat(#{date}, '%')
+            </if>
+        </where>
+        ORDER BY date ASC
+    </select>
+</mapper>

@@ -20,8 +20,9 @@ import expressSession from 'express-session';
 import cors from 'cors';
 import PageNotFoundException from './exceptions/PageNotFoundException.js';
 
-import FileUploadController from './controllers/FileUploadController.js';
+import AdminProductController from './controllers/AdminProductController.js';
 import ProductController from './controllers/ProductController.js'
+import AdminController from './controllers/AdminController.js';
 
 
 
@@ -97,6 +98,12 @@ app.use(methodOverride('_method'));
 app.use('/', serveStatic(process.env.PUBLIC_PATH));
 app.use(serveFavicon(process.env.FAVICON_PATH));
 
+/** 세션 설정 */
+app.use(expressSession({
+    secret: process.env.SESSION_ENCRYPT_KEY,
+    resave: false,
+    saveUninitialized: false
+}));
 
 /** 파일 업로드 */
 app.use(process.env.UPLOAD_URL, serveStatic(process.env.UPLOAD_DIR));
@@ -108,8 +115,9 @@ app.use(WebHelper());
 /*----------------------------------------------------------
 | 5) 각 URL별 백엔드 기능 정의
 -----------------------------------------------------------*/
-app.use(FileUploadController());
+app.use(AdminProductController());
 app.use(ProductController());
+app.use(AdminController());
 
 app.use((err, req, res, next) => res.sendError(err));
 app.use("*", (req, res, next) => res.sendError(new PageNotFoundException()));

@@ -1,0 +1,772 @@
+22/08/29 22:09:42 535 [debug]: ----------------------------------------------
+22/08/29 22:09:42 542 [debug]: |            Start Express Server            |
+22/08/29 22:09:42 543 [debug]: ----------------------------------------------
+22/08/29 22:09:42 544 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:09:42 545 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:09:42 547 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:09:42 548 [debug]: ----------------------------------------------
+22/08/29 22:09:42 638 [info]:  >> DATABASE 접속됨 [threaId=153]
+22/08/29 22:09:42 640 [info]:  >> Connection 임대됨 [threaId=153]
+22/08/29 22:09:49 513 [debug]: 클라이언트가 접속했습니다.
+22/08/29 22:09:49 515 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 22:09:49 520 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 22:09:49 594 [error]: [TypeError] db.query is not a function
+22/08/29 22:09:49 595 [error]: TypeError: db.query is not a function
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/AdminController.js:34:12
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:47:12)
+22/08/29 22:09:49 614 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 100ms
+22/08/29 22:09:49 616 [debug]: ----------------------------------------------
+22/08/29 22:18:28 911 [debug]: ----------------------------------------------
+22/08/29 22:18:28 916 [debug]: |            Start Express Server            |
+22/08/29 22:18:28 917 [debug]: ----------------------------------------------
+22/08/29 22:18:28 919 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:18:28 919 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:18:28 921 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:18:28 922 [debug]: ----------------------------------------------
+22/08/29 22:18:36 341 [debug]: 클라이언트가 접속했습니다.
+22/08/29 22:18:36 342 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 22:18:36 346 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 22:18:36 399 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:18:36 403 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:18:36 405 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:18:36 410 [error]: [ReferenceError] err is not defined
+22/08/29 22:18:36 411 [error]: ReferenceError: err is not defined
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/AdminController.js:36:17
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:47:12)
+22/08/29 22:18:36 428 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 86ms
+22/08/29 22:18:36 429 [debug]: ----------------------------------------------
+22/08/29 22:19:31 559 [debug]: ----------------------------------------------
+22/08/29 22:19:31 563 [debug]: |            Start Express Server            |
+22/08/29 22:19:31 564 [debug]: ----------------------------------------------
+22/08/29 22:19:31 566 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:19:31 569 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:19:31 571 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:19:31 572 [debug]: ----------------------------------------------
+22/08/29 22:19:33 793 [debug]: 클라이언트가 접속했습니다.
+22/08/29 22:19:33 795 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 22:19:33 797 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 22:19:33 837 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:19:33 839 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:19:33 843 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:19:33 853 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 59ms
+22/08/29 22:19:33 855 [debug]: ----------------------------------------------
+22/08/29 22:19:42 304 [debug]: 클라이언트가 접속했습니다.
+22/08/29 22:19:42 309 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 22:19:42 310 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 22:19:42 317 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:19:42 317 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:19:42 318 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:19:42 321 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 12ms
+22/08/29 22:19:42 322 [debug]: ----------------------------------------------
+22/08/29 22:20:17 256 [debug]: ----------------------------------------------
+22/08/29 22:20:17 260 [debug]: |            Start Express Server            |
+22/08/29 22:20:17 262 [debug]: ----------------------------------------------
+22/08/29 22:20:17 264 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:20:17 265 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:20:17 267 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:20:17 268 [debug]: ----------------------------------------------
+22/08/29 22:21:13 156 [debug]: 클라이언트가 접속했습니다.
+22/08/29 22:21:13 160 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 22:21:13 164 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 22:21:13 217 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:21:13 220 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:21:13 223 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:21:13 246 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 86ms
+22/08/29 22:21:13 249 [debug]: ----------------------------------------------
+22/08/29 22:21:56 530 [debug]: ----------------------------------------------
+22/08/29 22:21:56 535 [debug]: |            Start Express Server            |
+22/08/29 22:21:56 536 [debug]: ----------------------------------------------
+22/08/29 22:21:56 537 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:21:56 538 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:21:56 538 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:21:56 539 [debug]: ----------------------------------------------
+22/08/29 22:21:58 801 [debug]: 클라이언트가 접속했습니다.
+22/08/29 22:21:58 805 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 22:21:58 813 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 22:21:58 894 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:21:58 907 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:21:58 921 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:21:59 027 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 222ms
+22/08/29 22:21:59 028 [debug]: ----------------------------------------------
+22/08/29 22:21:59 125 [info]:  >> DATABASE 접속됨 [threaId=154]
+22/08/29 22:21:59 126 [info]:  >> Connection 임대됨 [threaId=154]
+22/08/29 22:21:59 134 [debug]: INSERT INTO admin (name, user_pwd, user_email, is_out)  VALUES ('홍길동', 'ghd456', 'hong1@asd.com', 'Y');
+22/08/29 22:21:59 154 [info]:  >> Connection 반납됨 [threaId]=154
+22/08/29 22:23:07 679 [debug]: ----------------------------------------------
+22/08/29 22:23:07 684 [debug]: |            Start Express Server            |
+22/08/29 22:23:07 687 [debug]: ----------------------------------------------
+22/08/29 22:23:07 689 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:23:07 690 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:23:07 692 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:23:07 693 [debug]: ----------------------------------------------
+22/08/29 22:23:10 386 [debug]: 클라이언트가 접속했습니다.
+22/08/29 22:23:10 388 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 22:23:10 391 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 22:23:10 436 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:23:10 470 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:23:10 475 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:23:10 484 [error]: [ReferenceError] err is not defined
+22/08/29 22:23:10 485 [error]: ReferenceError: err is not defined
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/AdminController.js:40:17
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:47:12)
+22/08/29 22:23:10 500 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 113ms
+22/08/29 22:23:10 501 [debug]: ----------------------------------------------
+22/08/29 22:23:56 965 [debug]: ----------------------------------------------
+22/08/29 22:23:56 970 [debug]: |            Start Express Server            |
+22/08/29 22:23:56 972 [debug]: ----------------------------------------------
+22/08/29 22:23:56 974 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:23:56 975 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:23:56 977 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:23:56 977 [debug]: ----------------------------------------------
+22/08/29 22:24:02 258 [debug]: 클라이언트가 접속했습니다.
+22/08/29 22:24:02 259 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 22:24:02 262 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 22:24:02 301 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:24:02 303 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:24:02 305 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:24:02 319 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 60ms
+22/08/29 22:24:02 322 [debug]: ----------------------------------------------
+22/08/29 22:24:16 143 [debug]: 클라이언트가 접속했습니다.
+22/08/29 22:24:16 145 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 22:24:16 146 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 22:24:16 151 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:24:16 152 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:24:16 154 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:24:16 251 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 106ms
+22/08/29 22:24:16 254 [debug]: ----------------------------------------------
+22/08/29 22:24:16 345 [info]:  >> DATABASE 접속됨 [threaId=155]
+22/08/29 22:24:16 346 [info]:  >> Connection 임대됨 [threaId=155]
+22/08/29 22:24:16 355 [debug]: INSERT INTO admin (name, user_pwd, user_email, is_out)  VALUES ('홍길동', 'ghd456', 'hong1@asd.com', 'Y');
+22/08/29 22:24:16 368 [info]:  >> Connection 반납됨 [threaId]=155
+22/08/29 22:29:31 863 [debug]: ----------------------------------------------
+22/08/29 22:29:31 869 [debug]: |            Start Express Server            |
+22/08/29 22:29:31 870 [debug]: ----------------------------------------------
+22/08/29 22:29:31 871 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:29:31 872 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:29:31 874 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:29:31 875 [debug]: ----------------------------------------------
+22/08/29 22:29:42 176 [debug]: 클라이언트가 접속했습니다.
+22/08/29 22:29:42 179 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 22:29:42 184 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 22:29:42 242 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:29:42 251 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:29:42 257 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:29:42 261 [error]: [ReferenceError] msg is not defined
+22/08/29 22:29:42 264 [error]: ReferenceError: msg is not defined
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/AdminController.js:40:28
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:47:12)
+22/08/29 22:29:42 287 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 109ms
+22/08/29 22:29:42 288 [debug]: ----------------------------------------------
+22/08/29 22:30:20 344 [debug]: ----------------------------------------------
+22/08/29 22:30:20 351 [debug]: |            Start Express Server            |
+22/08/29 22:30:20 352 [debug]: ----------------------------------------------
+22/08/29 22:30:20 354 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:30:20 356 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:30:20 360 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:30:20 361 [debug]: ----------------------------------------------
+22/08/29 22:30:22 203 [debug]: 클라이언트가 접속했습니다.
+22/08/29 22:30:22 204 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 22:30:22 206 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 22:30:22 252 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:30:22 254 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:30:22 258 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:30:33 329 [debug]: ----------------------------------------------
+22/08/29 22:30:33 334 [debug]: |            Start Express Server            |
+22/08/29 22:30:33 335 [debug]: ----------------------------------------------
+22/08/29 22:30:33 337 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:30:33 338 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:30:33 339 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:30:33 340 [debug]: ----------------------------------------------
+22/08/29 22:30:41 839 [debug]: 클라이언트가 접속했습니다.
+22/08/29 22:30:41 841 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 22:30:41 846 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 22:30:41 886 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:30:41 888 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:30:41 890 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:30:49 532 [debug]: ----------------------------------------------
+22/08/29 22:30:49 536 [debug]: |            Start Express Server            |
+22/08/29 22:30:49 537 [debug]: ----------------------------------------------
+22/08/29 22:30:49 539 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:30:49 540 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:30:49 542 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:30:49 542 [debug]: ----------------------------------------------
+22/08/29 22:33:16 172 [debug]: ----------------------------------------------
+22/08/29 22:33:16 177 [debug]: |            Start Express Server            |
+22/08/29 22:33:16 178 [debug]: ----------------------------------------------
+22/08/29 22:33:16 179 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:33:16 180 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:33:16 182 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:33:16 182 [debug]: ----------------------------------------------
+22/08/29 22:33:46 506 [debug]: ----------------------------------------------
+22/08/29 22:33:46 510 [debug]: |            Start Express Server            |
+22/08/29 22:33:46 512 [debug]: ----------------------------------------------
+22/08/29 22:33:46 513 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:33:46 515 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:33:46 516 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:33:46 517 [debug]: ----------------------------------------------
+22/08/29 22:34:09 137 [debug]: ----------------------------------------------
+22/08/29 22:34:09 141 [debug]: |            Start Express Server            |
+22/08/29 22:34:09 142 [debug]: ----------------------------------------------
+22/08/29 22:34:09 143 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:34:09 144 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:34:09 145 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:34:09 146 [debug]: ----------------------------------------------
+22/08/29 22:35:17 933 [debug]: ----------------------------------------------
+22/08/29 22:35:17 936 [debug]: |            Start Express Server            |
+22/08/29 22:35:17 937 [debug]: ----------------------------------------------
+22/08/29 22:35:17 938 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:35:17 939 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:35:17 942 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:35:17 944 [debug]: ----------------------------------------------
+22/08/29 22:36:43 840 [debug]: ----------------------------------------------
+22/08/29 22:36:43 847 [debug]: |            Start Express Server            |
+22/08/29 22:36:43 849 [debug]: ----------------------------------------------
+22/08/29 22:36:43 850 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:36:43 851 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:36:43 853 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:36:43 854 [debug]: ----------------------------------------------
+22/08/29 22:37:29 386 [debug]: ----------------------------------------------
+22/08/29 22:37:29 391 [debug]: |            Start Express Server            |
+22/08/29 22:37:29 393 [debug]: ----------------------------------------------
+22/08/29 22:37:29 395 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:37:29 396 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:37:29 398 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:37:29 399 [debug]: ----------------------------------------------
+22/08/29 22:37:33 900 [debug]: 클라이언트가 접속했습니다.
+22/08/29 22:37:33 903 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 22:37:33 908 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 22:37:33 968 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:37:33 972 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:37:33 974 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:37:33 977 [error]: [ReferenceError] ConfirmPwdException is not defined
+22/08/29 22:37:33 981 [error]: ReferenceError: ConfirmPwdException is not defined
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/AdminController.js:40:17
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:47:12)
+22/08/29 22:37:34 033 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 131ms
+22/08/29 22:37:34 035 [debug]: ----------------------------------------------
+22/08/29 22:37:47 592 [debug]: ----------------------------------------------
+22/08/29 22:37:47 596 [debug]: |            Start Express Server            |
+22/08/29 22:37:47 598 [debug]: ----------------------------------------------
+22/08/29 22:37:47 599 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:37:47 600 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:37:47 602 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:37:47 602 [debug]: ----------------------------------------------
+22/08/29 22:37:50 786 [debug]: 클라이언트가 접속했습니다.
+22/08/29 22:37:50 787 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 22:37:50 790 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 22:37:50 863 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:37:50 874 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:37:50 877 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:37:50 879 [error]: [ReferenceError] ConfirmPwdException is not defined
+22/08/29 22:37:50 881 [error]: ReferenceError: ConfirmPwdException is not defined
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/AdminController.js:40:17
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:47:12)
+22/08/29 22:37:50 894 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 107ms
+22/08/29 22:37:50 895 [debug]: ----------------------------------------------
+22/08/29 22:38:42 331 [debug]: ----------------------------------------------
+22/08/29 22:38:42 336 [debug]: |            Start Express Server            |
+22/08/29 22:38:42 337 [debug]: ----------------------------------------------
+22/08/29 22:38:42 339 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:38:42 340 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:38:42 342 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:38:42 343 [debug]: ----------------------------------------------
+22/08/29 22:38:45 038 [debug]: 클라이언트가 접속했습니다.
+22/08/29 22:38:45 041 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 22:38:45 045 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 22:38:45 086 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:38:45 089 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:38:45 092 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:38:45 112 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 71ms
+22/08/29 22:38:45 113 [debug]: ----------------------------------------------
+22/08/29 22:38:45 115 [error]: [Error] Cannot set headers after they are sent to the client
+22/08/29 22:38:45 118 [error]: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.res._sendResult (file:///C:/Users/juae/Desktop/LargeBread_BE/helper/WebHelper.js:60:17)
+    at ServerResponse.res.sendResult (file:///C:/Users/juae/Desktop/LargeBread_BE/helper/WebHelper.js:66:17)
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/AdminController.js:46:13
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+22/08/29 22:39:29 028 [debug]: ----------------------------------------------
+22/08/29 22:39:29 033 [debug]: |            Start Express Server            |
+22/08/29 22:39:29 035 [debug]: ----------------------------------------------
+22/08/29 22:39:29 036 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:39:29 038 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:39:29 039 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:39:29 040 [debug]: ----------------------------------------------
+22/08/29 22:39:31 605 [debug]: 클라이언트가 접속했습니다.
+22/08/29 22:39:31 607 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 22:39:31 610 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 22:39:31 655 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:39:31 657 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:39:31 659 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:39:31 673 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 67ms
+22/08/29 22:39:31 674 [debug]: ----------------------------------------------
+22/08/29 22:40:09 904 [debug]: ----------------------------------------------
+22/08/29 22:40:09 909 [debug]: |            Start Express Server            |
+22/08/29 22:40:09 910 [debug]: ----------------------------------------------
+22/08/29 22:40:09 912 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:40:09 913 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:40:09 914 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:40:09 915 [debug]: ----------------------------------------------
+22/08/29 22:40:13 688 [debug]: 클라이언트가 접속했습니다.
+22/08/29 22:40:13 690 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 22:40:13 693 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 22:40:13 755 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:40:13 758 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:40:13 760 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:40:13 803 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 114ms
+22/08/29 22:40:13 805 [debug]: ----------------------------------------------
+22/08/29 22:40:36 361 [debug]: ----------------------------------------------
+22/08/29 22:40:36 371 [debug]: |            Start Express Server            |
+22/08/29 22:40:36 374 [debug]: ----------------------------------------------
+22/08/29 22:40:36 376 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:40:36 377 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:40:36 378 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:40:36 379 [debug]: ----------------------------------------------
+22/08/29 22:40:37 263 [debug]: 클라이언트가 접속했습니다.
+22/08/29 22:40:37 266 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 22:40:37 271 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 22:40:37 333 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:40:37 339 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:40:37 343 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:40:37 349 [error]: [ReferenceError] params is not defined
+22/08/29 22:40:37 352 [error]: ReferenceError: params is not defined
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/AdminController.js:31:21
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:47:12)
+22/08/29 22:40:37 382 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 116ms
+22/08/29 22:40:37 384 [debug]: ----------------------------------------------
+22/08/29 22:41:01 839 [debug]: ----------------------------------------------
+22/08/29 22:41:01 847 [debug]: |            Start Express Server            |
+22/08/29 22:41:01 849 [debug]: ----------------------------------------------
+22/08/29 22:41:01 850 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:41:01 851 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:41:01 852 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:41:01 853 [debug]: ----------------------------------------------
+22/08/29 22:41:08 002 [debug]: 클라이언트가 접속했습니다.
+22/08/29 22:41:08 003 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 22:41:08 006 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 22:41:08 049 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:41:08 053 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:41:08 054 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:41:08 057 [error]: [ReferenceError] rt is not defined
+22/08/29 22:41:08 059 [error]: ReferenceError: rt is not defined
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/AdminController.js:31:21
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:47:12)
+22/08/29 22:41:08 075 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 72ms
+22/08/29 22:41:08 077 [debug]: ----------------------------------------------
+22/08/29 22:41:30 306 [debug]: ----------------------------------------------
+22/08/29 22:41:30 312 [debug]: |            Start Express Server            |
+22/08/29 22:41:30 313 [debug]: ----------------------------------------------
+22/08/29 22:41:30 315 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:41:30 317 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:41:30 318 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:41:30 319 [debug]: ----------------------------------------------
+22/08/29 22:41:31 890 [debug]: 클라이언트가 접속했습니다.
+22/08/29 22:41:31 891 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 22:41:31 895 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 22:41:31 951 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:41:31 957 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:41:31 961 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:41:31 978 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 87ms
+22/08/29 22:41:31 979 [debug]: ----------------------------------------------
+22/08/29 22:41:31 981 [error]: [ReferenceError] item is not defined
+22/08/29 22:41:31 984 [error]: ReferenceError: item is not defined
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/AdminController.js:47:21
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:47:12)
+22/08/29 22:45:10 818 [debug]: ----------------------------------------------
+22/08/29 22:45:10 822 [debug]: |            Start Express Server            |
+22/08/29 22:45:10 823 [debug]: ----------------------------------------------
+22/08/29 22:45:10 824 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:45:10 825 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:45:10 827 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:45:10 828 [debug]: ----------------------------------------------
+22/08/29 22:45:14 893 [debug]: 클라이언트가 접속했습니다.
+22/08/29 22:45:14 897 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 22:45:14 901 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 22:45:14 965 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:45:14 969 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:45:14 971 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:45:14 988 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 92ms
+22/08/29 22:45:14 989 [debug]: ----------------------------------------------
+22/08/29 22:45:14 992 [error]: [Error] Cannot set headers after they are sent to the client
+22/08/29 22:45:14 998 [error]: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.res._sendResult (file:///C:/Users/juae/Desktop/LargeBread_BE/helper/WebHelper.js:60:17)
+    at ServerResponse.res.sendResult (file:///C:/Users/juae/Desktop/LargeBread_BE/helper/WebHelper.js:66:17)
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/AdminController.js:46:13
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+22/08/29 22:46:02 710 [debug]: ----------------------------------------------
+22/08/29 22:46:02 718 [debug]: |            Start Express Server            |
+22/08/29 22:46:02 719 [debug]: ----------------------------------------------
+22/08/29 22:46:02 721 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:46:02 721 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:46:02 722 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:46:02 723 [debug]: ----------------------------------------------
+22/08/29 22:46:05 099 [debug]: 클라이언트가 접속했습니다.
+22/08/29 22:46:05 101 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 22:46:05 104 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 22:46:05 160 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:46:05 168 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:46:05 170 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:46:05 177 [error]: [ReferenceError] RuntimeException is not defined
+22/08/29 22:46:05 179 [error]: ReferenceError: RuntimeException is not defined
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/AdminController.js:40:17
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:47:12)
+22/08/29 22:46:05 251 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 150ms
+22/08/29 22:46:05 252 [debug]: ----------------------------------------------
+22/08/29 22:46:56 038 [debug]: ----------------------------------------------
+22/08/29 22:46:56 046 [debug]: |            Start Express Server            |
+22/08/29 22:46:56 047 [debug]: ----------------------------------------------
+22/08/29 22:46:56 050 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:46:56 051 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:46:56 053 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:46:56 054 [debug]: ----------------------------------------------
+22/08/29 22:46:56 171 [debug]: 클라이언트가 접속했습니다.
+22/08/29 22:46:56 173 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 22:46:56 177 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 22:46:56 235 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:46:56 237 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:46:56 238 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:46:56 257 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 84ms
+22/08/29 22:46:56 258 [debug]: ----------------------------------------------
+22/08/29 22:46:56 264 [error]: [ReferenceError] item is not defined
+22/08/29 22:46:56 270 [error]: ReferenceError: item is not defined
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/AdminController.js:47:21
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:47:12)
+22/08/29 22:47:13 915 [debug]: ----------------------------------------------
+22/08/29 22:47:13 919 [debug]: |            Start Express Server            |
+22/08/29 22:47:13 921 [debug]: ----------------------------------------------
+22/08/29 22:47:13 922 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:47:13 923 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:47:13 925 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:47:13 925 [debug]: ----------------------------------------------
+22/08/29 22:47:14 781 [debug]: 클라이언트가 접속했습니다.
+22/08/29 22:47:14 782 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 22:47:14 785 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 22:47:14 821 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:47:14 824 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:47:14 826 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:47:14 881 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 99ms
+22/08/29 22:47:14 886 [debug]: ----------------------------------------------
+22/08/29 22:47:49 392 [debug]: ----------------------------------------------
+22/08/29 22:47:49 396 [debug]: |            Start Express Server            |
+22/08/29 22:47:49 398 [debug]: ----------------------------------------------
+22/08/29 22:47:49 399 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:47:49 400 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:47:49 401 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:47:49 402 [debug]: ----------------------------------------------
+22/08/29 22:47:51 822 [debug]: 클라이언트가 접속했습니다.
+22/08/29 22:47:51 824 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 22:47:51 827 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 22:47:51 868 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:47:51 872 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:47:51 874 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:47:51 876 [error]: [ReferenceError] err is not defined
+22/08/29 22:47:51 878 [error]: ReferenceError: err is not defined
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/AdminController.js:40:29
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:47:12)
+22/08/29 22:47:51 891 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 67ms
+22/08/29 22:47:51 892 [debug]: ----------------------------------------------
+22/08/29 22:48:18 830 [debug]: ----------------------------------------------
+22/08/29 22:48:18 835 [debug]: |            Start Express Server            |
+22/08/29 22:48:18 836 [debug]: ----------------------------------------------
+22/08/29 22:48:18 838 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:48:18 838 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:48:18 840 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:48:18 840 [debug]: ----------------------------------------------
+22/08/29 22:48:20 408 [debug]: 클라이언트가 접속했습니다.
+22/08/29 22:48:20 410 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 22:48:20 414 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 22:48:20 479 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:48:20 484 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:48:20 490 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:48:20 493 [error]: [ReferenceError] err is not defined
+22/08/29 22:48:20 495 [error]: ReferenceError: err is not defined
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/AdminController.js:40:41
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\index.js:47:12)
+22/08/29 22:48:20 524 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 115ms
+22/08/29 22:48:20 525 [debug]: ----------------------------------------------
+22/08/29 22:50:44 797 [debug]: ----------------------------------------------
+22/08/29 22:50:44 806 [debug]: |            Start Express Server            |
+22/08/29 22:50:44 808 [debug]: ----------------------------------------------
+22/08/29 22:50:44 809 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:50:44 810 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:50:44 812 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:50:44 813 [debug]: ----------------------------------------------
+22/08/29 22:50:46 855 [debug]: 클라이언트가 접속했습니다.
+22/08/29 22:50:46 857 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 22:50:46 860 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 22:50:46 906 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:50:46 912 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:50:46 913 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:50:46 925 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 68ms
+22/08/29 22:50:46 926 [debug]: ----------------------------------------------
+22/08/29 22:51:04 722 [debug]: ----------------------------------------------
+22/08/29 22:51:04 729 [debug]: |            Start Express Server            |
+22/08/29 22:51:04 730 [debug]: ----------------------------------------------
+22/08/29 22:51:04 732 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:51:04 733 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:51:04 736 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:51:04 737 [debug]: ----------------------------------------------
+22/08/29 22:51:05 671 [debug]: 클라이언트가 접속했습니다.
+22/08/29 22:51:05 673 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 22:51:05 678 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 22:51:05 735 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:51:05 738 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:51:05 740 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:51:05 763 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 91ms
+22/08/29 22:51:05 764 [debug]: ----------------------------------------------
+22/08/29 22:51:05 771 [error]: [Error] Cannot set headers after they are sent to the client
+22/08/29 22:51:05 775 [error]: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.res._sendResult (file:///C:/Users/juae/Desktop/LargeBread_BE/helper/WebHelper.js:60:17)
+    at ServerResponse.res.sendResult (file:///C:/Users/juae/Desktop/LargeBread_BE/helper/WebHelper.js:66:17)
+    at file:///C:/Users/juae/Desktop/LargeBread_BE/controllers/AdminController.js:46:13
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\LargeBread_BE\node_modules\express\lib\router\layer.js:95:5)
+22/08/29 22:51:22 165 [debug]: ----------------------------------------------
+22/08/29 22:51:22 168 [debug]: |            Start Express Server            |
+22/08/29 22:51:22 169 [debug]: ----------------------------------------------
+22/08/29 22:51:22 171 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 22:51:22 172 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 22:51:22 173 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 22:51:22 176 [debug]: ----------------------------------------------
+22/08/29 22:51:24 186 [debug]: 클라이언트가 접속했습니다.
+22/08/29 22:51:24 188 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 22:51:24 192 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 22:51:24 247 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:51:24 262 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:51:24 263 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:51:24 277 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 89ms
+22/08/29 22:51:24 278 [debug]: ----------------------------------------------
+22/08/29 22:51:31 026 [debug]: 클라이언트가 접속했습니다.
+22/08/29 22:51:31 028 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 22:51:31 029 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 22:51:31 038 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:51:31 039 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:51:31 041 [debug]: [HTTP %s Params] %s=%s
+22/08/29 22:51:31 125 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 97ms
+22/08/29 22:51:31 126 [debug]: ----------------------------------------------
+22/08/29 22:51:31 216 [info]:  >> DATABASE 접속됨 [threaId=156]
+22/08/29 22:51:31 216 [info]:  >> Connection 임대됨 [threaId=156]
+22/08/29 22:51:31 225 [debug]: INSERT INTO admin (name, user_pwd, user_email, is_out)  VALUES ('홍길동', 'ghd456', 'hong1@asd.com', 'Y');
+22/08/29 22:51:31 238 [info]:  >> Connection 반납됨 [threaId]=156
+22/08/29 23:18:21 160 [debug]: ----------------------------------------------
+22/08/29 23:18:21 165 [debug]: |            Start Express Server            |
+22/08/29 23:18:21 166 [debug]: ----------------------------------------------
+22/08/29 23:18:21 168 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 23:18:21 169 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 23:18:21 171 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 23:18:21 171 [debug]: ----------------------------------------------
+22/08/29 23:18:31 345 [debug]: 클라이언트가 접속했습니다.
+22/08/29 23:18:31 348 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 23:18:31 351 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 23:18:31 407 [debug]: [HTTP %s Params] %s=%s
+22/08/29 23:18:31 410 [debug]: [HTTP %s Params] %s=%s
+22/08/29 23:18:31 414 [debug]: [HTTP %s Params] %s=%s
+22/08/29 23:18:31 429 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 82ms
+22/08/29 23:18:31 432 [debug]: ----------------------------------------------
+22/08/29 23:19:10 140 [debug]: ----------------------------------------------
+22/08/29 23:19:10 145 [debug]: |            Start Express Server            |
+22/08/29 23:19:10 146 [debug]: ----------------------------------------------
+22/08/29 23:19:10 147 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 23:19:10 148 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 23:19:10 150 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 23:19:10 151 [debug]: ----------------------------------------------
+22/08/29 23:19:24 135 [debug]: ----------------------------------------------
+22/08/29 23:19:24 142 [debug]: |            Start Express Server            |
+22/08/29 23:19:24 143 [debug]: ----------------------------------------------
+22/08/29 23:19:24 144 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 23:19:24 145 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 23:19:24 146 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 23:19:24 148 [debug]: ----------------------------------------------
+22/08/29 23:19:26 886 [debug]: 클라이언트가 접속했습니다.
+22/08/29 23:19:26 888 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 23:19:26 891 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 23:19:26 937 [debug]: [HTTP %s Params] %s=%s
+22/08/29 23:19:26 941 [debug]: [HTTP %s Params] %s=%s
+22/08/29 23:19:26 942 [debug]: [HTTP %s Params] %s=%s
+22/08/29 23:19:27 010 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 122ms
+22/08/29 23:19:27 012 [debug]: ----------------------------------------------
+22/08/29 23:19:27 087 [info]:  >> DATABASE 접속됨 [threaId=157]
+22/08/29 23:19:27 088 [info]:  >> Connection 임대됨 [threaId=157]
+22/08/29 23:19:27 092 [debug]: INSERT INTO admin (name, user_pwd, user_email, is_out)  VALUES ('홍길동', '{}', 'hong1@asd.com', 'Y');
+22/08/29 23:19:27 105 [info]:  >> Connection 반납됨 [threaId]=157
+22/08/29 23:23:56 547 [debug]: ----------------------------------------------
+22/08/29 23:23:56 557 [debug]: |            Start Express Server            |
+22/08/29 23:23:56 558 [debug]: ----------------------------------------------
+22/08/29 23:23:56 560 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 23:23:56 562 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 23:23:56 564 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 23:23:56 568 [debug]: ----------------------------------------------
+22/08/29 23:24:00 088 [debug]: 클라이언트가 접속했습니다.
+22/08/29 23:24:00 092 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 23:24:00 095 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 23:24:00 188 [debug]: [HTTP %s Params] %s=%s
+22/08/29 23:24:00 194 [debug]: [HTTP %s Params] %s=%s
+22/08/29 23:24:00 196 [debug]: [HTTP %s Params] %s=%s
+22/08/29 23:24:00 411 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 320ms
+22/08/29 23:24:00 412 [debug]: ----------------------------------------------
+22/08/29 23:24:00 575 [info]:  >> DATABASE 접속됨 [threaId=158]
+22/08/29 23:24:00 576 [info]:  >> Connection 임대됨 [threaId=158]
+22/08/29 23:24:00 583 [debug]: INSERT INTO admin (name, user_pwd, user_email, is_out)  VALUES ('홍길동', '$2b$10$h0TQHOhNpO2ziueTjw96hu9lgnSOeNYHoohZbR/BCpaZlGj1dgidu', 'hong1@asd.com', 'Y');
+22/08/29 23:24:00 598 [info]:  >> Connection 반납됨 [threaId]=158
+22/08/29 23:24:12 729 [debug]: 클라이언트가 접속했습니다.
+22/08/29 23:24:12 732 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 23:24:12 733 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 23:24:12 741 [debug]: [HTTP %s Params] %s=%s
+22/08/29 23:24:12 743 [debug]: [HTTP %s Params] %s=%s
+22/08/29 23:24:12 747 [debug]: [HTTP %s Params] %s=%s
+22/08/29 23:24:12 947 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 216ms
+22/08/29 23:24:12 948 [debug]: ----------------------------------------------
+22/08/29 23:24:54 667 [debug]: ----------------------------------------------
+22/08/29 23:24:54 677 [debug]: |            Start Express Server            |
+22/08/29 23:24:54 678 [debug]: ----------------------------------------------
+22/08/29 23:24:54 681 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 23:24:54 682 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 23:24:54 684 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 23:24:54 685 [debug]: ----------------------------------------------
+22/08/29 23:25:15 235 [debug]: ----------------------------------------------
+22/08/29 23:25:15 241 [debug]: |            Start Express Server            |
+22/08/29 23:25:15 242 [debug]: ----------------------------------------------
+22/08/29 23:25:15 244 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 23:25:15 254 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 23:25:15 257 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 23:25:15 258 [debug]: ----------------------------------------------
+22/08/29 23:25:15 602 [debug]: 클라이언트가 접속했습니다.
+22/08/29 23:25:15 604 [debug]: [Client] ::ffff:192.168.199.1 / unknown / insomnia (2022.5.1) / unknown
+22/08/29 23:25:15 607 [debug]: [POST] http://192.168.199.1:3001/join
+22/08/29 23:25:15 739 [debug]: [HTTP %s Params] %s=%s
+22/08/29 23:25:15 742 [debug]: [HTTP %s Params] %s=%s
+22/08/29 23:25:15 743 [debug]: [HTTP %s Params] %s=%s
+22/08/29 23:25:16 008 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [Runtime] 404ms
+22/08/29 23:25:16 010 [debug]: ----------------------------------------------
+22/08/29 23:25:16 140 [info]:  >> DATABASE 접속됨 [threaId=159]
+22/08/29 23:25:16 141 [info]:  >> Connection 임대됨 [threaId=159]
+22/08/29 23:25:16 152 [debug]: INSERT INTO admin (name, user_pwd, user_email, is_out)  VALUES ('홍길동', '$2b$08$ehyjblmidIMwrlHRdP9gZuRL/E1mcvFypWF02N1S84B/j9kfcK5Ai', 'hong1@asd.com', 'Y');
+22/08/29 23:25:16 180 [info]:  >> Connection 반납됨 [threaId]=159
+22/08/29 23:25:47 434 [debug]: ----------------------------------------------
+22/08/29 23:25:47 451 [debug]: |            Start Express Server            |
+22/08/29 23:25:47 455 [debug]: ----------------------------------------------
+22/08/29 23:25:47 463 [debug]: Server Address => http://192.168.199.1:3001
+22/08/29 23:25:47 465 [debug]: Server Address => http://192.168.233.1:3001
+22/08/29 23:25:47 468 [debug]: Server Address => http://192.168.0.196:3001
+22/08/29 23:25:47 469 [debug]: ----------------------------------------------
+22/08/29 23:26:36 107 [info]: -------- Server is close -------
